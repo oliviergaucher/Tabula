@@ -70,8 +70,8 @@ tabulateMeta = function (spec) {
       name: spec.meta.name,
       columns: spec.meta.columns,
       description: spec.meta.description,
-      options: null,
-      stats: null,
+      options: {},
+      stats: {},
     };
 
     DATABASE.registerTable(meta);

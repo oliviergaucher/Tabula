@@ -6,7 +6,7 @@ class TableNameInput extends System.Control {
     this.datatype = "string";
 
     this.template = `
-      <v-text-field
+      <v-text-field clearable
         class         = "tabula"
         v-model       = "record[field.options.id]"
         :label        = "field.options.label"

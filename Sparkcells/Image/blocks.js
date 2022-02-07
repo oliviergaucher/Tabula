@@ -1,31 +1,20 @@
 // @id j6tIKXOvXIG0XVVTUJnkP0
-function SparkcellImageOld(variable, column) {
-  return `
-    <div style="height: 33px; display: flex;">
-      <img
-        :src  = "${variable}"
-        alt   = "${column.id}"
-        style = "height: 21px; margin: auto 0;">
-      </img>
-    </div>`;
-}
-
-// @id MmsVWlM9STnzTRH00o8PpN
 class SparkcellImage extends System.Sparkcell {
-  // constructor(variable, column) {
-  //   super();
-  //   this.variable = variable;
-  //   this.column = column;
-  // }
+  constructor() {
+    super();
 
-  render(variable, column) {
-    return `
-    <div style="height: 33px; display: flex;">
+    this.css = `
+      .sparkcell-image {
+        display    : flex;
+        height     : 100%;
+        margin     : auto;
+        max-height : 21px !important;
+      }`,
+
+    this.template = `
       <img
-        :src  = "${variable}"
-        alt   = "${column.id}"
-        style = "height: 21px; margin: auto 0;">
-      </img>
-    </div>`;
+        class = "sparkcell-image"
+        :src  = "value"
+        :alt  = "column.id"/>`;
   }
 }

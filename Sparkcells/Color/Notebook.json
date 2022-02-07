@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 8,
+  "blocks": [
+    {
+      "id": "rSABlC3gltnwZasyBztjSf",
+      "lang": "markdown"
+    },
+    {
+      "id": "bMA897rXjy3ePLrXxPIxW2",
+      "lang": "javascript",
+      "pinned": true,
+      "declaresComponent": true
+    }
+  ],
+  "display": {
+    "autoFormat": false,
+    "codeBelowResult": false,
+    "performanceBars": false,
+    "wideContent": false
+  }
+}

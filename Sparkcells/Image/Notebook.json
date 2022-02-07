@@ -8,17 +8,13 @@
     {
       "id": "j6tIKXOvXIG0XVVTUJnkP0",
       "lang": "javascript",
-      "pinned": true
-    },
-    {
-      "id": "MmsVWlM9STnzTRH00o8PpN",
-      "lang": "javascript",
       "pinned": true,
+      "showLineNumbers": true,
       "declaresComponent": true
     }
   ],
   "display": {
-    "autoFormat": true,
+    "autoFormat": false,
     "codeBelowResult": false,
     "performanceBars": false,
     "wideContent": false

@@ -21,7 +21,7 @@ pickDemo = {
 
 // @id MhE9KqfLze7RORN3oRDLhN
 // @title Demo Table
-`Components`.TableRenderer2(await pickCook(pickDemo, 'pw5G', 'demo'))
+`Components`.TableRenderer(await pickCook(pickDemo, 'pw5G', 'demo'))
 
 // @id IxWkTj52CuGcpg87cOfJ8Q
 // @title PICK Class

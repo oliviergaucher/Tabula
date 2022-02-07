@@ -7,7 +7,7 @@ class ColumnCreator extends System.Control {
 
     this.template = `
       <div>
-        <v-text-field
+        <v-text-field clearable
           class         = "tabula"
           v-model       = "record[field.options.id].name"
           label         = "Column name"
@@ -15,7 +15,7 @@ class ColumnCreator extends System.Control {
           prepend-icon  = "mdi-card-account-details-outline"
           @change       = "onNameChange"
         ></v-text-field>
-        <v-select
+        <v-select clearable
           class         = "tabula"
           v-model       = "record[field.options.id].datatype"
           :items        = "field.options.options.context.datatypes"

@@ -131,8 +131,8 @@ addMeta = async function (spec) {
       name: spec.name,
       columns: meta.columns,
       description: spec.description,
-      options: null,
-      stats: null,
+      options: {},
+      stats: {},
     };
 
     // Register table into DATABASE

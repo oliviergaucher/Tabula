@@ -13,7 +13,11 @@ class ButtonToggle extends System.Control {
         :hint         = "field.options.hint"
         @change       = "onChange"
       >
-        <v-btn v-for="item in field.options.options.items" :value="item.id">
+        <v-btn
+          v-for  = "item in field.options.options.items"
+          :title = "item.hint"
+          :value = "item.id"
+        >
           <v-icon left style="margin-top: -2px;">
             {{ item.icon }}
           </v-icon>

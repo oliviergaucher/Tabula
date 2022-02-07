@@ -5,6 +5,9 @@ Helper functions used by the Tabula Engine.
 
 &nbsp;
 
+<!-- @id if7ffISyvTl7IU1ePgtMuF -->
+### Directories & Registries
+
 <!-- @id B4JJegkEVVXRF8rOoYpOmd -->
 ### Table Layout Converters
 

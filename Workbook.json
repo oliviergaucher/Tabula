@@ -22,6 +22,10 @@
       "name": "Datatypes"
     },
     {
+      "id": "whet4KZW9qZDnAwqGVifZM",
+      "name": "Functions"
+    },
+    {
       "id": "mEmrPft6uBxaNGceDzt3qn",
       "name": "Sparkcells"
     },
@@ -32,6 +36,10 @@
     {
       "id": "bHd6WZLJ5vUlUQKF99JYgv",
       "name": "Datasets"
+    },
+    {
+      "id": "DhujqUEEh2kQofGohuoYIv",
+      "name": "Helpers"
     }
   ],
   "sourceControl": {

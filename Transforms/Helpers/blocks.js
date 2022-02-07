@@ -1,3 +1,13 @@
+// @id J9b5HLS13mXfpyanp8qVZp
+async function declareContent(id, content) {
+  await SETUI(id, content);
+}
+
+// @id NFuQvXeJkSuBUOv0A0rU6G
+async function registerComponent(id, component) {
+  await SETUI(id, component);
+}
+
 // @id Qoovw2jHLqxj1Tx8vDIwmf
 function columnarToTabular(columnar) {
   try {

@@ -24,6 +24,10 @@ DatabaseDirectory = class {
     delete this.tables[id];
   }
 
+  updateTableMeta(id, meta) {
+    this.tables[id] = meta;
+  }
+
   getTableById(id) {
     return this.tables[id];
   }
@@ -80,8 +84,13 @@ async function cook(recipe, terminal) {
         // Produce meta of resulting table
         meta = await transform.getMeta();
 
+        // Compute table statistics
+        for (let i = 0; i < meta.columns.length; i++) {
+          meta.columns[i].stats = await getColumnStats(meta.id, meta.columns[i]);
+        }
+
         // Update meta within Database Tables Directory
-        DATABASE[meta.id] = meta;
+        DATABASE.updateTableMeta(meta.id, meta);
       }
     }
 
@@ -94,9 +103,31 @@ async function cook(recipe, terminal) {
     delete output.headers;
     delete output.result;
 
+    await declareContent(output.meta.id, output);
     return output;
   } catch (error) {
     console.log('Error in cook() function: ' + error);
+  }
+}
+
+// @id pylK1bzirTAqHejh7fZxnP
+async function getColumnStats(tableId, columnMeta) {
+  try {
+    const numericals = ['absolute', 'chronical', 'directional', 'numerical'];
+    const functions = (await FETCHROWS(`Aggregations!Aggregations`, 0, 100))
+      .filter(f => Number.isInteger(f.index))
+      .sort((a, b) => a.index - b.index);
+    let stats = {};
+
+    if (numericals.includes(`Datatypes`.DATATYPES[columnMeta.datatype].family)) {
+      (await SQL('SELECT ' + functions
+        .map(f => `${f.function}("${columnMeta.name}"${f.param1 ? ', [' + f.param1.default + ']' : ''}) AS "${f.alias}"`)
+        .join(', ') + ` FROM "${tableId}";`)).data.forEach((a, i) => { stats[functions[i].id] = { name: functions[i].alias, value: a }; });
+    }
+
+    return stats;
+  } catch (error) {
+    console.log('Error in getColumnStats() function: ' + error);
   }
 }
 
@@ -126,11 +157,3 @@ TRANSFORMS = {
   UNPIVOT: __UNPIVOT,
   UPDATE: __UPDATE,
 }
-
-// @id pgnv1PZTFgKJTrTx2raTdo
-DATATYPES = { datatypes: {} }
-
-FETCHROWS(`Datatypes!Datatypes`, 0, 100)
-  .forEach(datatype => { DATATYPES[datatype.id] = datatype; });
-
-DATATYPES;

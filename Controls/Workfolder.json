@@ -34,8 +34,18 @@
     },
     {
       "type": "notebook",
+      "id": "W4oz9UmW8RnONjKAH3Em4X",
+      "name": "Integer Input"
+    },
+    {
+      "type": "notebook",
       "id": "guFznlneqX9R4LaCALvrIv",
       "name": "String Input"
+    },
+    {
+      "type": "notebook",
+      "id": "g1oxvxA2mt4iwMQlyeJJms",
+      "name": "Switch"
     },
     {
       "type": "notebook",

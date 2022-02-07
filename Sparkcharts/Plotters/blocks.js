@@ -46,9 +46,7 @@ function plotHorizontalBarChart(data, options) {
     "width": _SPARKCHART_WIDTH,
     "data": { "values": data },
     "mark": {
-      "type": "bar",
-      "fill": { "expr": "datum.Bar == null ? 'white' : datum.Color" },
-      "stroke": { "expr": "datum.Color" }
+      "type": "bar"
     },
     "encoding": {
       "x": {
@@ -61,15 +59,23 @@ function plotHorizontalBarChart(data, options) {
         "field": "Bar",
         "type": "nominal",
         "axis": { "domain": false, "grid": false, "labels": false, "ticks": false, "title": null },
-        "sort": options.sort || "-x"
+        "sort": options.sort || "-x",
+        "scale": { "padding": { "expr": "cardinality / 50" } }
       },
-      "color": { "field": "Color", "type": "nominal", "scale": null },
+      "fill": {
+        "condition": { "test": "datum.Bar == null", "value": "white" },
+        "field": "Color", "type": "nominal", "scale": null
+      },
+      "stroke": { "field": "Color", "type": "nominal", "scale": null },
       "tooltip": [
         { "field": "Title", "type": "nominal", "title": options.titles[0] },
         { "field": "Count", "type": "quantitative", "title": options.titles[1] }
       ]
     },
-    "config": { "view": { "stroke": "transparent" } }
+    "config": { "view": { "stroke": "transparent" } },
+    "params": [
+      { "name": "cardinality", "value": data.length }
+    ]
   })
 }
 

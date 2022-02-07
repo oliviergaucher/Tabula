@@ -40,21 +40,11 @@
           }
         }
       },
-      "datasets": [
-        {
-          "datasourceId": "workbook",
-          "filePath": [
-            "Datatypes",
-            "Datatypes.csv"
-          ]
-        }
-      ],
-      "sampling": {
-        "active": false,
-        "mode": "first",
-        "count": 500
+      "reference": {
+        "sheetName": "Outline",
+        "rangeName": "Datatypes Metadata"
       },
-      "type": "external"
+      "type": "range"
     },
     "recipe": [],
     "target": {}
@@ -105,11 +95,6 @@
       {
         "id": "dual",
         "name": "Dual",
-        "datatype": "identifier"
-      },
-      {
-        "id": "parent",
-        "name": "Parent",
         "datatype": "identifier"
       },
       {

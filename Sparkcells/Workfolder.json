@@ -4,8 +4,13 @@
   "shelf": [
     {
       "type": "notebook",
-      "id": "vDae6JtEAeI5UPMr7VqeuO",
-      "name": "Registry"
+      "id": "t7TXjtfZjRKhc0qopM6zJt",
+      "name": "Age"
+    },
+    {
+      "type": "notebook",
+      "id": "Kn6Pc8BrSZtA7S0ZfSUmP9",
+      "name": "Angle"
     },
     {
       "type": "notebook",
@@ -14,8 +19,68 @@
     },
     {
       "type": "notebook",
+      "id": "jm8DkJkn3Lw1eCE5DyEklG",
+      "name": "Boolean"
+    },
+    {
+      "type": "notebook",
       "id": "TbSlFNWGi2dXzfeO9UXWfG",
       "name": "Category"
+    },
+    {
+      "type": "notebook",
+      "id": "upfBtstuJpJJdERoPFxUjV",
+      "name": "Color"
+    },
+    {
+      "type": "notebook",
+      "id": "zBra6CZpJC7x9Hwg35ltnj",
+      "name": "Date"
+    },
+    {
+      "type": "notebook",
+      "id": "zWSJFHMXSeqFyFnqT2Kh15",
+      "name": "Duration"
+    },
+    {
+      "type": "notebook",
+      "id": "l7mSK834218qa0TwLYtaF4",
+      "name": "Expression"
+    },
+    {
+      "type": "notebook",
+      "id": "A5xW0SJXY6rLKY3LWo5ODU",
+      "name": "Fraction"
+    },
+    {
+      "type": "notebook",
+      "id": "LUQmuP7Us0oQLvdOZ7XJBj",
+      "name": "Geofeature"
+    },
+    {
+      "type": "notebook",
+      "id": "k4reKkck2uTs05NFgsUnSD",
+      "name": "Geoline"
+    },
+    {
+      "type": "notebook",
+      "id": "KkMVsBwK1plk4CWWZtpTlr",
+      "name": "Geopoint"
+    },
+    {
+      "type": "notebook",
+      "id": "ET1SlbABGpDATruS6AEhP5",
+      "name": "Geopolygon"
+    },
+    {
+      "type": "notebook",
+      "id": "URdIVJKQnOEUN4MCM9QfB4",
+      "name": "Icon"
+    },
+    {
+      "type": "notebook",
+      "id": "obISvtps5QP2TSaVy6xrtr",
+      "name": "Identifier"
     },
     {
       "type": "notebook",
@@ -24,13 +89,128 @@
     },
     {
       "type": "notebook",
+      "id": "Jf5wu5ydSHFVR7EOvZQ0qR",
+      "name": "Increment"
+    },
+    {
+      "type": "notebook",
+      "id": "saodLsIX8JJAjx6uMLRJHy",
+      "name": "Index"
+    },
+    {
+      "type": "notebook",
+      "id": "wDqOxBayUzCkFaXvVdEw79",
+      "name": "Integer"
+    },
+    {
+      "type": "notebook",
+      "id": "nkyyNpdnaUBLZpbGGQldQ0",
+      "name": "Level"
+    },
+    {
+      "type": "notebook",
+      "id": "AR1W4vYfKCQayOPxTXgH0C",
+      "name": "Longitude"
+    },
+    {
+      "type": "notebook",
+      "id": "jQDJSN3yZrOSNEhDmXqcI3",
+      "name": "Meridian"
+    },
+    {
+      "type": "notebook",
+      "id": "tgJOpJZJ5qsRSQ2mcQj7Hy",
+      "name": "Moment"
+    },
+    {
+      "type": "notebook",
       "id": "b5PLRhVEuwBPZqusAvgLia",
       "name": "Name"
     },
     {
       "type": "notebook",
+      "id": "obQX02uGmxZfvqFPEpptNK",
+      "name": "Number"
+    },
+    {
+      "type": "notebook",
+      "id": "Qqtz5OgNgz21VFzdfeCeAB",
+      "name": "Object"
+    },
+    {
+      "type": "notebook",
       "id": "oQRvrNM4mzE1VLCEEJ8DjL",
       "name": "Percent"
+    },
+    {
+      "type": "notebook",
+      "id": "D93snDYjHZOZMB9zwN7lEg",
+      "name": "Period"
+    },
+    {
+      "type": "notebook",
+      "id": "IOZEV8Y2z8Bnp51GukhbYq",
+      "name": "Quantile"
+    },
+    {
+      "type": "notebook",
+      "id": "YNPm6kL23kF5MdVrrfqIvb",
+      "name": "Ratio"
+    },
+    {
+      "type": "notebook",
+      "id": "WBnJCHHwuGDTBwG97FcffE",
+      "name": "Reference"
+    },
+    {
+      "type": "notebook",
+      "id": "dmotwtsjSDAjXPwHhlqcU0",
+      "name": "Relation"
+    },
+    {
+      "type": "notebook",
+      "id": "UUNpO3SI8ONy1BOoBC5uTQ",
+      "name": "Sector"
+    },
+    {
+      "type": "notebook",
+      "id": "wp76NC2NEsYMD5KRsNl5bS",
+      "name": "Sequence"
+    },
+    {
+      "type": "notebook",
+      "id": "OeZZjYrDMRUPWhoiNnuZlz",
+      "name": "Series"
+    },
+    {
+      "type": "notebook",
+      "id": "wkwoTzgckwWSjxto0tcXYo",
+      "name": "String"
+    },
+    {
+      "type": "notebook",
+      "id": "cYQav4n7fJERgejTNBgyPQ",
+      "name": "Text"
+    },
+    {
+      "type": "notebook",
+      "id": "Bd2JFUWIeaLZyC38wC2HoB",
+      "name": "Time"
+    },
+    {
+      "type": "notebook",
+      "id": "DWfevAkOT2toMmSPbsUWOQ",
+      "name": "Timestamp"
+    },
+    {
+      "type": "notebook",
+      "id": "QDRhCIzuPbesaUmizpcLnK",
+      "name": "URL"
+    },
+    {
+      "type": "notebook",
+      "id": "fkBl838tQ3ohwek1yw4Pya",
+      "name": "Word"
     }
   ]
 }

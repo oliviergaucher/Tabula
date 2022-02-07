@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 8,
+  "id": "whet4KZW9qZDnAwqGVifZM",
+  "shelf": [
+    {
+      "type": "notebook",
+      "id": "eeTKHN71wKPpIBbjCnwqxX",
+      "name": "Binning"
+    },
+    {
+      "type": "notebook",
+      "id": "O4uowtOvgYsM7qUvoj5ZWp",
+      "name": "Datatypes"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 <!-- @id TEPzcu18MSdhLtUscOpw0T -->
 ## Name
 
-Display name values.
+Display a name value.
 
 &nbsp;

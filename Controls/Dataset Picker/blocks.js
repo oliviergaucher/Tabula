@@ -6,7 +6,7 @@ class DatasetPicker extends System.Control {
     this.datatype = "object";
 
     this.template = `
-      <v-text-field
+      <v-text-field clearable
         class         = "tabula"
         v-model       = "record[field.options.id].list[0]"
         :label        = "field.options.label"

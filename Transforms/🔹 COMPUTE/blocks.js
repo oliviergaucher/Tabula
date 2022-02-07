@@ -27,6 +27,32 @@ computeDemoTabular = {
   [{ name: 'Name' }, { name: 'Area' }, { name: 'Water' }],
 ))
 
+// @id BUAhTSLEpi4z6nbPVQRJxM
+// @title Bin Demo Spec
+computeDemoBin = {
+  mode: 'bin',
+  binning: { list: [{ name: 'Area' }] },
+  binPriority: 'size',
+  binZero: true,
+  column: {
+    name: 'Area Bin',
+    datatype: 'integer',
+  }
+};
+
+// @id kL9LUZFb5AwqaKnjrM8v39
+// @title Bin Demo Form
+`Components`.FormRenderer('computeDemoBin', computeParams, await computeContext('Countries'))
+
+// @id YeONLaem0B8QDSzgIndyVf
+`Components`.TableRenderer(await computeCook(
+  'Kq4x',
+  'demo',
+  computeDemoBin,
+  'Countries',
+  [{ name: 'Name' }, { name: 'Area' }],
+))
+
 // @id AYSxiga14QCPdeHx0lZTpm
 // @title Window Demo Spec
 computeDemoWindow = {
@@ -109,6 +135,83 @@ computeParams = [
     default: 'tabular',
   },
   {
+    id: 'binning',
+    name: 'Binning',
+    label: 'Columns to bin',
+    hint: 'Columns to bin (discretize or re-discretize)',
+    icon: 'mdi-view-column-outline',
+    control: 'ColumnPicker',
+    options: {
+      mode: 'compact',
+      config: true,
+      multiple: true,
+    },
+    required: true,
+    modes: ['bin'],
+  },
+  {
+    id: 'minBins',
+    name: 'Minimum bins',
+    label: 'Minimum bins',
+    hint: 'Minimum number of bins',
+    icon: 'mdi-battery-low',
+    control: 'IntegerInput',
+    modes: ['bin'],
+  },
+  {
+    id: 'desBins',
+    name: 'Desired bins',
+    label: 'Desired bins',
+    hint: 'Desired number of bins',
+    icon: 'mdi-battery-medium',
+    control: 'IntegerInput',
+    modes: ['bin'],
+  },
+  {
+    id: 'maxBins',
+    name: 'Maximum bins',
+    label: 'Maximum bins',
+    hint: 'Maximum number of bins',
+    icon: 'mdi-battery-high',
+    control: 'IntegerInput',
+    modes: ['bin'],
+  },
+  {
+    id: 'binZero',
+    name: 'Zero',
+    label: 'Include zero',
+    hint: 'Include zero within bins',
+    icon: 'mdi-numeric-0-box-outline',
+    control: 'SwitchToggle',
+    modes: ['bin'],
+  },
+  {
+    id: 'binPriority',
+    name: 'Priority',
+    label: 'Priority',
+    hint: 'Prioritze for largest bin size or largest number of bins',
+    icon: 'mdi-format-list-number',
+    control: 'ButtonToggle',
+    options: {
+      items: [
+        {
+          id: 'bins',
+          name: 'Bins',
+          hint: 'Largest number of bins',
+          icon: 'mdi-battery-high',
+        },
+        {
+          id: 'size',
+          name: 'Size',
+          hint: 'Largest bin size',
+          icon: 'mdi-battery-outline',
+        },
+      ]
+    },
+    default: 'size',
+    modes: ['bin'],
+  },
+  {
     id: 'column',
     name: 'Column',
     label: 'New column',
@@ -166,21 +269,54 @@ computeParams = [
     hint: 'Expression evaluated to compute values of the new column',
     icon: 'mdi-function',
     control: 'ExpressionEditor',
+    modes: ['tabular', 'window'],
   },
 ];
+
+// @id ffCuKLlDXMD2xpK2xlgo5S
+// @title COMPUTE Data
+computeData = async function (spec, meta) {
+  try {
+    return [computeCreateColumnQuery(spec, meta), await computeUpdateColumnQuery(spec, meta)];
+  } catch (error) {
+    console.log('Error in computeData() function: ' + error);
+  }
+}
+
+// @id lj764WvPd74n1NpJhEAX95
+// @title COMPUTE Meta
+computeMeta = function (spec, meta) {
+  try {
+    if (!spec.items) {
+      spec.items = [1];
+    }
+
+    spec.items.forEach(item => {
+      meta.columns.push({
+        id: generateBase62ID(),
+        name: spec.column.name,
+        datatype: spec.column.datatype,
+      });
+    });
+
+    return meta;
+  } catch (error) {
+    console.log('Error in computeMeta() function: ' + error);
+  }
+}
 
 // @id PstAKiVU8tdgfD9DCVZjVq
 computeCreateColumnQuery = function (spec, meta) {
   return `
     ALTER TABLE "${meta.id}"
-    ADD "${spec.column.name}" ${DATATYPES[spec.column.datatype].primitive};`;
+    ADD "${spec.column.name}" ${`Datatypes`.DATATYPES[spec.column.datatype].primitive};`;
 }
 
 // @id clZgSkq30cqUNOE2v6EruK
-computeUpdateColumnQuery = function (spec, meta) {
+computeUpdateColumnQuery = async function (spec, meta) {
   switch (spec.mode) {
     case 'bin':
-      return computeBinQuery(spec, meta);
+      return await computeBinQuery(spec, meta);
 
     case 'window':
       return computeWindowQuery(spec, meta);
@@ -190,10 +326,34 @@ computeUpdateColumnQuery = function (spec, meta) {
   }
 }
 
+// @id cEup9bwgyUWOtnr4kRfJmD
+computeBinQuery = async function (spec, meta) {
+  const binning = spec.binning.list[0].name;
+
+  const bounds = await SQL(`
+    SELECT MIN("${binning}"), MAX("${binning}")
+    FROM "${meta.id}";`);
+
+  const min = bounds.data[0][0];
+  const max = bounds.data[1][0];
+
+  const bins = `Functions`.getBins(min, max, {
+    minBins: spec.minBins,
+    desBins: spec.desBins,
+    maxBins: spec.maxBins,
+    priority: spec.binPriority,
+    zero: spec.binZero,
+  });
+
+  return `
+    UPDATE "${meta.id}"
+    SET "${spec.column.name}" = FLOOR(("${binning}" - ${min}) / ${bins.size});`;
+}
+
 // @id I5ew5FqsiUR9PbsGerbSvi
 computeTabularQuery = function (spec, meta) {
   return `
-    UPDATE ${meta.id}
+    UPDATE "${meta.id}"
     SET "${spec.column.name}" = ${spec.expression};`;
 }
 
@@ -248,38 +408,6 @@ computeWindowFrameBound = function (bound, start) {
     return 'CURRENT ROW';
   } else {
     return `${Math.abs(bound)} ${bound > 0 ? 'FOLLOWING' : 'PRECEDING'}`;
-  }
-}
-
-// @id ffCuKLlDXMD2xpK2xlgo5S
-// @title COMPUTE Data
-computeData = function (spec, meta) {
-  try {
-    return [computeCreateColumnQuery(spec, meta), computeUpdateColumnQuery(spec, meta)];
-  } catch (error) {
-    console.log('Error in computeData() function: ' + error);
-  }
-}
-
-// @id lj764WvPd74n1NpJhEAX95
-// @title COMPUTE Meta
-computeMeta = function (spec, meta) {
-  try {
-    if (!spec.items) {
-      spec.items = [1];
-    }
-
-    spec.items.forEach(item => {
-      meta.columns.push({
-        id: generateBase62ID(),
-        name: spec.column.name,
-        datatype: spec.column.datatype,
-      });
-    });
-
-    return meta;
-  } catch (error) {
-    console.log('Error in computeMeta() function: ' + error);
   }
 }
 

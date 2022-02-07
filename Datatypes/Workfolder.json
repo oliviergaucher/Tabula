@@ -3,9 +3,229 @@
   "id": "Mt98tMBqavdRaKIUmWOqYI",
   "shelf": [
     {
+      "type": "sheet",
+      "id": "D9xrpzWXvZfiLLo1vXyPDP",
+      "name": "Outline"
+    },
+    {
       "type": "stack",
       "id": "jFzF04g0cbzu4UF9sq9eMX",
       "name": "Datatypes"
+    },
+    {
+      "type": "notebook",
+      "id": "IxYo7vg84G0eTzwnkSWmnx",
+      "name": "🔹 Helpers"
+    },
+    {
+      "type": "notebook",
+      "id": "oUQu2L7cyInpghOvyuwQvQ",
+      "name": "Age"
+    },
+    {
+      "type": "notebook",
+      "id": "I8G0SRofzKPBBTsyqMapaQ",
+      "name": "Angle"
+    },
+    {
+      "type": "notebook",
+      "id": "ZqsHMaOP3FiLrZklXt918T",
+      "name": "Array"
+    },
+    {
+      "type": "notebook",
+      "id": "irKe6zpMgpRilt7uog6hAq",
+      "name": "Boolean"
+    },
+    {
+      "type": "notebook",
+      "id": "CT3CzJ7PbKjhgYBmNeXBYN",
+      "name": "Category"
+    },
+    {
+      "type": "notebook",
+      "id": "fRFG4o2dP9s8RNr93kRZe8",
+      "name": "Color"
+    },
+    {
+      "type": "notebook",
+      "id": "IBPX9YWytcoNKtfA7ZJvMT",
+      "name": "Date"
+    },
+    {
+      "type": "notebook",
+      "id": "j5Ban0Ai5KRFbF75t5pGNh",
+      "name": "Duration"
+    },
+    {
+      "type": "notebook",
+      "id": "Z4PRNuXm4fOueXYygUmGfM",
+      "name": "Expression"
+    },
+    {
+      "type": "notebook",
+      "id": "Kc2ri5IPKcRe3tJYPSDvhm",
+      "name": "Fraction"
+    },
+    {
+      "type": "notebook",
+      "id": "UiK4VPn9cRmfgwZQmxOXo8",
+      "name": "Geofeature"
+    },
+    {
+      "type": "notebook",
+      "id": "CgAAfpaBiwR2HoOJPDxGbq",
+      "name": "Geoline"
+    },
+    {
+      "type": "notebook",
+      "id": "OxOKRq0GmUxOczlzCWbsNs",
+      "name": "Geopoint"
+    },
+    {
+      "type": "notebook",
+      "id": "mk5dICd19vbKV4zvCQ0hHx",
+      "name": "Geopolygon"
+    },
+    {
+      "type": "notebook",
+      "id": "aODV2UF0ucEu9MKjkZJf0i",
+      "name": "Icon"
+    },
+    {
+      "type": "notebook",
+      "id": "qGNdX3w7CHOq9QOakrIPyi",
+      "name": "Identifier"
+    },
+    {
+      "type": "notebook",
+      "id": "zHn21M3F8gSyhqFCuZu60q",
+      "name": "Image"
+    },
+    {
+      "type": "notebook",
+      "id": "gCyreHEGcsyU0xXfR24SGU",
+      "name": "Increment"
+    },
+    {
+      "type": "notebook",
+      "id": "uKH5pkL73rGhOkTzYsKSvH",
+      "name": "Index"
+    },
+    {
+      "type": "notebook",
+      "id": "Gz3mKL3ht6tz0ax3on0Cf7",
+      "name": "Integer"
+    },
+    {
+      "type": "notebook",
+      "id": "qUn5VtwuDPsQudxuwal03P",
+      "name": "Level"
+    },
+    {
+      "type": "notebook",
+      "id": "SnaImaTnuHiDixctmTReHr",
+      "name": "Longitude"
+    },
+    {
+      "type": "notebook",
+      "id": "enojjk5IUluUUf7RTifV2j",
+      "name": "Meridian"
+    },
+    {
+      "type": "notebook",
+      "id": "iufPawNHzsr7WvtwEltlie",
+      "name": "Moment"
+    },
+    {
+      "type": "notebook",
+      "id": "CQO9Qg3Sv6t7hI2xMovFQK",
+      "name": "Name"
+    },
+    {
+      "type": "notebook",
+      "id": "sFJSjTxMxz4CVjLSEsqo1H",
+      "name": "Number"
+    },
+    {
+      "type": "notebook",
+      "id": "otd7amkUbKu6FPO0RdfQie",
+      "name": "Object"
+    },
+    {
+      "type": "notebook",
+      "id": "AALCdqOkw2z8vmuoVsfV3E",
+      "name": "Percent"
+    },
+    {
+      "type": "notebook",
+      "id": "tnXfyyE2dAVVYKNmybgZk6",
+      "name": "Period"
+    },
+    {
+      "type": "notebook",
+      "id": "AlKMSOMVKpdJhjvQhhNKYZ",
+      "name": "Quantile"
+    },
+    {
+      "type": "notebook",
+      "id": "A5YElg9fxdsJ2PE4n5xgGJ",
+      "name": "Ratio"
+    },
+    {
+      "type": "notebook",
+      "id": "BSfCieRxP3jZC9wWKNuO2N",
+      "name": "Reference"
+    },
+    {
+      "type": "notebook",
+      "id": "PCsmARB6pZ4TX6uUdPdeNr",
+      "name": "Relation"
+    },
+    {
+      "type": "notebook",
+      "id": "H7SoymMGZXMIzf8hYKwVbu",
+      "name": "Sector"
+    },
+    {
+      "type": "notebook",
+      "id": "FyOFmbp7ckGXhlEb8hlI2y",
+      "name": "Sequence"
+    },
+    {
+      "type": "notebook",
+      "id": "wkN6WLSHdEuoqsX8PRYz2a",
+      "name": "Series"
+    },
+    {
+      "type": "notebook",
+      "id": "AkTawSLtTL7MhLYcfyozuB",
+      "name": "String"
+    },
+    {
+      "type": "notebook",
+      "id": "ajzuvz9PheKmGAOtst0aVk",
+      "name": "Text"
+    },
+    {
+      "type": "notebook",
+      "id": "bYDFFCZSUT4UBE0rwgGH68",
+      "name": "Time"
+    },
+    {
+      "type": "notebook",
+      "id": "bkUUFjnTNZ0vE9DqwZ9jhZ",
+      "name": "Timestamp"
+    },
+    {
+      "type": "notebook",
+      "id": "JHgJhbmQdirjzxJTaCgnLw",
+      "name": "URL"
+    },
+    {
+      "type": "notebook",
+      "id": "DZB6Q2rPAXxFoYNaq1n1j2",
+      "name": "Word"
     }
   ]
 }

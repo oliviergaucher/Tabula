@@ -1,55 +1,39 @@
 // @id wroFpX4Qbjt65r76hrPYNC
-function SparkcellCategoryOld(variable, column) {
-  if (!column.options) {
-    return `
-      <div>
-        {{ ${variable} }}
-      </div>`;
-  }
-
-  if (column.options.items.length > 10) {
-    return '';
-  }
-
-  const colors = '{'
-    + column.options.items.map(item => `'${item.name}': '${item.color}'`).join(', ')
-    + '}';
-
-  return `
-    <div>
-      <v-icon small :color = "${colors}[${variable}]">
-        mdi-square-rounded
-      </v-icon>
-      {{ ${variable} }}
-    </div>`;
-}
-
-// @id UhSloRnNdNCPsLJTmk1Ayo
 class SparkcellCategory extends System.Sparkcell {
-  // constructor(variable, column) {
-  //   super();
-  //   this.variable = variable;
-  //   this.column = column
-  // }
+  constructor() {
+    super();
 
-  render(variable, column) {
-    if (!column.options) {
-      return `
-        <div>
-          {{ ${variable} }}
-        </div>`;
-    }
+    this.css = `
+      .sparkcell-category {
+        text-align  : left;
+        white-space : nowrap;
+      }
+    `;
 
-    const colors = '{'
-      + column.options.items.map(item => `'${item.name}': '${item.color}'`).join(', ')
-      + '}';
-
-    return `
-      <div>
-        <v-icon small :color = "${colors}[${variable}]">
+    this.template = `
+      <div class = "sparkcell-category">
+        <v-icon small 
+          v-if   = "column && column.options && column.options.items"
+          :color = "colors[value]">
           mdi-square-rounded
         </v-icon>
-        {{ ${variable} }}
+        {{ value }}
       </div>`;
+
+    this.computed = {
+      colors() {
+        if (!this.column.options || !this.column.options.items) {
+          return {};
+        }
+
+        const colors = {};
+
+        for (const item of this.column.options.items) {
+          colors[item.name] = item.color;
+        }
+
+        return colors;
+      }
+    };
   }
 }

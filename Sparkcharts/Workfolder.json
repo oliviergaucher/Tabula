@@ -19,11 +19,6 @@
     },
     {
       "type": "notebook",
-      "id": "eeTKHN71wKPpIBbjCnwqxX",
-      "name": "Histogram Binning"
-    },
-    {
-      "type": "notebook",
       "id": "BxiTmUjVZNxBlrViWCCW9P",
       "name": "Plotters"
     },

@@ -1,6 +1,6 @@
 <!-- @id hRSxKOlGreQXv0uvET7oS4 -->
 ## Table Renderer
 
-This component is designed to render tables within notebooks.
+This lightweight component is designed to render tables within notebooks.
 
 &nbsp;

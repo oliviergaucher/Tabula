@@ -12,20 +12,20 @@ async function getHistogramData(tableName, columnName, expression, discrete) {
     FROM "${tableName}"`).data;
   const min = bounds[0][0];
   const max = bounds[1][0];
-  const binning = wasm.getHistogramBinning(min, max, discrete ? 25 : 20);
+  const binning = `Functions`.getBins(min, max, discrete ? 25 : 20);
   const bincounts = await SQL(`
     WITH binning
-    AS (SELECT floor((${variable} - ${binning[2]}) / ${binning[1]}) AS bin FROM "${tableName}")
+    AS (SELECT floor((${variable} - ${binning.first}) / ${binning.size}) AS bin FROM "${tableName}")
     SELECT bin, COUNT(*) FROM binning GROUP BY bin;
   `).data;
   const bins = bincounts[0];
   const counts = bincounts[1];
-  const histogram = new Array(binning[0]).fill(0);
+  const histogram = new Array(binning.bins).fill(0);
   bins.forEach((bin, index) => { histogram[bin] = counts[index]; });
   return {
-    bins: binning[0],
-    size: binning[1],
-    first: binning[2],
+    bins: binning.bins,
+    size: binning.size,
+    first: binning.first,
     counts: histogram
   };
 }

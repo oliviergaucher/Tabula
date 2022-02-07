@@ -1,0 +1,4825 @@
+{
+  "schemaVersion": 8,
+  "cells": {
+    "A1": {
+      "text": "Name",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A2": {
+      "text": "Age",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A3": {
+      "text": "Angle",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A4": {
+      "text": "Array",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A5": {
+      "text": "Boolean",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A6": {
+      "text": "Category",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A7": {
+      "text": "Color",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A8": {
+      "text": "Date",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A9": {
+      "text": "Duration",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A10": {
+      "text": "Expression",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A11": {
+      "text": "Fraction",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A12": {
+      "text": "Geofeature",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A13": {
+      "text": "Geoline",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A14": {
+      "text": "Geopoint",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A15": {
+      "text": "Geopolygon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A16": {
+      "text": "Icon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A17": {
+      "text": "Identifier",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A18": {
+      "text": "Image",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A19": {
+      "text": "Increment",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A20": {
+      "text": "Index",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A21": {
+      "text": "Integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A22": {
+      "text": "Level",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A23": {
+      "text": "Longitude",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A24": {
+      "text": "Meridian",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A25": {
+      "text": "Moment",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A26": {
+      "text": "Name",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A27": {
+      "text": "Number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A28": {
+      "text": "Object",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A29": {
+      "text": "Percent",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A30": {
+      "text": "Period",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A31": {
+      "text": "Quantile",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A32": {
+      "text": "Ratio",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A33": {
+      "text": "Reference",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A34": {
+      "text": "Relation",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A35": {
+      "text": "Sector",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A36": {
+      "text": "Sequence",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A37": {
+      "text": "Series",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A38": {
+      "text": "String",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A39": {
+      "text": "Text",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A40": {
+      "text": "Time",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A41": {
+      "text": "Timestamp",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A42": {
+      "text": "URL",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A43": {
+      "text": "Word",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B1": {
+      "text": "ID",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B2": {
+      "text": "age",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B3": {
+      "text": "angle",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B4": {
+      "text": "array",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B5": {
+      "text": "boolean",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B6": {
+      "text": "category",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B7": {
+      "text": "color",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B8": {
+      "text": "date",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B9": {
+      "text": "duration",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B10": {
+      "text": "expression",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B11": {
+      "text": "fraction",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B12": {
+      "text": "geofeature",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B13": {
+      "text": "geoline",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B14": {
+      "text": "geopoint",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B15": {
+      "text": "geopolygon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B16": {
+      "text": "icon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B17": {
+      "text": "identifier",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B18": {
+      "text": "image",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B19": {
+      "text": "increment",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B20": {
+      "text": "index",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B21": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B22": {
+      "text": "level",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B23": {
+      "text": "longitude",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B24": {
+      "text": "meridian",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B25": {
+      "text": "moment",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B26": {
+      "text": "name",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B27": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B28": {
+      "text": "object",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B29": {
+      "text": "percent",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B30": {
+      "text": "period",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B31": {
+      "text": "quantile",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B32": {
+      "text": "ratio",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B33": {
+      "text": "reference",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B34": {
+      "text": "relation",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B35": {
+      "text": "sector",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B36": {
+      "text": "sequence",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B37": {
+      "text": "series",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B38": {
+      "text": "string",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B39": {
+      "text": "text",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B40": {
+      "text": "time",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B41": {
+      "text": "timestamp",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B42": {
+      "text": "url",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "B43": {
+      "text": "word",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C1": {
+      "text": "Icon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C2": {
+      "text": "mdi-av-timer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C3": {
+      "text": "mdi-compass",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C4": {
+      "text": "mdi-code-brackets",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C5": {
+      "text": "mdi-toggle-switch-outline",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C6": {
+      "text": "mdi-format-list-bulleted",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C7": {
+      "text": "mdi-palette-swatch-outline",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C8": {
+      "text": "mdi-calendar",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C9": {
+      "text": "mdi-timelapse",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C10": {
+      "text": "mdi-function",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C11": {
+      "text": "mdi-battery-50",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C12": {
+      "text": "mdi-map-marker-path",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C13": {
+      "text": "mdi-vector-polyline",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C14": {
+      "text": "mdi-map-marker",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C15": {
+      "text": "mdi-vector-polygon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C16": {
+      "text": "mdi-emoticon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C17": {
+      "text": "mdi-tag-outline",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C18": {
+      "text": "mdi-image",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C19": {
+      "text": "mdi-counter",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C20": {
+      "text": "mdi-numeric-1-box",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C21": {
+      "text": "mdi-numeric",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C22": {
+      "text": "mdi-trending-up",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C23": {
+      "text": "mdi-altimeter",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C24": {
+      "text": "mdi-web",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C25": {
+      "text": "mdi-brightness-2",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C26": {
+      "text": "mdi-card-account-details",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C27": {
+      "text": "mdi-surround-sound-3-1",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C28": {
+      "text": "mdi-code-braces",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C29": {
+      "text": "mdi-percent",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C30": {
+      "text": "mdi-calendar-today",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C31": {
+      "text": "mdi-signal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C32": {
+      "text": "mdi-chart-pie",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C33": {
+      "text": "mdi-barcode",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C34": {
+      "text": "mdi-share-variant",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C35": {
+      "text": "mdi-chart-donut",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C36": {
+      "text": "mdi-sort-numeric-variant",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C37": {
+      "text": "mdi-chart-timeline-variant",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C38": {
+      "text": "mdi-alphabetical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C39": {
+      "text": "mdi-format-text",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C40": {
+      "text": "mdi-clock",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C41": {
+      "text": "mdi-calendar-clock",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C42": {
+      "text": "mdi-link-variant",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C43": {
+      "text": "mdi-sort-alphabetical-variant",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D1": {
+      "text": "Common",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D2": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D3": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D4": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D5": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D6": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D7": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D8": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D9": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D10": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D11": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D12": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D13": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D14": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D15": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D16": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D17": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D18": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D19": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D20": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D21": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D22": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D23": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D24": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D25": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D26": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D27": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D28": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D29": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D30": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D31": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D32": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D33": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D34": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D35": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D36": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D37": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D38": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D39": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D40": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D41": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D42": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "D43": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "E1": {
+      "text": "Class",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E2": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E3": {
+      "text": "continuous",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E4": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E5": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E6": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E7": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E8": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E9": {
+      "text": "continuous",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E10": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E11": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E12": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E13": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E14": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E15": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E16": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E17": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E18": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E19": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E20": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E21": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E22": {
+      "text": "continuous",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E23": {
+      "text": "continuous",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E24": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E25": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E26": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E27": {
+      "text": "continuous",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E28": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E29": {
+      "text": "continuous",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E30": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E31": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E32": {
+      "text": "continuous",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E33": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E34": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E35": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E36": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E37": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E38": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E39": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E40": {
+      "text": "continuous",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E41": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E42": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E43": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F1": {
+      "text": "Typology",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F2": {
+      "text": "horometrical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F3": {
+      "text": "angular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F4": {
+      "text": "vectorial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F5": {
+      "text": "boolean",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F6": {
+      "text": "categorical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F7": {
+      "text": "nominal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F8": {
+      "text": "calendar",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F9": {
+      "text": "chronometrical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F10": {
+      "text": "textual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F11": {
+      "text": "fractional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F12": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F13": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F14": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F15": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F16": {
+      "text": "nominal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F17": {
+      "text": "identificational",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F18": {
+      "text": "nominal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F19": {
+      "text": "incremental",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F20": {
+      "text": "ordinal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F21": {
+      "text": "cardinal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F22": {
+      "text": "intensive",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F23": {
+      "text": "longitudinal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F24": {
+      "text": "meridional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F25": {
+      "text": "horological",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F26": {
+      "text": "denominational",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F27": {
+      "text": "extensive",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F28": {
+      "text": "objectual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F29": {
+      "text": "percent",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F30": {
+      "text": "calendar",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F31": {
+      "text": "quantile",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F32": {
+      "text": "rational",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F33": {
+      "text": "referential",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F34": {
+      "text": "relational",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F35": {
+      "text": "sectorial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F36": {
+      "text": "sequential",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F37": {
+      "text": "periodseries",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F38": {
+      "text": "textual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F39": {
+      "text": "textual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F40": {
+      "text": "chronological",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F41": {
+      "text": "calendar",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F42": {
+      "text": "nominal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F43": {
+      "text": "lexical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G1": {
+      "text": "Family",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G2": {
+      "text": "chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G3": {
+      "text": "directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G4": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G5": {
+      "text": "logical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G6": {
+      "text": "categorical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G7": {
+      "text": "media",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G8": {
+      "text": "chronological",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G9": {
+      "text": "chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G10": {
+      "text": "formulaic",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G11": {
+      "text": "absolute",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G12": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G13": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G14": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G15": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G16": {
+      "text": "media",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G17": {
+      "text": "categorical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G18": {
+      "text": "media",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G19": {
+      "text": "numerical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G20": {
+      "text": "categorical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G21": {
+      "text": "numerical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G22": {
+      "text": "numerical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G23": {
+      "text": "directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G24": {
+      "text": "directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G25": {
+      "text": "chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G26": {
+      "text": "textual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G27": {
+      "text": "numerical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G28": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G29": {
+      "text": "absolute",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G30": {
+      "text": "epochal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G31": {
+      "text": "absolute",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G32": {
+      "text": "absolute",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G33": {
+      "text": "categorical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G34": {
+      "text": "discrete",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G35": {
+      "text": "directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G36": {
+      "text": "categorical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G37": {
+      "text": "structural",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G38": {
+      "text": "textual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G39": {
+      "text": "textual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G40": {
+      "text": "chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G41": {
+      "text": "chronological",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G42": {
+      "text": "addressal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G43": {
+      "text": "textual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H1": {
+      "text": "Primitive",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H2": {
+      "text": "INTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H3": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H4": {
+      "text": "LIST",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H5": {
+      "text": "BOOLEAN",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H6": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H7": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H8": {
+      "text": "DATE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H9": {
+      "text": "INTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H10": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H11": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H12": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H13": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H14": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H15": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H16": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H17": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H18": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H19": {
+      "text": "INTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H20": {
+      "text": "INTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H21": {
+      "text": "INTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H22": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H23": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H24": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H25": {
+      "text": "INTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H26": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H27": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H28": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H29": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H30": {
+      "text": "INTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H31": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H32": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H33": {
+      "text": "UINTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H34": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H35": {
+      "text": "DOUBLE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H36": {
+      "text": "INTEGER",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H37": {
+      "text": "STRUCT",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H38": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H39": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H40": {
+      "text": "TIME",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H41": {
+      "text": "TIMESTAMP",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H42": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "H43": {
+      "text": "VARCHAR",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I1": {
+      "text": "Dual",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I2": {
+      "text": "duration",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I3": {
+      "text": "sector",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I4": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I5": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I6": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I7": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I8": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I9": {
+      "text": "age",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I10": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I11": {
+      "text": "percent",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I12": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I13": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I14": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I15": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I16": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I17": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I18": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I19": {
+      "text": "level",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I20": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I21": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I22": {
+      "text": "increment",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I23": {
+      "text": "meridian",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I24": {
+      "text": "longitude",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I25": {
+      "text": "time",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I26": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I27": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I28": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I29": {
+      "text": "fraction",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I30": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I31": {
+      "text": "ratio",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I32": {
+      "text": "quantile",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I33": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I34": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I35": {
+      "text": "angle",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I36": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I37": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I38": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I39": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I40": {
+      "text": "moment",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I41": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I42": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "I43": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "J1": {
+      "text": "Specificity",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "J2": {
+      "text": "13",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J3": {
+      "text": "11",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J4": {
+      "text": "10",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J5": {
+      "text": "1",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J6": {
+      "text": "6",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J7": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J8": {
+      "text": "12",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J9": {
+      "text": "14",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J10": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J11": {
+      "text": "9",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J12": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J13": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J14": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J15": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J16": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J17": {
+      "text": "5",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J18": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J19": {
+      "text": "7",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J20": {
+      "text": "6",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J21": {
+      "text": "5",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J22": {
+      "text": "7",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J23": {
+      "text": "10",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J24": {
+      "text": "10",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J25": {
+      "text": "11",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J26": {
+      "text": "4",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J27": {
+      "text": "6",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J28": {
+      "text": "11",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J29": {
+      "text": "8",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J30": {
+      "text": "13",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J31": {
+      "text": "8",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J32": {
+      "text": "9",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J33": {
+      "text": "5",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J34": {
+      "text": "7",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J35": {
+      "text": "11",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J36": {
+      "text": "4",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J37": {
+      "text": "10",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J38": {
+      "text": "2",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J39": {
+      "text": "3",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J40": {
+      "text": "12",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J41": {
+      "text": "12",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J42": {
+      "text": "15",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "J43": {
+      "text": "3",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "right"
+      }
+    },
+    "K1": {
+      "text": "Discretizable",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "K2": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K3": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K4": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K5": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K6": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K7": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K8": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K9": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K10": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K11": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K12": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K13": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K14": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K15": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K16": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K17": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K18": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K19": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K20": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K21": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K22": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K23": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K24": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K25": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K26": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K27": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K28": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K29": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K30": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K31": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K32": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K33": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K34": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K35": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K36": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K37": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K38": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K39": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K40": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K41": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K42": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "K43": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L1": {
+      "text": "Sortable",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "L2": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L3": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L4": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L5": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L6": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L7": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L8": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L9": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L10": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L11": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L12": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L13": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L14": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L15": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L16": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L17": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L18": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L19": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L20": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L21": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L22": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L23": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L24": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L25": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L26": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L27": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L28": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L29": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L30": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L31": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L32": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L33": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L34": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L35": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L36": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L37": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L38": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L39": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L40": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L41": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L42": {
+      "text": "FALSE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "L43": {
+      "text": "TRUE",
+      "format": {
+        "alignVertical": "bottom",
+        "alignHorizontal": "center"
+      }
+    },
+    "M1": {
+      "text": "Control",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M2": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M3": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M4": {
+      "text": "array",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M5": {
+      "text": "boolean",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M6": {
+      "text": "string",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M7": {
+      "text": "color",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M8": {
+      "text": "date",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M9": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M10": {
+      "text": "expression",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M11": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M12": {
+      "text": "geofeature",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M13": {
+      "text": "geoline",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M14": {
+      "text": "geopoint",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M15": {
+      "text": "geopolygon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M16": {
+      "text": "string",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M17": {
+      "text": "string",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M18": {
+      "text": "file",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M19": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M20": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M21": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M22": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M23": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M24": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M25": {
+      "text": "clock",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M26": {
+      "text": "string",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M27": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M28": {
+      "text": "object",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M29": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M30": {
+      "text": "period",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M31": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M32": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M33": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M34": {
+      "text": "search",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M35": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M36": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M37": {
+      "text": "array",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M38": {
+      "text": "string",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M39": {
+      "text": "text",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M40": {
+      "text": "clock",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M41": {
+      "text": "timestamp",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M42": {
+      "text": "string",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "M43": {
+      "text": "string",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N1": {
+      "text": "Font",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N2": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N3": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N4": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N5": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N6": {
+      "text": "regular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N7": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N8": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N9": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N10": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N11": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N12": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N13": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N14": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N15": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N16": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N17": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N18": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N19": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N20": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N21": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N22": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N23": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N24": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N25": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N26": {
+      "text": "regular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N27": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N28": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N29": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N30": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N31": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N32": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N33": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N34": {
+      "text": "regular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N35": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N36": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N37": {
+      "text": "regular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N38": {
+      "text": "regular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N39": {
+      "text": "regular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N40": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N41": {
+      "text": "monospace",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N42": {
+      "text": "regular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "N43": {
+      "text": "regular",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O1": {
+      "text": "Formatter",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O2": {
+      "text": "duration",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O3": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O4": {
+      "text": "custom",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O5": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O6": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O7": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O8": {
+      "text": "date",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O9": {
+      "text": "duration",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O10": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O11": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O12": {
+      "text": "custom",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O13": {
+      "text": "custom",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O14": {
+      "text": "geopoint",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O15": {
+      "text": "custom",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O16": {
+      "text": "custom",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O17": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O18": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O19": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O20": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O21": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O22": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O23": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O24": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O25": {
+      "text": "chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O26": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O27": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O28": {
+      "text": "custom",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O29": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O30": {
+      "text": "period",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O31": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O32": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O33": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O34": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O35": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O36": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O37": {
+      "text": "series",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O38": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O39": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O40": {
+      "text": "chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O41": {
+      "text": "timestamp",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O42": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "O43": {
+      "text": "default",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P1": {
+      "text": "Renderer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P2": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P3": {
+      "text": "directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P4": {
+      "text": "array",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P5": {
+      "text": "boolean",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P6": {
+      "text": "category",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P7": {
+      "text": "color",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P8": {
+      "text": "date",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P9": {
+      "text": "duration",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P10": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P11": {
+      "text": "fraction",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P12": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P13": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P14": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P15": {
+      "text": "geospatial",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P16": {
+      "text": "icon",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P17": {
+      "text": "category",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P18": {
+      "text": "image",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P19": {
+      "text": "increment",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P20": {
+      "text": "index",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P21": {
+      "text": "integer",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P22": {
+      "text": "level",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P23": {
+      "text": "directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P24": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P25": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P26": {
+      "text": "category",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P27": {
+      "text": "number",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P28": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P29": {
+      "text": "percent",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P30": {
+      "text": "period",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P31": {
+      "text": "quantile",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P32": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P33": {
+      "text": "category",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P34": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P35": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P36": {
+      "text": "sequence",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P37": {
+      "text": "series",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P38": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P39": {
+      "text": null,
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P40": {
+      "text": "time",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P41": {
+      "text": "timestamp",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P42": {
+      "text": "url",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "P43": {
+      "text": "category",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q1": {
+      "text": "Description",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q2": {
+      "text": "Sectorial variable which values are chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q3": {
+      "text": "Percent variable which values are directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q4": {
+      "text": "Structural variable which instances hold multiple values of the same datatype",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q5": {
+      "text": "Discrete variable which values are either true or false",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q6": {
+      "text": "Discrete variable used for categorization or classification",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q7": {
+      "text": "Color name or code",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q8": {
+      "text": "Incremental variable which values are chronological with a day periodicity",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q9": {
+      "text": "Angular variable which values are chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q10": {
+      "text": "Computing expression",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q11": {
+      "text": "Cardinal variable which range of possible values is bounded",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q12": {
+      "text": "Geospatial shape (line or polygon) or set of geofeature defined as sets of geopoints",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q13": {
+      "text": "Geospatial line or set of lines defined as sets of geopoints",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q14": {
+      "text": "Geospatial point defined with a latitude, a longitude, and an optional elevation",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q15": {
+      "text": "Geospatial polygons or set of polygons defined as sets of geopoints coordinates",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q16": {
+      "text": "Monochromatic vector drawing.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q17": {
+      "text": "Textual variable used to uniquely identify people, places, or things",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q18": {
+      "text": "Raster image or photograph",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q19": {
+      "text": "Ordinal variable which values can be subdivided",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q20": {
+      "text": "Discrete numeric variable which values cannot be summed",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q21": {
+      "text": "Discrete numeric variable which values can be summed",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q22": {
+      "text": "Continuous variable which values cannot be summed",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q23": {
+      "text": "Rational variable which values are directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q24": {
+      "text": "Quantile variable which values are directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q25": {
+      "text": "Meridional variable which values are chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q26": {
+      "text": "Textual variable used as denomination for people, places, or things",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q27": {
+      "text": "Continuous variable which values can be summed",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q28": {
+      "text": "Structural variable which instances hold multiple values of different datatypes",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q29": {
+      "text": "Extensive variable which range of possible values is bounded",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q30": {
+      "text": "Incremental variable which values are epochal",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q31": {
+      "text": "Incremental variable which range of possible values is bounded",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q32": {
+      "text": "Intensive variable which range of possible values is bounded",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q33": {
+      "text": "Numerical variable used to uniquely identify people, places, or things",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q34": {
+      "text": "Categorical variable with details externalized into a related table",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q35": {
+      "text": "Fractional variable which values are directional",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q36": {
+      "text": "Numeric variable which values can be represented with sequential integers",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q37": {
+      "text": "Series",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q38": {
+      "text": "Textual variable which values are not necessarily human readable",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q39": {
+      "text": "Textual variable which values are human readable",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q40": {
+      "text": "Longitudinal variable which values are chronical",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q41": {
+      "text": "Incremental variable which values are chronological with a second periodicity",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q42": {
+      "text": "Address for a web page or a file",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Q43": {
+      "text": "Nominal variable which values can be sorted",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R1": {
+      "text": "Example",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R2": {
+      "text": "3 years",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R3": {
+      "text": "57.2958°",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R4": {
+      "text": "[1, 2, 3]",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R5": {
+      "text": "true, false",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R6": {
+      "text": "Red, Green, Blue",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R7": {
+      "text": "blue, #0000FF, rgb(0,0,255)",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R8": {
+      "text": "March 31, 2012",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R9": {
+      "text": "1 minute, 1h30, 1 year and 5 months",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R10": {
+      "text": "CONCATENATE('Hello ', 'World!')",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R11": {
+      "text": "¼, ½, ¾",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R12": {
+      "text": "{\"type\":\"Polygon\", \"coordinates\":[[[-122.160407, 37.447476], [-122.161483, 37.446528], [-122.162298, 37.447015]]]}",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R13": {
+      "text": "{\"type\":\"LineString\", \"coordinates\":[[[-122.160407, 37.447476], [-122.161483, 37.446528]]]}",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R14": {
+      "text": "[37.447476, -122.160407]",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R15": {
+      "text": "{\"type\":\"Polygon\", \"coordinates\":[[[-122.160407, 37.447476], [-122.161483, 37.446528], [-122.162298, 37.447015]]]}",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R16": {
+      "text": "mdi-table",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R17": {
+      "text": "stoic.com",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R18": {
+      "text": "https://stoic.com/media/image.png",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R19": {
+      "text": "10, 20, 30",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R20": {
+      "text": "1, 2, 2003",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R21": {
+      "text": "10, 100, 1000",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R22": {
+      "text": "10°C, 20°C, 30°C",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R23": {
+      "text": "2° 20′ 14.025″ E",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R24": {
+      "text": "0°, 45° W, 90°E",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R25": {
+      "text": "2:56 AM",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R26": {
+      "text": "Mary Jane",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R27": {
+      "text": "10m², 100m², 1000m²",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R28": {
+      "text": "{'foo': 1, 'bar':2, 'baz': 3}",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R29": {
+      "text": "25%, 50%, 75%",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R30": {
+      "text": "March 2012",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R31": {
+      "text": "1st Quartile, 2nd Quartile",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R32": {
+      "text": "0.25, 0.5, 0.75",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R33": {
+      "text": "1, 2, 2003",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R34": {
+      "text": "USA✝, Mexico✝, Canada✝",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R35": {
+      "text": "10°, 20°, 30°",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R36": {
+      "text": "1st, 2nd, 3rd",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R37": {
+      "text": "{ offset: 1, points: [1, 2, 3] }",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R38": {
+      "text": "Foo, Bar, Baz",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R39": {
+      "text": "Lorem ipsum dolor sit amet",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R40": {
+      "text": "2:56:15 AM",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R41": {
+      "text": "March 31 2012 06:31:41",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R42": {
+      "text": "https://stoic.com",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "R43": {
+      "text": "Alpha, Bravo, Charlie",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    }
+  },
+  "ranges": {
+    "UDwQKpWQ2S4ss5pzG9FbBz": {
+      "coordinates": "A1:R43",
+      "name": "Datatypes Metadata"
+    }
+  },
+  "stickyRows": 1,
+  "stickyCols": 1
+}
