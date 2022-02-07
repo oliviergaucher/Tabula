@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 8,
+  "id": "rr0yPxerXfGfowIxyzPEvh",
+  "shelf": [
+    {
+      "type": "notebook",
+      "id": "Wa8CGHB62fpw4QGq4bgepS",
+      "name": "GItHub"
+    },
+    {
+      "type": "sheet",
+      "id": "G7hwHnQVWRWloYuYkwvl61",
+      "name": "Outline"
+    },
+    {
+      "type": "stack",
+      "id": "QhcC4jNNJXo6Ucl4uv3ThQ",
+      "name": "Transforms"
+    },
+    {
+      "type": "notebook",
+      "id": "NAYQFSnhtj8uF1DTfNAi6H",
+      "name": "Engine"
+    },
+    {
+      "type": "notebook",
+      "id": "ABfyaUXok5UgbAmdSqUCt3",
+      "name": "Helpers"
+    },
+    {
+      "type": "notebook",
+      "id": "IYZRdNYQGUhfYjpmt1h0ES",
+      "name": "🔹 ADD"
+    },
+    {
+      "type": "notebook",
+      "id": "L7xDbvYZsSrB9udp6wzKTI",
+      "name": "🔹 COLLAPSE"
+    },
+    {
+      "type": "notebook",
+      "id": "zCCY2OTSepMEzTdI9wHncI",
+      "name": "🔹 COMPUTE"
+    },
+    {
+      "type": "notebook",
+      "id": "S4TwdgzotzWAUctUYyMulW",
+      "name": "🔸 CONFIGURE"
+    },
+    {
+      "type": "notebook",
+      "id": "psgYmFcjoEIscZ3EmofQzh",
+      "name": "🔹 DEDUPLICATE"
+    },
+    {
+      "type": "notebook",
+      "id": "jlvGmpwLgZ07nxTqQtVwcN",
+      "name": "🔸 DUPLICATE"
+    },
+    {
+      "type": "notebook",
+      "id": "Zs7lElfIylMNYe9rg6RyLn",
+      "name": "🔸 EXPAND"
+    },
+    {
+      "type": "notebook",
+      "id": "r5q0nWieS0nwzaQyrmx1dF",
+      "name": "🔸 FILTER"
+    },
+    {
+      "type": "notebook",
+      "id": "Sqtm1bi58goPl4ZH7A0MsF",
+      "name": "🔹 FORWARD"
+    },
+    {
+      "type": "notebook",
+      "id": "eNwFfZ5I9uGe4uRdTdzNx0",
+      "name": "🔹 GROUPBY"
+    },
+    {
+      "type": "notebook",
+      "id": "knnqLKyWaNKD2u8smGTZMo",
+      "name": "🔹 INSERT"
+    },
+    {
+      "type": "notebook",
+      "id": "D0TKkyJ9Y87yapMKWJcPk6",
+      "name": "🔹 JOIN"
+    },
+    {
+      "type": "notebook",
+      "id": "rXUCMEKUAe1OdXEUTUoadj",
+      "name": "🔸 MERGE"
+    },
+    {
+      "type": "notebook",
+      "id": "Gw2YlrbSrNf1vD1lGuA8MD",
+      "name": "🔹 PICK"
+    },
+    {
+      "type": "notebook",
+      "id": "pOtr2FcciHLwCg90Y49NX5",
+      "name": "🔹 PIVOT"
+    },
+    {
+      "type": "notebook",
+      "id": "sN6Qj7EhbPS7VUZfRh5P51",
+      "name": "🔸 QUERY"
+    },
+    {
+      "type": "notebook",
+      "id": "Hiw4Ny10Hx7pTdphxavSkj",
+      "name": "🔹 REMOVE"
+    },
+    {
+      "type": "notebook",
+      "id": "TKwIDwMSxynr3oCiHgf27I",
+      "name": "🔸 REPLACE"
+    },
+    {
+      "type": "notebook",
+      "id": "vNv3hsVgLkJtfKBnIlrudk",
+      "name": "🔸 SPLIT"
+    },
+    {
+      "type": "notebook",
+      "id": "TLJSqWosFe9kr0qA0FMFBe",
+      "name": "🔹 TABULATE"
+    },
+    {
+      "type": "notebook",
+      "id": "rNWHOBOU51eAVxkcJh0sXa",
+      "name": "🔸 UNION"
+    },
+    {
+      "type": "notebook",
+      "id": "OLIpVahsg65QGwqUSLblWQ",
+      "name": "🔹 UNPIVOT"
+    },
+    {
+      "type": "notebook",
+      "id": "ln7zdb1lV56g1mtNd0tpnD",
+      "name": "🔸 UPDATE"
+    }
+  ]
+}

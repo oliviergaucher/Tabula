@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 8,
+  "name": "Dataset1",
+  "flow": {
+    "source": {
+      "datasets": [
+        {
+          "datasourceId": "workbook",
+          "filePath": [
+            "Data",
+            "Microsoft.csv"
+          ]
+        }
+      ],
+      "sampling": {
+        "active": false,
+        "mode": "first",
+        "count": 500
+      },
+      "type": "external"
+    },
+    "recipe": [],
+    "target": {}
+  },
+  "groupby": null,
+  "extra": {
+    "discoveredHeadersAvailability": true,
+    "discoveredSchema": [
+      {
+        "id": "date",
+        "name": "Date",
+        "datatype": "period",
+        "options": {
+          "parseFormat": "YYYY-MM-DD",
+          "periodicity": "day",
+          "displayFormat": "YYYY-MM-DD"
+        }
+      },
+      {
+        "id": "open",
+        "name": "Open",
+        "datatype": "number",
+        "options": {
+          "displayFormat": "0,0.000"
+        }
+      },
+      {
+        "id": "high",
+        "name": "High",
+        "datatype": "number",
+        "options": {
+          "displayFormat": "0,0.000"
+        }
+      },
+      {
+        "id": "low",
+        "name": "Low",
+        "datatype": "number",
+        "options": {
+          "displayFormat": "0,0.000"
+        }
+      },
+      {
+        "id": "close",
+        "name": "Close",
+        "datatype": "number",
+        "options": {
+          "displayFormat": "0,0.000"
+        }
+      },
+      {
+        "id": "adjusted_close",
+        "name": "Adjusted Close",
+        "datatype": "number",
+        "options": {
+          "displayFormat": "0,0.000"
+        }
+      },
+      {
+        "id": "volume",
+        "name": "Volume",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      }
+    ]
+  },
+  "visual": {
+    "visualId": null,
+    "hidden": false
+  }
+}

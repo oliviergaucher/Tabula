@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 8,
+  "name": "Dataset1",
+  "flow": {
+    "source": {
+      "characteristics": {
+        "primary": [
+          "ID"
+        ]
+      },
+      "configuration": {
+        "Typology": {
+          "type": {
+            "datatype": "category"
+          }
+        },
+        "Dual": {
+          "type": {
+            "datatype": "identifier"
+          }
+        },
+        "Parent": {
+          "type": {
+            "datatype": "identifier"
+          }
+        },
+        "Renderer": {
+          "type": {
+            "datatype": "category"
+          }
+        },
+        "Description": {
+          "type": {
+            "datatype": "text"
+          }
+        },
+        "Example": {
+          "type": {
+            "datatype": "text"
+          }
+        }
+      },
+      "datasets": [
+        {
+          "datasourceId": "workbook",
+          "filePath": [
+            "Datatypes",
+            "Datatypes.csv"
+          ]
+        }
+      ],
+      "sampling": {
+        "active": false,
+        "mode": "first",
+        "count": 500
+      },
+      "type": "external"
+    },
+    "recipe": [],
+    "target": {}
+  },
+  "groupby": null,
+  "extra": {
+    "discoveredSchema": [
+      {
+        "id": "name",
+        "name": "Name",
+        "datatype": "identifier"
+      },
+      {
+        "id": "id",
+        "name": "ID",
+        "datatype": "identifier"
+      },
+      {
+        "id": "icon",
+        "name": "Icon",
+        "datatype": "identifier"
+      },
+      {
+        "id": "common",
+        "name": "Common",
+        "datatype": "boolean"
+      },
+      {
+        "id": "class",
+        "name": "Class",
+        "datatype": "category"
+      },
+      {
+        "id": "typology",
+        "name": "Typology",
+        "datatype": "category"
+      },
+      {
+        "id": "family",
+        "name": "Family",
+        "datatype": "category"
+      },
+      {
+        "id": "primitive",
+        "name": "Primitive",
+        "datatype": "category"
+      },
+      {
+        "id": "dual",
+        "name": "Dual",
+        "datatype": "identifier"
+      },
+      {
+        "id": "parent",
+        "name": "Parent",
+        "datatype": "identifier"
+      },
+      {
+        "id": "specificity",
+        "name": "Specificity",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "discretizable",
+        "name": "Discretizable",
+        "datatype": "boolean"
+      },
+      {
+        "id": "sortable",
+        "name": "Sortable",
+        "datatype": "boolean"
+      },
+      {
+        "id": "control",
+        "name": "Control",
+        "datatype": "category"
+      },
+      {
+        "id": "font",
+        "name": "Font",
+        "datatype": "category"
+      },
+      {
+        "id": "formatter",
+        "name": "Formatter",
+        "datatype": "category"
+      },
+      {
+        "id": "renderer",
+        "name": "Renderer",
+        "datatype": "category"
+      },
+      {
+        "id": "description",
+        "name": "Description",
+        "datatype": "text"
+      },
+      {
+        "id": "example",
+        "name": "Example",
+        "datatype": "text"
+      }
+    ],
+    "discoveredHeadersAvailability": true
+  },
+  "visual": {
+    "visualId": null,
+    "bindings": {},
+    "hidden": false,
+    "tooltip": [],
+    "axes": {},
+    "marks": {},
+    "facet": {},
+    "segmentOrder": {},
+    "settings": {}
+  }
+}

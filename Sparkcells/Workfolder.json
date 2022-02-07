@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "id": "mEmrPft6uBxaNGceDzt3qn",
+  "shelf": [
+    {
+      "type": "notebook",
+      "id": "vDae6JtEAeI5UPMr7VqeuO",
+      "name": "Registry"
+    },
+    {
+      "type": "notebook",
+      "id": "O83IcP20euZLSA7LEmSrVg",
+      "name": "Array"
+    },
+    {
+      "type": "notebook",
+      "id": "TbSlFNWGi2dXzfeO9UXWfG",
+      "name": "Category"
+    },
+    {
+      "type": "notebook",
+      "id": "GqcnfdWUY6MHPlYntPeY3E",
+      "name": "Image"
+    },
+    {
+      "type": "notebook",
+      "id": "b5PLRhVEuwBPZqusAvgLia",
+      "name": "Name"
+    },
+    {
+      "type": "notebook",
+      "id": "oQRvrNM4mzE1VLCEEJ8DjL",
+      "name": "Percent"
+    }
+  ]
+}

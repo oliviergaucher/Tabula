@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "name": "Dataset1",
+  "flow": {
+    "source": {
+      "characteristics": {
+        "naming": "Name",
+        "primary": [
+          "Function"
+        ],
+        "frozen": "Name"
+      },
+      "reference": {
+        "sheetName": "Outline",
+        "rangeName": "Aggregations Metadata"
+      },
+      "type": "range"
+    },
+    "recipe": [],
+    "target": {}
+  },
+  "groupby": null,
+  "extra": {
+    "discoveredHeadersAvailability": true
+  },
+  "visual": {
+    "visualId": null,
+    "bindings": {},
+    "hidden": false,
+    "tooltip": [],
+    "axes": {},
+    "marks": {},
+    "facet": {},
+    "segmentOrder": {},
+    "settings": {}
+  }
+}

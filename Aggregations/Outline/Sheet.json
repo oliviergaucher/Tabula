@@ -1,0 +1,2174 @@
+{
+  "schemaVersion": 8,
+  "cells": {
+    "B1": {
+      "text": "Function",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "E1": {
+      "text": "Description",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "A1": {
+      "text": "Name",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "C1": {
+      "text": "Family",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "A2": {
+      "text": "Average"
+    },
+    "B2": {
+      "text": "avg"
+    },
+    "C2": {
+      "text": "General"
+    },
+    "E2": {
+      "text": "Calculates the average of all values."
+    },
+    "A3": {
+      "text": "Bitwise AND"
+    },
+    "B3": {
+      "text": "bit_and"
+    },
+    "C3": {
+      "text": "General"
+    },
+    "E3": {
+      "text": "Returns the bitwise AND of all bits."
+    },
+    "A4": {
+      "text": "Bitwise OR"
+    },
+    "B4": {
+      "text": "bit_or"
+    },
+    "C4": {
+      "text": "General"
+    },
+    "E4": {
+      "text": "Returns the bitwise OR of all bits."
+    },
+    "A5": {
+      "text": "Bitwise XOR"
+    },
+    "B5": {
+      "text": "bit_xor"
+    },
+    "C5": {
+      "text": "General"
+    },
+    "E5": {
+      "text": "Returns the bitwise XOR of all bits."
+    },
+    "A6": {
+      "text": "Boolean AND"
+    },
+    "B6": {
+      "text": "bool_and"
+    },
+    "C6": {
+      "text": "General"
+    },
+    "E6": {
+      "text": "Returns `TRUE` if every value is `TRUE`, otherwise `FALSE`."
+    },
+    "A7": {
+      "text": "Boolean OR"
+    },
+    "B7": {
+      "text": "bool_or"
+    },
+    "C7": {
+      "text": "General"
+    },
+    "E7": {
+      "text": "Returns `TRUE` if any value is `TRUE`, otherwise `FALSE`."
+    },
+    "A9": {
+      "text": "Count"
+    },
+    "B9": {
+      "text": "count"
+    },
+    "C9": {
+      "text": "General"
+    },
+    "E9": {
+      "text": "Calculates the number of values."
+    },
+    "A11": {
+      "text": "Kahan Average"
+    },
+    "B11": {
+      "text": "favg"
+    },
+    "C11": {
+      "text": "General"
+    },
+    "E11": {
+      "text": "Calculates the average of all values using a more accurate floating point summation (Kahan Sum)."
+    },
+    "A10": {
+      "text": "First"
+    },
+    "B10": {
+      "text": "first"
+    },
+    "C10": {
+      "text": "General"
+    },
+    "E10": {
+      "text": "Returns the first value."
+    },
+    "F10": {
+      "text": null
+    },
+    "G10": {
+      "text": null
+    },
+    "H10": {
+      "text": null
+    },
+    "I10": {
+      "text": null
+    },
+    "J10": {
+      "text": null
+    },
+    "K10": {
+      "text": null
+    },
+    "L10": {
+      "text": null
+    },
+    "M10": {
+      "text": null
+    },
+    "N10": {
+      "text": null
+    },
+    "O10": {
+      "text": null
+    },
+    "P10": {
+      "text": null
+    },
+    "Q10": {
+      "text": null
+    },
+    "R10": {
+      "text": null
+    },
+    "S10": {
+      "text": null
+    },
+    "T10": {
+      "text": null
+    },
+    "U10": {
+      "text": null
+    },
+    "V10": {
+      "text": null
+    },
+    "W10": {
+      "text": null
+    },
+    "X10": {
+      "text": null
+    },
+    "Y10": {
+      "text": null
+    },
+    "Z10": {
+      "text": null
+    },
+    "AA10": {
+      "text": null
+    },
+    "AB10": {
+      "text": null
+    },
+    "AC10": {
+      "text": null
+    },
+    "AD10": {
+      "text": null
+    },
+    "AE10": {
+      "text": null
+    },
+    "AF10": {
+      "text": null
+    },
+    "AG10": {
+      "text": null
+    },
+    "AH10": {
+      "text": null
+    },
+    "AI10": {
+      "text": null
+    },
+    "AJ10": {
+      "text": null
+    },
+    "AK10": {
+      "text": null
+    },
+    "AL10": {
+      "text": null
+    },
+    "AM10": {
+      "text": null
+    },
+    "AN10": {
+      "text": null
+    },
+    "AO10": {
+      "text": null
+    },
+    "AP10": {
+      "text": null
+    },
+    "AQ10": {
+      "text": null
+    },
+    "AR10": {
+      "text": null
+    },
+    "AS10": {
+      "text": null
+    },
+    "AT10": {
+      "text": null
+    },
+    "AU10": {
+      "text": null
+    },
+    "AV10": {
+      "text": null
+    },
+    "AW10": {
+      "text": null
+    },
+    "AX10": {
+      "text": null
+    },
+    "AY10": {
+      "text": null
+    },
+    "AZ10": {
+      "text": null
+    },
+    "BA10": {
+      "text": null
+    },
+    "BB10": {
+      "text": null
+    },
+    "BC10": {
+      "text": null
+    },
+    "BD10": {
+      "text": null
+    },
+    "BE10": {
+      "text": null
+    },
+    "BF10": {
+      "text": null
+    },
+    "BG10": {
+      "text": null
+    },
+    "BH10": {
+      "text": null
+    },
+    "BI10": {
+      "text": null
+    },
+    "BJ10": {
+      "text": null
+    },
+    "BK10": {
+      "text": null
+    },
+    "BL10": {
+      "text": null
+    },
+    "BM10": {
+      "text": null
+    },
+    "BN10": {
+      "text": null
+    },
+    "BO10": {
+      "text": null
+    },
+    "BP10": {
+      "text": null
+    },
+    "BQ10": {
+      "text": null
+    },
+    "BR10": {
+      "text": null
+    },
+    "BS10": {
+      "text": null
+    },
+    "BT10": {
+      "text": null
+    },
+    "BU10": {
+      "text": null
+    },
+    "BV10": {
+      "text": null
+    },
+    "BW10": {
+      "text": null
+    },
+    "BX10": {
+      "text": null
+    },
+    "BY10": {
+      "text": null
+    },
+    "BZ10": {
+      "text": null
+    },
+    "CA10": {
+      "text": null
+    },
+    "CB10": {
+      "text": null
+    },
+    "CC10": {
+      "text": null
+    },
+    "CD10": {
+      "text": null
+    },
+    "CE10": {
+      "text": null
+    },
+    "CF10": {
+      "text": null
+    },
+    "CG10": {
+      "text": null
+    },
+    "CH10": {
+      "text": null
+    },
+    "CI10": {
+      "text": null
+    },
+    "CJ10": {
+      "text": null
+    },
+    "CK10": {
+      "text": null
+    },
+    "CL10": {
+      "text": null
+    },
+    "CM10": {
+      "text": null
+    },
+    "CN10": {
+      "text": null
+    },
+    "CO10": {
+      "text": null
+    },
+    "CP10": {
+      "text": null
+    },
+    "CQ10": {
+      "text": null
+    },
+    "CR10": {
+      "text": null
+    },
+    "CS10": {
+      "text": null
+    },
+    "CT10": {
+      "text": null
+    },
+    "CU10": {
+      "text": null
+    },
+    "CV10": {
+      "text": null
+    },
+    "CW10": {
+      "text": null
+    },
+    "CX10": {
+      "text": null
+    },
+    "CY10": {
+      "text": null
+    },
+    "CZ10": {
+      "text": null
+    },
+    "DA10": {
+      "text": null
+    },
+    "A12": {
+      "text": "Kahan Sum"
+    },
+    "B12": {
+      "text": "fsum"
+    },
+    "C12": {
+      "text": "General"
+    },
+    "E12": {
+      "text": "Calculates the sum of all values using a more accurate floating point summation (Kahan Sum)."
+    },
+    "A13": {
+      "text": "Last"
+    },
+    "B13": {
+      "text": "last"
+    },
+    "C13": {
+      "text": "General"
+    },
+    "E13": {
+      "text": "Returns the last value."
+    },
+    "F13": {
+      "text": null
+    },
+    "G13": {
+      "text": null
+    },
+    "H13": {
+      "text": null
+    },
+    "I13": {
+      "text": null
+    },
+    "J13": {
+      "text": null
+    },
+    "K13": {
+      "text": null
+    },
+    "L13": {
+      "text": null
+    },
+    "M13": {
+      "text": null
+    },
+    "N13": {
+      "text": null
+    },
+    "O13": {
+      "text": null
+    },
+    "P13": {
+      "text": null
+    },
+    "Q13": {
+      "text": null
+    },
+    "R13": {
+      "text": null
+    },
+    "S13": {
+      "text": null
+    },
+    "T13": {
+      "text": null
+    },
+    "U13": {
+      "text": null
+    },
+    "V13": {
+      "text": null
+    },
+    "W13": {
+      "text": null
+    },
+    "X13": {
+      "text": null
+    },
+    "Y13": {
+      "text": null
+    },
+    "Z13": {
+      "text": null
+    },
+    "AA13": {
+      "text": null
+    },
+    "AB13": {
+      "text": null
+    },
+    "AC13": {
+      "text": null
+    },
+    "AD13": {
+      "text": null
+    },
+    "AE13": {
+      "text": null
+    },
+    "AF13": {
+      "text": null
+    },
+    "AG13": {
+      "text": null
+    },
+    "AH13": {
+      "text": null
+    },
+    "AI13": {
+      "text": null
+    },
+    "AJ13": {
+      "text": null
+    },
+    "AK13": {
+      "text": null
+    },
+    "AL13": {
+      "text": null
+    },
+    "AM13": {
+      "text": null
+    },
+    "AN13": {
+      "text": null
+    },
+    "AO13": {
+      "text": null
+    },
+    "AP13": {
+      "text": null
+    },
+    "AQ13": {
+      "text": null
+    },
+    "AR13": {
+      "text": null
+    },
+    "AS13": {
+      "text": null
+    },
+    "AT13": {
+      "text": null
+    },
+    "AU13": {
+      "text": null
+    },
+    "AV13": {
+      "text": null
+    },
+    "AW13": {
+      "text": null
+    },
+    "AX13": {
+      "text": null
+    },
+    "AY13": {
+      "text": null
+    },
+    "AZ13": {
+      "text": null
+    },
+    "BA13": {
+      "text": null
+    },
+    "BB13": {
+      "text": null
+    },
+    "BC13": {
+      "text": null
+    },
+    "BD13": {
+      "text": null
+    },
+    "BE13": {
+      "text": null
+    },
+    "BF13": {
+      "text": null
+    },
+    "BG13": {
+      "text": null
+    },
+    "BH13": {
+      "text": null
+    },
+    "BI13": {
+      "text": null
+    },
+    "BJ13": {
+      "text": null
+    },
+    "BK13": {
+      "text": null
+    },
+    "BL13": {
+      "text": null
+    },
+    "BM13": {
+      "text": null
+    },
+    "BN13": {
+      "text": null
+    },
+    "BO13": {
+      "text": null
+    },
+    "BP13": {
+      "text": null
+    },
+    "BQ13": {
+      "text": null
+    },
+    "BR13": {
+      "text": null
+    },
+    "BS13": {
+      "text": null
+    },
+    "BT13": {
+      "text": null
+    },
+    "BU13": {
+      "text": null
+    },
+    "BV13": {
+      "text": null
+    },
+    "BW13": {
+      "text": null
+    },
+    "BX13": {
+      "text": null
+    },
+    "BY13": {
+      "text": null
+    },
+    "BZ13": {
+      "text": null
+    },
+    "CA13": {
+      "text": null
+    },
+    "CB13": {
+      "text": null
+    },
+    "CC13": {
+      "text": null
+    },
+    "CD13": {
+      "text": null
+    },
+    "CE13": {
+      "text": null
+    },
+    "CF13": {
+      "text": null
+    },
+    "CG13": {
+      "text": null
+    },
+    "CH13": {
+      "text": null
+    },
+    "CI13": {
+      "text": null
+    },
+    "CJ13": {
+      "text": null
+    },
+    "CK13": {
+      "text": null
+    },
+    "CL13": {
+      "text": null
+    },
+    "CM13": {
+      "text": null
+    },
+    "CN13": {
+      "text": null
+    },
+    "CO13": {
+      "text": null
+    },
+    "CP13": {
+      "text": null
+    },
+    "CQ13": {
+      "text": null
+    },
+    "CR13": {
+      "text": null
+    },
+    "CS13": {
+      "text": null
+    },
+    "CT13": {
+      "text": null
+    },
+    "CU13": {
+      "text": null
+    },
+    "CV13": {
+      "text": null
+    },
+    "CW13": {
+      "text": null
+    },
+    "CX13": {
+      "text": null
+    },
+    "CY13": {
+      "text": null
+    },
+    "CZ13": {
+      "text": null
+    },
+    "DA13": {
+      "text": null
+    },
+    "A14": {
+      "text": "List"
+    },
+    "B14": {
+      "text": "list"
+    },
+    "C14": {
+      "text": "General"
+    },
+    "E14": {
+      "text": "Returns a `LIST` containing all values."
+    },
+    "A15": {
+      "text": "Maximum"
+    },
+    "B15": {
+      "text": "max"
+    },
+    "C15": {
+      "text": "General"
+    },
+    "E15": {
+      "text": "Returns the maximum value."
+    },
+    "A16": {
+      "text": "Minimum"
+    },
+    "B16": {
+      "text": "min"
+    },
+    "C16": {
+      "text": "General"
+    },
+    "E16": {
+      "text": "Returns the minimum value."
+    },
+    "A17": {
+      "text": "Product"
+    },
+    "B17": {
+      "text": "product"
+    },
+    "C17": {
+      "text": "General"
+    },
+    "E17": {
+      "text": "Calculates the product of all values."
+    },
+    "F1": {
+      "text": "Parameter 1",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "A8": {
+      "text": "Concatenation"
+    },
+    "B8": {
+      "text": "string_agg"
+    },
+    "C8": {
+      "text": "General"
+    },
+    "E8": {
+      "text": "Concatenates all string values with a `separator`."
+    },
+    "F8": {
+      "text": "{\"id\": \"separator\", \"name\": \"Separator\", \"datatype\": \"string\"}"
+    },
+    "A18": {
+      "text": "Sum"
+    },
+    "B18": {
+      "text": "sum"
+    },
+    "C18": {
+      "text": "General"
+    },
+    "E18": {
+      "text": "Calculates the sum of all values."
+    },
+    "B19": {
+      "text": "approx_count_distinct"
+    },
+    "C19": {
+      "text": "Approximate"
+    },
+    "E19": {
+      "text": "Approximates the count of distinct values using HyperLogLog."
+    },
+    "A19": {
+      "text": "Approximate Count Distinct"
+    },
+    "B20": {
+      "text": "approx_quantile"
+    },
+    "C20": {
+      "text": "Approximate"
+    },
+    "E20": {
+      "text": "Approximates a quantile for values using T-Digest."
+    },
+    "A20": {
+      "text": "Approximate Quantile"
+    },
+    "F20": {
+      "text": "{\"id\": \"quantile\", \"name\": \"Quantile\", \"datatype\": \"number\", \"required\": true}"
+    },
+    "B21": {
+      "text": "reservoir_quantile"
+    },
+    "A21": {
+      "text": "Reservoir Quantile"
+    },
+    "C21": {
+      "text": "Approximate"
+    },
+    "E21": {
+      "text": "Approximates a quantile for values using reservoir sampling."
+    },
+    "F21": {
+      "text": "{\"id\": \"quantile\", \"name\": \"Quantile\", \"datatype\": \"number\", \"required\": true}"
+    },
+    "G1": {
+      "text": "Parameter 2",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "G21": {
+      "text": "{\"id\": \"sample_size\", \"name\": \"Sample Size\", \"datatype\": \"integer\", \"default\": 8192}"
+    },
+    "A22": {
+      "text": "Entropy"
+    },
+    "B22": {
+      "text": "entropy"
+    },
+    "C22": {
+      "text": "Univariate"
+    },
+    "E22": {
+      "text": "Calculates the log-2 entropy of all values."
+    },
+    "D1": {
+      "text": "Statistics",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "D2": {
+      "text": "Location"
+    },
+    "D3": {
+      "text": "Aggregation"
+    },
+    "D4": {
+      "text": "Aggregation"
+    },
+    "D5": {
+      "text": "Aggregation"
+    },
+    "D6": {
+      "text": "Aggregation"
+    },
+    "D7": {
+      "text": "Aggregation"
+    },
+    "D8": {
+      "text": "Aggregation"
+    },
+    "D9": {
+      "text": "Aggregation"
+    },
+    "D10": {
+      "text": "Scale"
+    },
+    "D11": {
+      "text": "Location"
+    },
+    "D12": {
+      "text": "Aggregation"
+    },
+    "D13": {
+      "text": "Scale"
+    },
+    "D14": {
+      "text": "Aggregation"
+    },
+    "D15": {
+      "text": "Scale"
+    },
+    "D16": {
+      "text": "Scale"
+    },
+    "D17": {
+      "text": "Aggregation"
+    },
+    "D18": {
+      "text": "Aggregation"
+    },
+    "D19": {
+      "text": "Aggregation"
+    },
+    "D20": {
+      "text": "Aggregation"
+    },
+    "D21": {
+      "text": "Aggregation"
+    },
+    "D22": {
+      "text": "Aggregation"
+    },
+    "A23": {
+      "text": "Kurtosis"
+    },
+    "B23": {
+      "text": "kurtosis"
+    },
+    "C23": {
+      "text": "Univariate"
+    },
+    "D23": {
+      "text": "Moment"
+    },
+    "E23": {
+      "text": "Calculates the excess kurtosis of all values."
+    },
+    "E25": {
+      "text": "Calculates the median absolute deviation of all values. Null values are ignored."
+    },
+    "A25": {
+      "text": "Median Absolute Deviation"
+    },
+    "B25": {
+      "text": "mad"
+    },
+    "C25": {
+      "text": "Univariate"
+    },
+    "D25": {
+      "text": "Dispersion"
+    },
+    "A24": {
+      "text": "Median"
+    },
+    "B24": {
+      "text": "median"
+    },
+    "C24": {
+      "text": "Univariate"
+    },
+    "D24": {
+      "text": "Location"
+    },
+    "E24": {
+      "text": "Returns the median of all values. Null values are ignored. For even value counts, quantitiative values are averaged and ordinal values return the lower value."
+    },
+    "A26": {
+      "text": "Mode"
+    },
+    "B26": {
+      "text": "mode"
+    },
+    "C26": {
+      "text": "Univariate"
+    },
+    "D26": {
+      "text": "Location"
+    },
+    "E26": {
+      "text": "Returns the most frequent value of all values. Null values are ignored."
+    },
+    "A28": {
+      "text": "Quantile Interpolated"
+    },
+    "E28": {
+      "text": "Calculates the interpolated quantile number between 0 and 1. If `quantile` is a list of numbers, then the result is a list of the corresponding intepolated quantiles."
+    },
+    "B28": {
+      "text": "quantile_cont"
+    },
+    "C28": {
+      "text": "Univariate"
+    },
+    "D28": {
+      "text": "Location"
+    },
+    "F28": {
+      "text": "{\"id\": \"quantile\", \"name\": \"Quantile\", \"datatype\": \"number\", \"required\": true, \"multiple\": true}"
+    },
+    "A27": {
+      "text": "Quantile Exact"
+    },
+    "B27": {
+      "text": "quantile_disc"
+    },
+    "C27": {
+      "text": "Univariate"
+    },
+    "D27": {
+      "text": "Location"
+    },
+    "E27": {
+      "text": "Calculates the exact quantile number between 0 and 1. If `quantile` is a list of numbers, then the result is a list of the corresponding exact quantiles."
+    },
+    "F27": {
+      "text": "{\"id\": \"quantile\", \"name\": \"Quantile\", \"datatype\": \"number\", \"required\": true, \"multiple\": true}"
+    },
+    "G27": {
+      "text": null
+    },
+    "H27": {
+      "text": null
+    },
+    "I27": {
+      "text": null
+    },
+    "J27": {
+      "text": null
+    },
+    "K27": {
+      "text": null
+    },
+    "L27": {
+      "text": null
+    },
+    "M27": {
+      "text": null
+    },
+    "N27": {
+      "text": null
+    },
+    "O27": {
+      "text": null
+    },
+    "P27": {
+      "text": null
+    },
+    "Q27": {
+      "text": null
+    },
+    "R27": {
+      "text": null
+    },
+    "S27": {
+      "text": null
+    },
+    "T27": {
+      "text": null
+    },
+    "U27": {
+      "text": null
+    },
+    "V27": {
+      "text": null
+    },
+    "W27": {
+      "text": null
+    },
+    "X27": {
+      "text": null
+    },
+    "Y27": {
+      "text": null
+    },
+    "Z27": {
+      "text": null
+    },
+    "AA27": {
+      "text": null
+    },
+    "AB27": {
+      "text": null
+    },
+    "AC27": {
+      "text": null
+    },
+    "AD27": {
+      "text": null
+    },
+    "AE27": {
+      "text": null
+    },
+    "AF27": {
+      "text": null
+    },
+    "AG27": {
+      "text": null
+    },
+    "AH27": {
+      "text": null
+    },
+    "AI27": {
+      "text": null
+    },
+    "AJ27": {
+      "text": null
+    },
+    "AK27": {
+      "text": null
+    },
+    "AL27": {
+      "text": null
+    },
+    "AM27": {
+      "text": null
+    },
+    "AN27": {
+      "text": null
+    },
+    "AO27": {
+      "text": null
+    },
+    "AP27": {
+      "text": null
+    },
+    "AQ27": {
+      "text": null
+    },
+    "AR27": {
+      "text": null
+    },
+    "AS27": {
+      "text": null
+    },
+    "AT27": {
+      "text": null
+    },
+    "AU27": {
+      "text": null
+    },
+    "AV27": {
+      "text": null
+    },
+    "AW27": {
+      "text": null
+    },
+    "AX27": {
+      "text": null
+    },
+    "AY27": {
+      "text": null
+    },
+    "AZ27": {
+      "text": null
+    },
+    "BA27": {
+      "text": null
+    },
+    "BB27": {
+      "text": null
+    },
+    "BC27": {
+      "text": null
+    },
+    "BD27": {
+      "text": null
+    },
+    "BE27": {
+      "text": null
+    },
+    "BF27": {
+      "text": null
+    },
+    "BG27": {
+      "text": null
+    },
+    "BH27": {
+      "text": null
+    },
+    "BI27": {
+      "text": null
+    },
+    "BJ27": {
+      "text": null
+    },
+    "BK27": {
+      "text": null
+    },
+    "BL27": {
+      "text": null
+    },
+    "BM27": {
+      "text": null
+    },
+    "BN27": {
+      "text": null
+    },
+    "BO27": {
+      "text": null
+    },
+    "BP27": {
+      "text": null
+    },
+    "BQ27": {
+      "text": null
+    },
+    "BR27": {
+      "text": null
+    },
+    "BS27": {
+      "text": null
+    },
+    "BT27": {
+      "text": null
+    },
+    "BU27": {
+      "text": null
+    },
+    "BV27": {
+      "text": null
+    },
+    "BW27": {
+      "text": null
+    },
+    "BX27": {
+      "text": null
+    },
+    "BY27": {
+      "text": null
+    },
+    "BZ27": {
+      "text": null
+    },
+    "CA27": {
+      "text": null
+    },
+    "CB27": {
+      "text": null
+    },
+    "CC27": {
+      "text": null
+    },
+    "CD27": {
+      "text": null
+    },
+    "CE27": {
+      "text": null
+    },
+    "CF27": {
+      "text": null
+    },
+    "CG27": {
+      "text": null
+    },
+    "CH27": {
+      "text": null
+    },
+    "CI27": {
+      "text": null
+    },
+    "CJ27": {
+      "text": null
+    },
+    "CK27": {
+      "text": null
+    },
+    "CL27": {
+      "text": null
+    },
+    "CM27": {
+      "text": null
+    },
+    "CN27": {
+      "text": null
+    },
+    "CO27": {
+      "text": null
+    },
+    "CP27": {
+      "text": null
+    },
+    "CQ27": {
+      "text": null
+    },
+    "CR27": {
+      "text": null
+    },
+    "CS27": {
+      "text": null
+    },
+    "CT27": {
+      "text": null
+    },
+    "CU27": {
+      "text": null
+    },
+    "CV27": {
+      "text": null
+    },
+    "CW27": {
+      "text": null
+    },
+    "CX27": {
+      "text": null
+    },
+    "CY27": {
+      "text": null
+    },
+    "CZ27": {
+      "text": null
+    },
+    "DA27": {
+      "text": null
+    },
+    "A29": {
+      "text": "Skewness"
+    },
+    "B29": {
+      "text": "skewness"
+    },
+    "C29": {
+      "text": "Univariate"
+    },
+    "D29": {
+      "text": "Moment"
+    },
+    "E29": {
+      "text": "Calculates the skewness of all values."
+    },
+    "B30": {
+      "text": "stddev_pop"
+    },
+    "A30": {
+      "text": "Standard Deviation Population"
+    },
+    "C30": {
+      "text": "Univariate"
+    },
+    "D30": {
+      "text": "Dispersion"
+    },
+    "E30": {
+      "text": "Calculates the population standard deviation of all values."
+    },
+    "A31": {
+      "text": "Standard Deviation Sample"
+    },
+    "B31": {
+      "text": "stddev_samp"
+    },
+    "C31": {
+      "text": "Univariate"
+    },
+    "D31": {
+      "text": "Dispersion"
+    },
+    "E31": {
+      "text": "Calculates the sample standard deviation of all values."
+    },
+    "B32": {
+      "text": "var_pop"
+    },
+    "B33": {
+      "text": "var_samp"
+    },
+    "A32": {
+      "text": "Variance Population"
+    },
+    "A33": {
+      "text": "Variance Sample"
+    },
+    "C32": {
+      "text": "Univariate"
+    },
+    "C33": {
+      "text": "Univariate"
+    },
+    "D32": {
+      "text": "Dispersion"
+    },
+    "D33": {
+      "text": "Dispersion"
+    },
+    "E32": {
+      "text": "Calculates the population variance of all values."
+    },
+    "E33": {
+      "text": "Calculates the sample variance of all values."
+    },
+    "C36": {
+      "text": "Bivariate"
+    },
+    "A36": {
+      "text": "Correlation"
+    },
+    "B36": {
+      "text": "corr"
+    },
+    "D36": {
+      "text": "Association"
+    },
+    "E36": {
+      "text": "Calculates the correlation coefficient for non-null pairs in a group of two variables."
+    },
+    "B37": {
+      "text": "covar_pop"
+    },
+    "A37": {
+      "text": "Covariance Population"
+    },
+    "C37": {
+      "text": "Bivariate"
+    },
+    "D37": {
+      "text": "Association"
+    },
+    "E37": {
+      "text": "Calculates the population covariance of two variables."
+    },
+    "B39": {
+      "text": "regr_avgx"
+    },
+    "C39": {
+      "text": "Bivariate"
+    },
+    "D39": {
+      "text": "Regression"
+    },
+    "E39": {
+      "text": "Calculates the average of the independent variable for non-null pairs of values from a dependent variable and an independent variable."
+    },
+    "A39": {
+      "text": "Independent Variable Average"
+    },
+    "A38": {
+      "text": "Dependent Variable Average"
+    },
+    "B38": {
+      "text": "regr_avgy"
+    },
+    "C38": {
+      "text": "Bivariate"
+    },
+    "D38": {
+      "text": "Regression"
+    },
+    "E38": {
+      "text": "Calculates the average of the dependent variable for non-null pairs of values from a dependent variable and an independent variable."
+    },
+    "F38": {
+      "text": null
+    },
+    "G38": {
+      "text": null
+    },
+    "H38": {
+      "text": null
+    },
+    "I38": {
+      "text": null
+    },
+    "J38": {
+      "text": null
+    },
+    "K38": {
+      "text": null
+    },
+    "L38": {
+      "text": null
+    },
+    "M38": {
+      "text": null
+    },
+    "N38": {
+      "text": null
+    },
+    "O38": {
+      "text": null
+    },
+    "P38": {
+      "text": null
+    },
+    "Q38": {
+      "text": null
+    },
+    "R38": {
+      "text": null
+    },
+    "S38": {
+      "text": null
+    },
+    "T38": {
+      "text": null
+    },
+    "U38": {
+      "text": null
+    },
+    "V38": {
+      "text": null
+    },
+    "W38": {
+      "text": null
+    },
+    "X38": {
+      "text": null
+    },
+    "Y38": {
+      "text": null
+    },
+    "Z38": {
+      "text": null
+    },
+    "AA38": {
+      "text": null
+    },
+    "AB38": {
+      "text": null
+    },
+    "AC38": {
+      "text": null
+    },
+    "AD38": {
+      "text": null
+    },
+    "AE38": {
+      "text": null
+    },
+    "AF38": {
+      "text": null
+    },
+    "AG38": {
+      "text": null
+    },
+    "AH38": {
+      "text": null
+    },
+    "AI38": {
+      "text": null
+    },
+    "AJ38": {
+      "text": null
+    },
+    "AK38": {
+      "text": null
+    },
+    "AL38": {
+      "text": null
+    },
+    "AM38": {
+      "text": null
+    },
+    "AN38": {
+      "text": null
+    },
+    "AO38": {
+      "text": null
+    },
+    "AP38": {
+      "text": null
+    },
+    "AQ38": {
+      "text": null
+    },
+    "AR38": {
+      "text": null
+    },
+    "AS38": {
+      "text": null
+    },
+    "AT38": {
+      "text": null
+    },
+    "AU38": {
+      "text": null
+    },
+    "AV38": {
+      "text": null
+    },
+    "AW38": {
+      "text": null
+    },
+    "AX38": {
+      "text": null
+    },
+    "AY38": {
+      "text": null
+    },
+    "AZ38": {
+      "text": null
+    },
+    "BA38": {
+      "text": null
+    },
+    "BB38": {
+      "text": null
+    },
+    "BC38": {
+      "text": null
+    },
+    "BD38": {
+      "text": null
+    },
+    "BE38": {
+      "text": null
+    },
+    "BF38": {
+      "text": null
+    },
+    "BG38": {
+      "text": null
+    },
+    "BH38": {
+      "text": null
+    },
+    "BI38": {
+      "text": null
+    },
+    "BJ38": {
+      "text": null
+    },
+    "BK38": {
+      "text": null
+    },
+    "BL38": {
+      "text": null
+    },
+    "BM38": {
+      "text": null
+    },
+    "BN38": {
+      "text": null
+    },
+    "BO38": {
+      "text": null
+    },
+    "BP38": {
+      "text": null
+    },
+    "BQ38": {
+      "text": null
+    },
+    "BR38": {
+      "text": null
+    },
+    "BS38": {
+      "text": null
+    },
+    "BT38": {
+      "text": null
+    },
+    "BU38": {
+      "text": null
+    },
+    "BV38": {
+      "text": null
+    },
+    "BW38": {
+      "text": null
+    },
+    "BX38": {
+      "text": null
+    },
+    "BY38": {
+      "text": null
+    },
+    "BZ38": {
+      "text": null
+    },
+    "CA38": {
+      "text": null
+    },
+    "CB38": {
+      "text": null
+    },
+    "CC38": {
+      "text": null
+    },
+    "CD38": {
+      "text": null
+    },
+    "CE38": {
+      "text": null
+    },
+    "CF38": {
+      "text": null
+    },
+    "CG38": {
+      "text": null
+    },
+    "CH38": {
+      "text": null
+    },
+    "CI38": {
+      "text": null
+    },
+    "CJ38": {
+      "text": null
+    },
+    "CK38": {
+      "text": null
+    },
+    "CL38": {
+      "text": null
+    },
+    "CM38": {
+      "text": null
+    },
+    "CN38": {
+      "text": null
+    },
+    "CO38": {
+      "text": null
+    },
+    "CP38": {
+      "text": null
+    },
+    "CQ38": {
+      "text": null
+    },
+    "CR38": {
+      "text": null
+    },
+    "CS38": {
+      "text": null
+    },
+    "CT38": {
+      "text": null
+    },
+    "CU38": {
+      "text": null
+    },
+    "CV38": {
+      "text": null
+    },
+    "CW38": {
+      "text": null
+    },
+    "CX38": {
+      "text": null
+    },
+    "CY38": {
+      "text": null
+    },
+    "CZ38": {
+      "text": null
+    },
+    "DA38": {
+      "text": null
+    },
+    "B40": {
+      "text": "regr_intercept"
+    },
+    "C40": {
+      "text": "Bivariate"
+    },
+    "E40": {
+      "text": "Calculates the intercept of the univariate linear regression line for non-null pairs in a group of two variables."
+    },
+    "A40": {
+      "text": "Linear Regression Intercept"
+    },
+    "D40": {
+      "text": "Regression"
+    },
+    "A35": {
+      "text": "Count Non Null"
+    },
+    "B35": {
+      "text": "regr_count"
+    },
+    "C35": {
+      "text": "Bivariate"
+    },
+    "D35": {
+      "text": "Regression"
+    },
+    "E35": {
+      "text": "Calculates the number of non-null pairs in a group of two variables."
+    },
+    "F35": {
+      "text": null
+    },
+    "G35": {
+      "text": null
+    },
+    "H35": {
+      "text": null
+    },
+    "I35": {
+      "text": null
+    },
+    "J35": {
+      "text": null
+    },
+    "K35": {
+      "text": null
+    },
+    "L35": {
+      "text": null
+    },
+    "M35": {
+      "text": null
+    },
+    "N35": {
+      "text": null
+    },
+    "O35": {
+      "text": null
+    },
+    "P35": {
+      "text": null
+    },
+    "Q35": {
+      "text": null
+    },
+    "R35": {
+      "text": null
+    },
+    "S35": {
+      "text": null
+    },
+    "T35": {
+      "text": null
+    },
+    "U35": {
+      "text": null
+    },
+    "V35": {
+      "text": null
+    },
+    "W35": {
+      "text": null
+    },
+    "X35": {
+      "text": null
+    },
+    "Y35": {
+      "text": null
+    },
+    "Z35": {
+      "text": null
+    },
+    "AA35": {
+      "text": null
+    },
+    "AB35": {
+      "text": null
+    },
+    "AC35": {
+      "text": null
+    },
+    "AD35": {
+      "text": null
+    },
+    "AE35": {
+      "text": null
+    },
+    "AF35": {
+      "text": null
+    },
+    "AG35": {
+      "text": null
+    },
+    "AH35": {
+      "text": null
+    },
+    "AI35": {
+      "text": null
+    },
+    "AJ35": {
+      "text": null
+    },
+    "AK35": {
+      "text": null
+    },
+    "AL35": {
+      "text": null
+    },
+    "AM35": {
+      "text": null
+    },
+    "AN35": {
+      "text": null
+    },
+    "AO35": {
+      "text": null
+    },
+    "AP35": {
+      "text": null
+    },
+    "AQ35": {
+      "text": null
+    },
+    "AR35": {
+      "text": null
+    },
+    "AS35": {
+      "text": null
+    },
+    "AT35": {
+      "text": null
+    },
+    "AU35": {
+      "text": null
+    },
+    "AV35": {
+      "text": null
+    },
+    "AW35": {
+      "text": null
+    },
+    "AX35": {
+      "text": null
+    },
+    "AY35": {
+      "text": null
+    },
+    "AZ35": {
+      "text": null
+    },
+    "BA35": {
+      "text": null
+    },
+    "BB35": {
+      "text": null
+    },
+    "BC35": {
+      "text": null
+    },
+    "BD35": {
+      "text": null
+    },
+    "BE35": {
+      "text": null
+    },
+    "BF35": {
+      "text": null
+    },
+    "BG35": {
+      "text": null
+    },
+    "BH35": {
+      "text": null
+    },
+    "BI35": {
+      "text": null
+    },
+    "BJ35": {
+      "text": null
+    },
+    "BK35": {
+      "text": null
+    },
+    "BL35": {
+      "text": null
+    },
+    "BM35": {
+      "text": null
+    },
+    "BN35": {
+      "text": null
+    },
+    "BO35": {
+      "text": null
+    },
+    "BP35": {
+      "text": null
+    },
+    "BQ35": {
+      "text": null
+    },
+    "BR35": {
+      "text": null
+    },
+    "BS35": {
+      "text": null
+    },
+    "BT35": {
+      "text": null
+    },
+    "BU35": {
+      "text": null
+    },
+    "BV35": {
+      "text": null
+    },
+    "BW35": {
+      "text": null
+    },
+    "BX35": {
+      "text": null
+    },
+    "BY35": {
+      "text": null
+    },
+    "BZ35": {
+      "text": null
+    },
+    "CA35": {
+      "text": null
+    },
+    "CB35": {
+      "text": null
+    },
+    "CC35": {
+      "text": null
+    },
+    "CD35": {
+      "text": null
+    },
+    "CE35": {
+      "text": null
+    },
+    "CF35": {
+      "text": null
+    },
+    "CG35": {
+      "text": null
+    },
+    "CH35": {
+      "text": null
+    },
+    "CI35": {
+      "text": null
+    },
+    "CJ35": {
+      "text": null
+    },
+    "CK35": {
+      "text": null
+    },
+    "CL35": {
+      "text": null
+    },
+    "CM35": {
+      "text": null
+    },
+    "CN35": {
+      "text": null
+    },
+    "CO35": {
+      "text": null
+    },
+    "CP35": {
+      "text": null
+    },
+    "CQ35": {
+      "text": null
+    },
+    "CR35": {
+      "text": null
+    },
+    "CS35": {
+      "text": null
+    },
+    "CT35": {
+      "text": null
+    },
+    "CU35": {
+      "text": null
+    },
+    "CV35": {
+      "text": null
+    },
+    "CW35": {
+      "text": null
+    },
+    "CX35": {
+      "text": null
+    },
+    "CY35": {
+      "text": null
+    },
+    "CZ35": {
+      "text": null
+    },
+    "DA35": {
+      "text": null
+    },
+    "B34": {
+      "text": "regr_r2"
+    },
+    "C34": {
+      "text": "Bivariate"
+    },
+    "D34": {
+      "text": "Regression"
+    },
+    "E34": {
+      "text": "Calculates the coefficient of determination for non-null pairs in a group of two variables."
+    },
+    "A34": {
+      "text": "Coefficient of Determination"
+    },
+    "A41": {
+      "text": "Linear Regression Slope"
+    },
+    "B41": {
+      "text": "regr_slope"
+    },
+    "C41": {
+      "text": "Bivariate"
+    },
+    "D41": {
+      "text": "Regression"
+    },
+    "E41": {
+      "text": "Calculates the slope of the univariate linear regression line for non-null pairs in a group of two variables."
+    }
+  },
+  "ranges": {
+    "EpkBerI9c2ZYXE2jaBWaBu": {
+      "coordinates": "A1:G41",
+      "name": "Aggregations Metadata"
+    }
+  },
+  "colSizes": {
+    "1": 250,
+    "5": 600
+  },
+  "stickyRows": 1,
+  "stickyCols": 1
+}

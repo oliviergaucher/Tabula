@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 8,
+  "name": "Dataset1",
+  "flow": {
+    "source": {
+      "datasets": [
+        {
+          "datasourceId": "workbook",
+          "filePath": [
+            "Data",
+            "Populations.csv"
+          ]
+        }
+      ],
+      "sampling": {
+        "active": false,
+        "mode": "first",
+        "count": 500
+      },
+      "type": "external"
+    },
+    "recipe": [],
+    "target": {}
+  },
+  "groupby": null,
+  "extra": {
+    "discoveredSchema": [
+      {
+        "id": "country",
+        "name": "Country",
+        "datatype": "name"
+      },
+      {
+        "id": "code",
+        "name": "Code",
+        "datatype": "reference"
+      },
+      {
+        "id": "_1950",
+        "name": "1950",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1955",
+        "name": "1955",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1960",
+        "name": "1960",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1965",
+        "name": "1965",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1970",
+        "name": "1970",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1975",
+        "name": "1975",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1980",
+        "name": "1980",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1985",
+        "name": "1985",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1990",
+        "name": "1990",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_1995",
+        "name": "1995",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2000",
+        "name": "2000",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2005",
+        "name": "2005",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2010",
+        "name": "2010",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2015",
+        "name": "2015",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2020",
+        "name": "2020",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2025",
+        "name": "2025",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2030",
+        "name": "2030",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2035",
+        "name": "2035",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2040",
+        "name": "2040",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2045",
+        "name": "2045",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "_2050",
+        "name": "2050",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      }
+    ],
+    "discoveredHeadersAvailability": true
+  },
+  "visual": {
+    "visualId": null,
+    "hidden": false
+  }
+}

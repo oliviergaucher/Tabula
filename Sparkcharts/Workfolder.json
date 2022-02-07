@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "id": "gEAW52Of3350suhm2NXrkB",
+  "shelf": [
+    {
+      "type": "notebook",
+      "id": "Q6v1094wss8wAl02fz59gA",
+      "name": "Frequency Chart"
+    },
+    {
+      "type": "notebook",
+      "id": "VU0IthRRRoF5dzEkuqUIcq",
+      "name": "Frequency of Frequency Chart"
+    },
+    {
+      "type": "notebook",
+      "id": "RIOrkeVXoPThMTZBt4Affc",
+      "name": "Histogram"
+    },
+    {
+      "type": "notebook",
+      "id": "eeTKHN71wKPpIBbjCnwqxX",
+      "name": "Histogram Binning"
+    },
+    {
+      "type": "notebook",
+      "id": "BxiTmUjVZNxBlrViWCCW9P",
+      "name": "Plotters"
+    },
+    {
+      "type": "notebook",
+      "id": "qN8p4ub2zxZw7s6r6s769H",
+      "name": "Helpers"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "id": "bHd6WZLJ5vUlUQKF99JYgv",
+  "shelf": [
+    {
+      "type": "stack",
+      "id": "xivqNjfp9UwDrfFeFpyLjA",
+      "name": "Countries"
+    },
+    {
+      "type": "stack",
+      "id": "KndKlOhkkw6QUzu1yNoxiM",
+      "name": "Currencies"
+    },
+    {
+      "type": "stack",
+      "id": "uEuHdGHfZZhHNzT0IxkCiJ",
+      "name": "Demographics"
+    },
+    {
+      "type": "stack",
+      "id": "kDzOvnyNheXvYIUWFd3a7m",
+      "name": "Microsoft"
+    },
+    {
+      "type": "stack",
+      "id": "WqoghwPOzfcrZSlF3MynTv",
+      "name": "Populations"
+    }
+  ]
+}

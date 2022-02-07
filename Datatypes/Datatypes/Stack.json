@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 8,
+  "visual": {
+    "type": null
+  },
+  "display": {
+    "noCellRenderers": false,
+    "noColumnCharts": false,
+    "noFilteringBars": false,
+    "noQualityBars": false,
+    "noRichHeaders": false,
+    "noSummariesBar": false
+  },
+  "layersIds": [
+    "s99I6ZjT4ecA1Ig4Zp8tXI"
+  ],
+  "layers": [
+    "Dataset1"
+  ]
+}

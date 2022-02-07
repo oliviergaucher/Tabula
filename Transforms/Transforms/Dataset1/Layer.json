@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 8,
+  "name": "Dataset1",
+  "flow": {
+    "source": {
+      "characteristics": {
+        "naming": "Name",
+        "primary": [
+          "Name"
+        ],
+        "frozen": "Name"
+      },
+      "configuration": {
+        "Description": {
+          "type": {
+            "datatype": "text"
+          }
+        },
+        "Short Description": {
+          "type": {
+            "datatype": "text"
+          }
+        },
+        "Sample": {
+          "type": {
+            "datatype": "text"
+          }
+        }
+      },
+      "reference": {
+        "sheetName": "Outline",
+        "rangeName": "Transforms Metadata"
+      },
+      "type": "range"
+    },
+    "recipe": [],
+    "target": {}
+  },
+  "groupby": null,
+  "extra": {
+    "discoveredHeadersAvailability": true
+  },
+  "visual": {
+    "visualId": null,
+    "bindings": {},
+    "hidden": false,
+    "tooltip": [],
+    "axes": {},
+    "marks": {},
+    "facet": {},
+    "segmentOrder": {},
+    "settings": {}
+  }
+}

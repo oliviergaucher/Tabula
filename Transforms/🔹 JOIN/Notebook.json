@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 8,
+  "blocks": [
+    {
+      "id": "syvTD5APp6dmB3BNBGC1Mu",
+      "lang": "javascript"
+    },
+    {
+      "id": "enhY6bDCoKhrtnO8Ue6C7P",
+      "lang": "markdown"
+    },
+    {
+      "id": "QAmPIFPyRG6ZmiVbwdUQID",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "QEj8zX6myZVxa6Wwj4DKJb",
+      "lang": "markdown"
+    },
+    {
+      "id": "YzA4h73h6xFmoXJWf3nGIr",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "pAwbksM8Odv4ALlgBYl3EI",
+      "lang": "markdown"
+    },
+    {
+      "id": "DB6iBw2gJRfuxbrkZqbrzu",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "dIQWZ2AQ0LgOwKXmucDDFX",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "JOLmVB8pkAh34CChDsNf4L",
+      "lang": "markdown"
+    },
+    {
+      "id": "LItixbMQ5cMY9J5Y1KgUwc",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "bDUNNVbSTxlwuJTALP2rrx",
+      "lang": "markdown"
+    }
+  ],
+  "display": {
+    "autoFormat": true,
+    "codeBelowResult": false,
+    "performanceBars": false,
+    "wideContent": false
+  }
+}

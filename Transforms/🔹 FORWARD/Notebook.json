@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 8,
+  "blocks": [
+    {
+      "id": "egIszGITXYP49ZRqMb2rqx",
+      "lang": "javascript"
+    },
+    {
+      "id": "SLFyMMuPrvvDt4If0XfnVP",
+      "lang": "markdown"
+    },
+    {
+      "id": "LJBzA2XQUz7y6ghWBm8UVU",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "h48Im8Go4vGFLROszKo8V5",
+      "lang": "markdown"
+    },
+    {
+      "id": "qQeMtcrG0prU0u81BbSfyh",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "mCwpP1ZduweQ84Gw93bQ7f",
+      "lang": "markdown"
+    },
+    {
+      "id": "eNgrstZFZ41vLUbmmBg3UH",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "O3VpVXe0DNivGauLZpuNa3",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "ReHkLDex7MsC4tA13zmu7E",
+      "lang": "markdown"
+    },
+    {
+      "id": "xIiAYSLjtdQJJDlZzEyRxh",
+      "lang": "javascript",
+      "pinned": true
+    }
+  ],
+  "display": {
+    "autoFormat": true,
+    "codeBelowResult": false,
+    "performanceBars": false,
+    "wideContent": false
+  }
+}

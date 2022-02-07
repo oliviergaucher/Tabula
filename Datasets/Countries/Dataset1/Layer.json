@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 8,
+  "name": "Dataset1",
+  "flow": {
+    "source": {
+      "characteristics": {
+        "primary": [
+          "Name"
+        ]
+      },
+      "configuration": {
+        "Internet TLD": {
+          "type": {
+            "datatype": "identifier"
+          }
+        },
+        "Currency": {
+          "type": {
+            "datatype": "identifier"
+          }
+        },
+        "Water": {
+          "type": {
+            "datatype": "percent"
+          }
+        },
+        "Motto": {
+          "type": {
+            "datatype": "text"
+          }
+        },
+        "Demonym": {
+          "type": {
+            "datatype": "string"
+          }
+        }
+      },
+      "datasets": [
+        {
+          "datasourceId": "workbook",
+          "filePath": [
+            "Data",
+            "Countries.csv"
+          ]
+        }
+      ],
+      "sampling": {
+        "active": false,
+        "mode": "first",
+        "count": 500
+      },
+      "type": "external"
+    },
+    "recipe": [],
+    "target": {}
+  },
+  "groupby": null,
+  "extra": {
+    "discoveredSchema": [
+      {
+        "id": "name",
+        "name": "Name",
+        "datatype": "name"
+      },
+      {
+        "id": "flag",
+        "name": "Flag",
+        "datatype": "image"
+      },
+      {
+        "id": "alpha_2_code",
+        "name": "Alpha-2 Code",
+        "datatype": "identifier"
+      },
+      {
+        "id": "alpha_3_code",
+        "name": "Alpha-3 Code",
+        "datatype": "identifier"
+      },
+      {
+        "id": "numeric_code",
+        "name": "Numeric Code",
+        "datatype": "reference"
+      },
+      {
+        "id": "imf_code",
+        "name": "IMF Code",
+        "datatype": "reference"
+      },
+      {
+        "id": "continent",
+        "name": "Continent",
+        "datatype": "category"
+      },
+      {
+        "id": "main_religion",
+        "name": "Main Religion",
+        "datatype": "category"
+      },
+      {
+        "id": "demonym",
+        "name": "Demonym",
+        "datatype": "name"
+      },
+      {
+        "id": "motto",
+        "name": "Motto",
+        "datatype": "name"
+      },
+      {
+        "id": "eu",
+        "name": "EU",
+        "datatype": "boolean"
+      },
+      {
+        "id": "imf",
+        "name": "IMF",
+        "datatype": "boolean"
+      },
+      {
+        "id": "oecd",
+        "name": "OECD",
+        "datatype": "boolean"
+      },
+      {
+        "id": "un",
+        "name": "UN",
+        "datatype": "boolean"
+      },
+      {
+        "id": "independent",
+        "name": "Independent",
+        "datatype": "boolean"
+      },
+      {
+        "id": "associated_nation",
+        "name": "Associated Nation",
+        "datatype": "category"
+      },
+      {
+        "id": "outline",
+        "name": "Outline",
+        "datatype": "geopolygon"
+      },
+      {
+        "id": "area",
+        "name": "Area",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "water",
+        "name": "Water",
+        "datatype": "percent",
+        "options": {
+          "displayFormat": "0.0%"
+        }
+      },
+      {
+        "id": "capital",
+        "name": "Capital",
+        "datatype": "name"
+      },
+      {
+        "id": "capital_latitude",
+        "name": "Capital Latitude",
+        "datatype": "longitude",
+        "options": {
+          "displayFormat": "0,0.000"
+        }
+      },
+      {
+        "id": "capital_longitude",
+        "name": "Capital Longitude",
+        "datatype": "longitude",
+        "options": {
+          "displayFormat": "0,0.000"
+        }
+      },
+      {
+        "id": "capital_elevation",
+        "name": "Capital Elevation",
+        "datatype": "number",
+        "options": {
+          "displayFormat": "0,0.000"
+        }
+      },
+      {
+        "id": "currency",
+        "name": "Currency",
+        "datatype": "identifier"
+      },
+      {
+        "id": "time_zones",
+        "name": "Time Zones",
+        "datatype": "string"
+      },
+      {
+        "id": "internet_tld",
+        "name": "Internet TLD",
+        "datatype": "identifier"
+      },
+      {
+        "id": "wikipedia",
+        "name": "Wikipedia",
+        "datatype": "url"
+      }
+    ],
+    "discoveredHeadersAvailability": true
+  },
+  "visual": {
+    "visualId": null,
+    "bindings": {},
+    "hidden": false,
+    "tooltip": [],
+    "axes": {},
+    "marks": {},
+    "facet": {},
+    "segmentOrder": {},
+    "settings": {}
+  }
+}

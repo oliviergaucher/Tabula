@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "blocks": [
+    {
+      "id": "TFty0tR8I4BQ872SD6rWzO",
+      "lang": "markdown"
+    },
+    {
+      "id": "d2tKY46SUUW5rE5Z3ZcerC",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "hZXPmTi4oWAamDk2EnnGrW",
+      "lang": "javascript",
+      "pinned": true
+    },
+    {
+      "id": "pwHAdZ3KHLn4YqS6AXhA5a",
+      "lang": "javascript",
+      "pinned": true
+    }
+  ],
+  "display": {
+    "autoFormat": true,
+    "codeBelowResult": false,
+    "performanceBars": false,
+    "wideContent": false
+  }
+}

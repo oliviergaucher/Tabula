@@ -1,0 +1,6305 @@
+{
+  "schemaVersion": 8,
+  "cells": {
+    "A1": {
+      "text": "Name",
+      "format": {
+        "alignVertical": "bottom",
+        "fontBold": true
+      }
+    },
+    "A3": {
+      "text": "COLLAPSE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A4": {
+      "text": "COMPUTE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A6": {
+      "text": "DEDUPLICATE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A7": {
+      "text": "DUPLICATE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A8": {
+      "text": "EXPAND",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A13": {
+      "text": "JOIN",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A14": {
+      "text": "MERGE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A19": {
+      "text": "REPLACE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A20": {
+      "text": "SPLIT",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A22": {
+      "text": "UNION",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "A24": {
+      "text": "UPDATE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C1": {
+      "text": "Type",
+      "format": {
+        "alignVertical": "bottom",
+        "fontBold": true
+      }
+    },
+    "C3": {
+      "text": "Geometry",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C4": {
+      "text": "Geometry",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C6": {
+      "text": "Data",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C7": {
+      "text": "Data",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C8": {
+      "text": "Geometry",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C13": {
+      "text": "Geometry",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C14": {
+      "text": "Geometry",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C19": {
+      "text": "Data",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C20": {
+      "text": "Geometry",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C22": {
+      "text": "Geometry",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "C24": {
+      "text": "Data",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D1": {
+      "text": "Inverse",
+      "format": {
+        "alignVertical": "bottom",
+        "fontBold": true
+      }
+    },
+    "D3": {
+      "text": "EXPAND",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D4": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D6": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D7": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D8": {
+      "text": "COLLAPSE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D13": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D14": {
+      "text": "SPLIT",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D19": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D20": {
+      "text": "MERGE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D22": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "D24": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E1": {
+      "text": "Opposite",
+      "format": {
+        "alignVertical": "bottom",
+        "fontBold": true
+      }
+    },
+    "E3": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E4": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E6": {
+      "text": "DUPLICATE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E7": {
+      "text": "DEDUPLICATE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E8": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E13": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E14": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E19": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E20": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E22": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "E24": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F1": {
+      "text": "Orthogonal",
+      "format": {
+        "alignVertical": "bottom",
+        "fontBold": true
+      }
+    },
+    "F3": {
+      "text": "NEST",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F4": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F6": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F7": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F8": {
+      "text": "UNNEST",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F13": {
+      "text": "UNION",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F14": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F19": {
+      "text": "UPDATE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F20": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F22": {
+      "text": "JOIN",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "F24": {
+      "text": "REPLACE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G1": {
+      "text": "Related",
+      "format": {
+        "alignVertical": "bottom",
+        "fontBold": true
+      }
+    },
+    "G3": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G4": {
+      "text": "REPLACE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G6": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G7": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G8": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G13": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G14": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G19": {
+      "text": "COMPUTE",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G20": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G22": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "G24": {
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z1": {
+      "text": "Description",
+      "format": {
+        "alignVertical": "bottom",
+        "fontBold": true
+      }
+    },
+    "Z3": {
+      "text": "Collapse near-duplicate {rows} into single rows by collapsing the values of a {column}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z4": {
+      "text": "Add a new {column} whose values are computed with an {expression}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z6": {
+      "text": "Remove duplicate {rows}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z7": {
+      "text": "Duplicate certain {rows}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z8": {
+      "text": "Expand every {row} into multiple rows by expanding the values of a {column}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z13": {
+      "text": "Join certain {columns} of a {foreign table} to a {relationship} column of the {master table}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z14": {
+      "text": "Merge two or more {columns} into a single one.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z19": {
+      "text": "Replace the values of a {column} with values computed from an {expression}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z20": {
+      "text": "Split a {column} into two or more columns.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z22": {
+      "text": "Add all the {rows} of another {table}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "Z24": {
+      "text": "Update the {cell} values of one or more {columns} across multiple {rows}.",
+      "format": {
+        "alignVertical": "bottom"
+      }
+    },
+    "AA1": {
+      "text": "Short Description",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "AA4": {
+      "text": "Add new {column} with values\ncomputed from {expression}."
+    },
+    "AA13": {
+      "text": "Join some {columns} of a {foreign table}\nto the columns of the {master table}."
+    },
+    "AA3": {
+      "text": "Collapse near-duplicate {rows}\ninto single rows with {array} {column}."
+    },
+    "AA6": {
+      "text": "Remove duplicate {rows}."
+    },
+    "AA7": {
+      "text": "Duplicate certain {rows}."
+    },
+    "AA8": {
+      "text": "Expand every {row} into multiple rows\nby expanding {column} values."
+    },
+    "AA14": {
+      "text": "Merge two or more {columns}\ninto a single one."
+    },
+    "AA19": {
+      "text": "Replace {column} values with values\ncomputed from {expression}."
+    },
+    "AA20": {
+      "text": "Split {column} into\ntwo or more columns."
+    },
+    "AA22": {
+      "text": "Add all the {rows} of another {table}."
+    },
+    "AA24": {
+      "text": "Update values of multiple {columns}\nacross multiple {rows}."
+    },
+    "AB1": {
+      "text": "Sample",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "AB8": {
+      "text": "EXPAND `Banknotes` into Integer as `Banknote`"
+    },
+    "AB3": {
+      "text": "COLLAPSE `Banknote` as `Banknotes`"
+    },
+    "AB4": {
+      "text": "COMPUTE `Growth` with (`2025`-`2020`)/`2025` into Percent"
+    },
+    "AB7": {
+      "text": "DUPLICATE when `Continent` == \"Europe\" 1 time"
+    },
+    "AB6": {
+      "text": "DEDUPLICATE"
+    },
+    "AB13": {
+      "text": "JOIN `Datasets!Currencies` on `Currency` matching `ISO Code` with `Name` as `Currency Name`"
+    },
+    "AB14": {
+      "text": "MERGE `Name`, `Continent` as `Overview` separated by \"—\""
+    },
+    "AB19": {
+      "text": "REPLACE `Continent` with UPPER(`Continent`) into Category"
+    },
+    "AB20": {
+      "text": "SPLIT `Overview` on \"—\" across `Country`, `Continent`"
+    },
+    "AB22": {
+      "text": "UNION `PRESERVE/After`"
+    },
+    "AB24": {
+      "text": "UPDATE `Continent` with \"Europa\" where `Continent` == \"Europe\""
+    },
+    "B1": {
+      "text": "Icon",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "B19": {
+      "text": "mdi-repeat"
+    },
+    "B4": {
+      "text": "mdi-table-column-plus-after"
+    },
+    "B7": {
+      "text": "mdi-database-plus"
+    },
+    "B6": {
+      "text": "mdi-database-minus"
+    },
+    "B14": {
+      "text": "mdi-call-merge mdi-rotate-180"
+    },
+    "B3": {
+      "text": "mdi-chevron-double-up"
+    },
+    "B8": {
+      "text": "mdi-chevron-double-down"
+    },
+    "B20": {
+      "text": "mdi-call-split mdi-rotate-180"
+    },
+    "B13": {
+      "text": "mdi-download-multiple mdi-rotate-270"
+    },
+    "B22": {
+      "text": "mdi-download-multiple"
+    },
+    "B24": {
+      "text": "mdi-refresh"
+    },
+    "L1": {
+      "text": "Changes Column Count",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "M1": {
+      "text": "Changes Row Count",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "L3": {
+      "text": "FALSE"
+    },
+    "M3": {
+      "text": "TRUE"
+    },
+    "L4": {
+      "text": "TRUE"
+    },
+    "M4": {
+      "text": "FALSE"
+    },
+    "L6": {
+      "text": "FALSE"
+    },
+    "M6": {
+      "text": "TRUE"
+    },
+    "L7": {
+      "text": "FALSE"
+    },
+    "M7": {
+      "text": "TRUE"
+    },
+    "L8": {
+      "text": "FALSE"
+    },
+    "M8": {
+      "text": "TRUE"
+    },
+    "L13": {
+      "text": "TRUE"
+    },
+    "M13": {
+      "text": "FALSE"
+    },
+    "L14": {
+      "text": "TRUE"
+    },
+    "M14": {
+      "text": "FALSE"
+    },
+    "L19": {
+      "text": "FALSE"
+    },
+    "M19": {
+      "text": "FALSE"
+    },
+    "L20": {
+      "text": "TRUE"
+    },
+    "M20": {
+      "text": "FALSE"
+    },
+    "L22": {
+      "text": "TRUE"
+    },
+    "M22": {
+      "text": "TRUE"
+    },
+    "L24": {
+      "text": "FALSE"
+    },
+    "M24": {
+      "text": "FALSE"
+    },
+    "K1": {
+      "text": "Common",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "K3": {
+      "text": "FALSE"
+    },
+    "K4": {
+      "text": "TRUE"
+    },
+    "K6": {
+      "text": "FALSE"
+    },
+    "K7": {
+      "text": "FALSE"
+    },
+    "K8": {
+      "text": "FALSE"
+    },
+    "K13": {
+      "text": "TRUE"
+    },
+    "K14": {
+      "text": "FALSE"
+    },
+    "K19": {
+      "text": "FALSE"
+    },
+    "K20": {
+      "text": "FALSE"
+    },
+    "K22": {
+      "text": "FALSE"
+    },
+    "K24": {
+      "text": "FALSE"
+    },
+    "U1": {
+      "text": "Reduced",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "U3": {
+      "text": "FALSE"
+    },
+    "U4": {
+      "text": "FALSE"
+    },
+    "U6": {
+      "text": "TRUE"
+    },
+    "X1": {
+      "text": "Preparation",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "U7": {
+      "text": "FALSE"
+    },
+    "U8": {
+      "text": "FALSE"
+    },
+    "U13": {
+      "text": "FALSE"
+    },
+    "U14": {
+      "text": "FALSE"
+    },
+    "U19": {
+      "text": "FALSE"
+    },
+    "U20": {
+      "text": "FALSE"
+    },
+    "U22": {
+      "text": "FALSE"
+    },
+    "U24": {
+      "text": "FALSE"
+    },
+    "A16": {
+      "text": "PIVOT"
+    },
+    "B16": {
+      "text": "mdi-rotate-left-variant mdi-rotate-90"
+    },
+    "C16": {
+      "text": "Geometry"
+    },
+    "D16": {
+      "text": "UNPIVOT"
+    },
+    "K16": {
+      "text": "FALSE"
+    },
+    "L16": {
+      "text": "TRUE"
+    },
+    "M16": {
+      "text": "TRUE"
+    },
+    "U16": {
+      "text": "FALSE"
+    },
+    "X16": {
+      "text": "Distinct values"
+    },
+    "Z16": {
+      "text": "Pivot a set of {columns} into a pair of key and value columns."
+    },
+    "AA16": {
+      "text": "Pivot {columns} set\ninto pair of key-value columns."
+    },
+    "AB16": {
+      "text": "PIVOT from `1950` into `Year` and `Population`"
+    },
+    "AC16": {
+      "text": null
+    },
+    "AD16": {
+      "text": null
+    },
+    "AE16": {
+      "text": null
+    },
+    "AF16": {
+      "text": null
+    },
+    "AG16": {
+      "text": null
+    },
+    "AH16": {
+      "text": null
+    },
+    "AI16": {
+      "text": null
+    },
+    "AJ16": {
+      "text": null
+    },
+    "AK16": {
+      "text": null
+    },
+    "AL16": {
+      "text": null
+    },
+    "AM16": {
+      "text": null
+    },
+    "AN16": {
+      "text": null
+    },
+    "AO16": {
+      "text": null
+    },
+    "AP16": {
+      "text": null
+    },
+    "AQ16": {
+      "text": null
+    },
+    "AR16": {
+      "text": null
+    },
+    "AS16": {
+      "text": null
+    },
+    "AT16": {
+      "text": null
+    },
+    "AU16": {
+      "text": null
+    },
+    "AV16": {
+      "text": null
+    },
+    "AW16": {
+      "text": null
+    },
+    "AX16": {
+      "text": null
+    },
+    "AY16": {
+      "text": null
+    },
+    "AZ16": {
+      "text": null
+    },
+    "BA16": {
+      "text": null
+    },
+    "BB16": {
+      "text": null
+    },
+    "BC16": {
+      "text": null
+    },
+    "BD16": {
+      "text": null
+    },
+    "BE16": {
+      "text": null
+    },
+    "BF16": {
+      "text": null
+    },
+    "BG16": {
+      "text": null
+    },
+    "BH16": {
+      "text": null
+    },
+    "BI16": {
+      "text": null
+    },
+    "BJ16": {
+      "text": null
+    },
+    "BK16": {
+      "text": null
+    },
+    "BL16": {
+      "text": null
+    },
+    "BM16": {
+      "text": null
+    },
+    "BN16": {
+      "text": null
+    },
+    "BO16": {
+      "text": null
+    },
+    "BP16": {
+      "text": null
+    },
+    "BQ16": {
+      "text": null
+    },
+    "BR16": {
+      "text": null
+    },
+    "BS16": {
+      "text": null
+    },
+    "BT16": {
+      "text": null
+    },
+    "BU16": {
+      "text": null
+    },
+    "BV16": {
+      "text": null
+    },
+    "BW16": {
+      "text": null
+    },
+    "BX16": {
+      "text": null
+    },
+    "BY16": {
+      "text": null
+    },
+    "BZ16": {
+      "text": null
+    },
+    "CA16": {
+      "text": null
+    },
+    "CB16": {
+      "text": null
+    },
+    "CC16": {
+      "text": null
+    },
+    "CD16": {
+      "text": null
+    },
+    "CE16": {
+      "text": null
+    },
+    "CF16": {
+      "text": null
+    },
+    "CG16": {
+      "text": null
+    },
+    "CH16": {
+      "text": null
+    },
+    "CI16": {
+      "text": null
+    },
+    "CJ16": {
+      "text": null
+    },
+    "CK16": {
+      "text": null
+    },
+    "CL16": {
+      "text": null
+    },
+    "CM16": {
+      "text": null
+    },
+    "CN16": {
+      "text": null
+    },
+    "CO16": {
+      "text": null
+    },
+    "CP16": {
+      "text": null
+    },
+    "CQ16": {
+      "text": null
+    },
+    "CR16": {
+      "text": null
+    },
+    "CS16": {
+      "text": null
+    },
+    "CT16": {
+      "text": null
+    },
+    "CU16": {
+      "text": null
+    },
+    "CV16": {
+      "text": null
+    },
+    "CW16": {
+      "text": null
+    },
+    "CX16": {
+      "text": null
+    },
+    "CY16": {
+      "text": null
+    },
+    "CZ16": {
+      "text": null
+    },
+    "DA16": {
+      "text": null
+    },
+    "DB16": {
+      "text": null
+    },
+    "DC16": {
+      "text": null
+    },
+    "DD16": {
+      "text": null
+    },
+    "DE16": {
+      "text": null
+    },
+    "DF16": {
+      "text": null
+    },
+    "DG16": {
+      "text": null
+    },
+    "DH16": {
+      "text": null
+    },
+    "DI16": {
+      "text": null
+    },
+    "DJ16": {
+      "text": null
+    },
+    "DK16": {
+      "text": null
+    },
+    "DL16": {
+      "text": null
+    },
+    "DM16": {
+      "text": null
+    },
+    "DN16": {
+      "text": null
+    },
+    "DO16": {
+      "text": null
+    },
+    "DP16": {
+      "text": null
+    },
+    "DQ16": {
+      "text": null
+    },
+    "DR16": {
+      "text": null
+    },
+    "A23": {
+      "text": "UNPIVOT"
+    },
+    "B23": {
+      "text": "mdi-rotate-right-variant mdi-rotate-180"
+    },
+    "C23": {
+      "text": "Geometry"
+    },
+    "D23": {
+      "text": "PIVOT"
+    },
+    "K23": {
+      "text": "FALSE"
+    },
+    "L23": {
+      "text": "TRUE"
+    },
+    "M23": {
+      "text": "TRUE"
+    },
+    "U23": {
+      "text": "FALSE"
+    },
+    "Z23": {
+      "text": "Unpivot a pair of key and value {columns} into a set of columns."
+    },
+    "AA23": {
+      "text": "Unpivot pair of key-value {columns}\ninto columns set."
+    },
+    "AB23": {
+      "text": "UNPIVOT `Year` and `Population`"
+    },
+    "AC23": {
+      "text": null
+    },
+    "AD23": {
+      "text": null
+    },
+    "AE23": {
+      "text": null
+    },
+    "AF23": {
+      "text": null
+    },
+    "AG23": {
+      "text": null
+    },
+    "AH23": {
+      "text": null
+    },
+    "AI23": {
+      "text": null
+    },
+    "AJ23": {
+      "text": null
+    },
+    "AK23": {
+      "text": null
+    },
+    "AL23": {
+      "text": null
+    },
+    "AM23": {
+      "text": null
+    },
+    "AN23": {
+      "text": null
+    },
+    "AO23": {
+      "text": null
+    },
+    "AP23": {
+      "text": null
+    },
+    "AQ23": {
+      "text": null
+    },
+    "AR23": {
+      "text": null
+    },
+    "AS23": {
+      "text": null
+    },
+    "AT23": {
+      "text": null
+    },
+    "AU23": {
+      "text": null
+    },
+    "AV23": {
+      "text": null
+    },
+    "AW23": {
+      "text": null
+    },
+    "AX23": {
+      "text": null
+    },
+    "AY23": {
+      "text": null
+    },
+    "AZ23": {
+      "text": null
+    },
+    "BA23": {
+      "text": null
+    },
+    "BB23": {
+      "text": null
+    },
+    "BC23": {
+      "text": null
+    },
+    "BD23": {
+      "text": null
+    },
+    "BE23": {
+      "text": null
+    },
+    "BF23": {
+      "text": null
+    },
+    "BG23": {
+      "text": null
+    },
+    "BH23": {
+      "text": null
+    },
+    "BI23": {
+      "text": null
+    },
+    "BJ23": {
+      "text": null
+    },
+    "BK23": {
+      "text": null
+    },
+    "BL23": {
+      "text": null
+    },
+    "BM23": {
+      "text": null
+    },
+    "BN23": {
+      "text": null
+    },
+    "BO23": {
+      "text": null
+    },
+    "BP23": {
+      "text": null
+    },
+    "BQ23": {
+      "text": null
+    },
+    "BR23": {
+      "text": null
+    },
+    "BS23": {
+      "text": null
+    },
+    "BT23": {
+      "text": null
+    },
+    "BU23": {
+      "text": null
+    },
+    "BV23": {
+      "text": null
+    },
+    "BW23": {
+      "text": null
+    },
+    "BX23": {
+      "text": null
+    },
+    "BY23": {
+      "text": null
+    },
+    "BZ23": {
+      "text": null
+    },
+    "CA23": {
+      "text": null
+    },
+    "CB23": {
+      "text": null
+    },
+    "CC23": {
+      "text": null
+    },
+    "CD23": {
+      "text": null
+    },
+    "CE23": {
+      "text": null
+    },
+    "CF23": {
+      "text": null
+    },
+    "CG23": {
+      "text": null
+    },
+    "CH23": {
+      "text": null
+    },
+    "CI23": {
+      "text": null
+    },
+    "CJ23": {
+      "text": null
+    },
+    "CK23": {
+      "text": null
+    },
+    "CL23": {
+      "text": null
+    },
+    "CM23": {
+      "text": null
+    },
+    "CN23": {
+      "text": null
+    },
+    "CO23": {
+      "text": null
+    },
+    "CP23": {
+      "text": null
+    },
+    "CQ23": {
+      "text": null
+    },
+    "CR23": {
+      "text": null
+    },
+    "CS23": {
+      "text": null
+    },
+    "CT23": {
+      "text": null
+    },
+    "CU23": {
+      "text": null
+    },
+    "CV23": {
+      "text": null
+    },
+    "CW23": {
+      "text": null
+    },
+    "CX23": {
+      "text": null
+    },
+    "CY23": {
+      "text": null
+    },
+    "CZ23": {
+      "text": null
+    },
+    "DA23": {
+      "text": null
+    },
+    "DB23": {
+      "text": null
+    },
+    "DC23": {
+      "text": null
+    },
+    "DD23": {
+      "text": null
+    },
+    "DE23": {
+      "text": null
+    },
+    "DF23": {
+      "text": null
+    },
+    "DG23": {
+      "text": null
+    },
+    "DH23": {
+      "text": null
+    },
+    "DI23": {
+      "text": null
+    },
+    "DJ23": {
+      "text": null
+    },
+    "DK23": {
+      "text": null
+    },
+    "DL23": {
+      "text": null
+    },
+    "DM23": {
+      "text": null
+    },
+    "DN23": {
+      "text": null
+    },
+    "DO23": {
+      "text": null
+    },
+    "DP23": {
+      "text": null
+    },
+    "DQ23": {
+      "text": null
+    },
+    "DR23": {
+      "text": null
+    },
+    "A12": {
+      "text": "INSERT"
+    },
+    "B12": {
+      "text": "mdi-table-row-plus-after"
+    },
+    "C12": {
+      "text": "Data"
+    },
+    "D12": {
+      "text": "DELETE"
+    },
+    "K12": {
+      "text": "FALSE"
+    },
+    "L12": {
+      "text": "FALSE"
+    },
+    "M12": {
+      "text": "TRUE"
+    },
+    "U12": {
+      "text": "FALSE"
+    },
+    "Z12": {
+      "text": "Insert {rows}."
+    },
+    "AA12": {
+      "text": "Insert {rows}."
+    },
+    "A5": {
+      "text": "CONFIGURE"
+    },
+    "B5": {
+      "text": "mdi-tune"
+    },
+    "C5": {
+      "text": "Meta"
+    },
+    "K5": {
+      "text": "FALSE"
+    },
+    "L5": {
+      "text": "FALSE"
+    },
+    "M5": {
+      "text": "FALSE"
+    },
+    "U5": {
+      "text": "FALSE"
+    },
+    "Z5": {
+      "text": "Configure a {column}."
+    },
+    "AA5": {
+      "text": "Configure a {column}."
+    },
+    "P1": {
+      "text": "Repeatable",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "Q1": {
+      "text": "Selectable",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "P4": {
+      "text": "TRUE"
+    },
+    "Q4": {
+      "text": "FALSE"
+    },
+    "P5": {
+      "text": "FALSE"
+    },
+    "Q5": {
+      "text": "FALSE"
+    },
+    "P3": {
+      "text": "FALSE"
+    },
+    "Q3": {
+      "text": "FALSE"
+    },
+    "P6": {
+      "text": "FALSE"
+    },
+    "Q6": {
+      "text": "TRUE"
+    },
+    "P7": {
+      "text": "FALSE"
+    },
+    "Q7": {
+      "text": "TRUE"
+    },
+    "P8": {
+      "text": "FALSE"
+    },
+    "Q8": {
+      "text": "FALSE"
+    },
+    "N1": {
+      "text": "Multicolumn",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "N3": {
+      "text": "TRUE"
+    },
+    "N4": {
+      "text": "FALSE"
+    },
+    "N5": {
+      "text": "TRUE"
+    },
+    "N6": {
+      "text": "FALSE"
+    },
+    "N7": {
+      "text": "FALSE"
+    },
+    "N8": {
+      "text": "TRUE"
+    },
+    "N12": {
+      "text": "FALSE"
+    },
+    "P12": {
+      "text": "FALSE"
+    },
+    "Q12": {
+      "text": "FALSE"
+    },
+    "N13": {
+      "text": "TRUE"
+    },
+    "P13": {
+      "text": "FALSE"
+    },
+    "Q13": {
+      "text": "FALSE"
+    },
+    "N14": {
+      "text": "TRUE"
+    },
+    "P14": {
+      "text": "FALSE"
+    },
+    "Q14": {
+      "text": "FALSE"
+    },
+    "N16": {
+      "text": "TRUE"
+    },
+    "P16": {
+      "text": "FALSE"
+    },
+    "Q16": {
+      "text": "FALSE"
+    },
+    "N19": {
+      "text": "TRUE"
+    },
+    "P19": {
+      "text": "FALSE"
+    },
+    "Q19": {
+      "text": "FALSE"
+    },
+    "N20": {
+      "text": "FALSE"
+    },
+    "P20": {
+      "text": "FALSE"
+    },
+    "Q20": {
+      "text": "FALSE"
+    },
+    "N22": {
+      "text": "FALSE"
+    },
+    "P22": {
+      "text": "FALSE"
+    },
+    "Q22": {
+      "text": "TRUE"
+    },
+    "N23": {
+      "text": "TRUE"
+    },
+    "P23": {
+      "text": "FALSE"
+    },
+    "Q23": {
+      "text": "FALSE"
+    },
+    "Q24": {
+      "text": "TRUE"
+    },
+    "N24": {
+      "text": "FALSE"
+    },
+    "P24": {
+      "text": "FALSE"
+    },
+    "O1": {
+      "text": "Dropable",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "O4": {
+      "text": "TRUE"
+    },
+    "A11": {
+      "text": "GROUPBY"
+    },
+    "B11": {
+      "text": "mdi-set-merge"
+    },
+    "C11": {
+      "text": "Geometry"
+    },
+    "K11": {
+      "text": "TRUE"
+    },
+    "L11": {
+      "text": "TRUE"
+    },
+    "M11": {
+      "text": "TRUE"
+    },
+    "N11": {
+      "text": "TRUE"
+    },
+    "O11": {
+      "text": "FALSE"
+    },
+    "P11": {
+      "text": "FALSE"
+    },
+    "Q11": {
+      "text": "FALSE"
+    },
+    "U11": {
+      "text": "TRUE"
+    },
+    "Z11": {
+      "text": "Aggregate one or more {measures} across one or more {dimensions}."
+    },
+    "AA11": {
+      "text": "Aggregate multiple {measures}\nacross multiple {dimensions}."
+    },
+    "AB11": {
+      "text": "GROUPBY SUM of `Area` by `Continent`"
+    },
+    "AC11": {
+      "text": null
+    },
+    "AD11": {
+      "text": null
+    },
+    "AE11": {
+      "text": null
+    },
+    "AF11": {
+      "text": null
+    },
+    "AG11": {
+      "text": null
+    },
+    "AH11": {
+      "text": null
+    },
+    "AI11": {
+      "text": null
+    },
+    "AJ11": {
+      "text": null
+    },
+    "AK11": {
+      "text": null
+    },
+    "AL11": {
+      "text": null
+    },
+    "AM11": {
+      "text": null
+    },
+    "AN11": {
+      "text": null
+    },
+    "AO11": {
+      "text": null
+    },
+    "AP11": {
+      "text": null
+    },
+    "AQ11": {
+      "text": null
+    },
+    "AR11": {
+      "text": null
+    },
+    "AS11": {
+      "text": null
+    },
+    "AT11": {
+      "text": null
+    },
+    "AU11": {
+      "text": null
+    },
+    "AV11": {
+      "text": null
+    },
+    "AW11": {
+      "text": null
+    },
+    "AX11": {
+      "text": null
+    },
+    "AY11": {
+      "text": null
+    },
+    "AZ11": {
+      "text": null
+    },
+    "BA11": {
+      "text": null
+    },
+    "BB11": {
+      "text": null
+    },
+    "BC11": {
+      "text": null
+    },
+    "BD11": {
+      "text": null
+    },
+    "BE11": {
+      "text": null
+    },
+    "BF11": {
+      "text": null
+    },
+    "BG11": {
+      "text": null
+    },
+    "BH11": {
+      "text": null
+    },
+    "BI11": {
+      "text": null
+    },
+    "BJ11": {
+      "text": null
+    },
+    "BK11": {
+      "text": null
+    },
+    "BL11": {
+      "text": null
+    },
+    "BM11": {
+      "text": null
+    },
+    "BN11": {
+      "text": null
+    },
+    "BO11": {
+      "text": null
+    },
+    "BP11": {
+      "text": null
+    },
+    "BQ11": {
+      "text": null
+    },
+    "BR11": {
+      "text": null
+    },
+    "BS11": {
+      "text": null
+    },
+    "BT11": {
+      "text": null
+    },
+    "BU11": {
+      "text": null
+    },
+    "BV11": {
+      "text": null
+    },
+    "BW11": {
+      "text": null
+    },
+    "BX11": {
+      "text": null
+    },
+    "BY11": {
+      "text": null
+    },
+    "BZ11": {
+      "text": null
+    },
+    "CA11": {
+      "text": null
+    },
+    "CB11": {
+      "text": null
+    },
+    "CC11": {
+      "text": null
+    },
+    "CD11": {
+      "text": null
+    },
+    "CE11": {
+      "text": null
+    },
+    "CF11": {
+      "text": null
+    },
+    "CG11": {
+      "text": null
+    },
+    "CH11": {
+      "text": null
+    },
+    "CI11": {
+      "text": null
+    },
+    "CJ11": {
+      "text": null
+    },
+    "CK11": {
+      "text": null
+    },
+    "CL11": {
+      "text": null
+    },
+    "CM11": {
+      "text": null
+    },
+    "CN11": {
+      "text": null
+    },
+    "CO11": {
+      "text": null
+    },
+    "CP11": {
+      "text": null
+    },
+    "CQ11": {
+      "text": null
+    },
+    "CR11": {
+      "text": null
+    },
+    "CS11": {
+      "text": null
+    },
+    "CT11": {
+      "text": null
+    },
+    "CU11": {
+      "text": null
+    },
+    "CV11": {
+      "text": null
+    },
+    "CW11": {
+      "text": null
+    },
+    "CX11": {
+      "text": null
+    },
+    "CY11": {
+      "text": null
+    },
+    "CZ11": {
+      "text": null
+    },
+    "DA11": {
+      "text": null
+    },
+    "DB11": {
+      "text": null
+    },
+    "DC11": {
+      "text": null
+    },
+    "DD11": {
+      "text": null
+    },
+    "DE11": {
+      "text": null
+    },
+    "DF11": {
+      "text": null
+    },
+    "DG11": {
+      "text": null
+    },
+    "DH11": {
+      "text": null
+    },
+    "DI11": {
+      "text": null
+    },
+    "DJ11": {
+      "text": null
+    },
+    "DK11": {
+      "text": null
+    },
+    "DL11": {
+      "text": null
+    },
+    "DM11": {
+      "text": null
+    },
+    "DN11": {
+      "text": null
+    },
+    "DO11": {
+      "text": null
+    },
+    "DP11": {
+      "text": null
+    },
+    "DQ11": {
+      "text": null
+    },
+    "DR11": {
+      "text": null
+    },
+    "A9": {
+      "text": "FILTER"
+    },
+    "B9": {
+      "text": "mdi-filter"
+    },
+    "C9": {
+      "text": "Data"
+    },
+    "K9": {
+      "text": "TRUE"
+    },
+    "L9": {
+      "text": "FALSE"
+    },
+    "M9": {
+      "text": "TRUE"
+    },
+    "N9": {
+      "text": "FALSE"
+    },
+    "P9": {
+      "text": "FALSE"
+    },
+    "Q9": {
+      "text": "TRUE"
+    },
+    "U9": {
+      "text": "FALSE"
+    },
+    "Z9": {
+      "text": "Filter {rows}."
+    },
+    "AA9": {
+      "text": "Filter {rows}."
+    },
+    "A15": {
+      "text": "PICK"
+    },
+    "B15": {
+      "text": "mdi-table-column-width"
+    },
+    "C15": {
+      "text": "Data"
+    },
+    "K15": {
+      "text": "TRUE"
+    },
+    "L15": {
+      "text": "TRUE"
+    },
+    "M15": {
+      "text": "FALSE"
+    },
+    "N15": {
+      "text": "FALSE"
+    },
+    "P15": {
+      "text": "FALSE"
+    },
+    "Q15": {
+      "text": "FALSE"
+    },
+    "U15": {
+      "text": "FALSE"
+    },
+    "Z15": {
+      "text": "Pick {columns}."
+    },
+    "AA15": {
+      "text": "Pick {columns}."
+    },
+    "A17": {
+      "text": "QUERY"
+    },
+    "B17": {
+      "text": "mdi-database-search"
+    },
+    "C17": {
+      "text": "Geometry"
+    },
+    "K17": {
+      "text": "FALSE"
+    },
+    "L17": {
+      "text": "TRUE"
+    },
+    "M17": {
+      "text": "TRUE"
+    },
+    "N17": {
+      "text": "FALSE"
+    },
+    "P17": {
+      "text": "FALSE"
+    },
+    "Q17": {
+      "text": "FALSE"
+    },
+    "U17": {
+      "text": "TRUE"
+    },
+    "X17": {
+      "text": "Custom"
+    },
+    "Z17": {
+      "text": "Execute a {SQL query}."
+    },
+    "AA17": {
+      "text": "Execute a {SQL query}."
+    },
+    "O3": {
+      "text": "FALSE"
+    },
+    "O5": {
+      "text": "FALSE"
+    },
+    "O6": {
+      "text": "FALSE"
+    },
+    "O7": {
+      "text": "FALSE"
+    },
+    "O8": {
+      "text": "FALSE"
+    },
+    "O9": {
+      "text": "FALSE"
+    },
+    "O12": {
+      "text": "FALSE"
+    },
+    "O13": {
+      "text": "TRUE"
+    },
+    "O14": {
+      "text": "TRUE"
+    },
+    "O15": {
+      "text": "FALSE"
+    },
+    "O16": {
+      "text": "FALSE"
+    },
+    "O17": {
+      "text": "FALSE"
+    },
+    "O19": {
+      "text": "FALSE"
+    },
+    "O20": {
+      "text": "TRUE"
+    },
+    "O22": {
+      "text": "FALSE"
+    },
+    "O23": {
+      "text": "FALSE"
+    },
+    "O24": {
+      "text": "FALSE"
+    },
+    "H1": {
+      "text": "SQL",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "H4": {
+      "text": "ALTER TABLE ADD; UPDATE SET"
+    },
+    "H5": {
+      "text": "ALTER TABLE"
+    },
+    "H11": {
+      "text": "SELECT GROUP BY"
+    },
+    "H12": {
+      "text": "INSERT"
+    },
+    "H13": {
+      "text": "SELECT JOIN"
+    },
+    "H16": {
+      "text": "PIVOT"
+    },
+    "H22": {
+      "text": "SELECT UNION"
+    },
+    "H23": {
+      "text": "UNPIVOT"
+    },
+    "H24": {
+      "text": "UPDATE SET"
+    },
+    "R1": {
+      "text": "Reconfigurable",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "R3": {
+      "text": "TRUE"
+    },
+    "R4": {
+      "text": "TRUE"
+    },
+    "R5": {
+      "text": "TRUE"
+    },
+    "R6": {
+      "text": "FALSE"
+    },
+    "R7": {
+      "text": "FALSE"
+    },
+    "R8": {
+      "text": "TRUE"
+    },
+    "R9": {
+      "text": "FALSE"
+    },
+    "R11": {
+      "text": "FALSE"
+    },
+    "R12": {
+      "text": "FALSE"
+    },
+    "R13": {
+      "text": "TRUE"
+    },
+    "R14": {
+      "text": "TRUE"
+    },
+    "R15": {
+      "text": "FALSE"
+    },
+    "R16": {
+      "text": "FALSE"
+    },
+    "R17": {
+      "text": "FALSE"
+    },
+    "R19": {
+      "text": "TRUE"
+    },
+    "R20": {
+      "text": "TRUE"
+    },
+    "R22": {
+      "text": "FALSE"
+    },
+    "R23": {
+      "text": "FALSE"
+    },
+    "R24": {
+      "text": "FALSE"
+    },
+    "Y1": {
+      "text": "Status",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "Y3": {
+      "text": "Prototyped"
+    },
+    "Y4": {
+      "text": "Prototyped"
+    },
+    "Y5": {
+      "text": "Specified"
+    },
+    "Y6": {
+      "text": "Prototyped"
+    },
+    "Y7": {
+      "text": "Specified"
+    },
+    "Y8": {
+      "text": "Specified"
+    },
+    "Y9": {
+      "text": "Specified"
+    },
+    "Y11": {
+      "text": "Prototyped"
+    },
+    "Y12": {
+      "text": "Prototyped"
+    },
+    "Y13": {
+      "text": "Prototyped"
+    },
+    "Y14": {
+      "text": "Specified"
+    },
+    "Y15": {
+      "text": "Prototyped"
+    },
+    "Y16": {
+      "text": "Prototyped"
+    },
+    "Y17": {
+      "text": "Specified"
+    },
+    "Y19": {
+      "text": "Specified"
+    },
+    "Y20": {
+      "text": "Specified"
+    },
+    "Y22": {
+      "text": "Specified"
+    },
+    "Y23": {
+      "text": "Prototyped"
+    },
+    "Y24": {
+      "text": "Specified"
+    },
+    "A2": {
+      "text": "ADD"
+    },
+    "B2": {
+      "text": "mdi-table-plus"
+    },
+    "C2": {
+      "text": "Meta"
+    },
+    "H2": {
+      "text": "CREATE TABLE"
+    },
+    "K2": {
+      "text": "FALSE"
+    },
+    "L2": {
+      "text": "TRUE"
+    },
+    "M2": {
+      "text": "TRUE"
+    },
+    "N2": {
+      "text": "FALSE"
+    },
+    "O2": {
+      "text": "FALSE"
+    },
+    "P2": {
+      "text": "FALSE"
+    },
+    "Q2": {
+      "text": "FALSE"
+    },
+    "R2": {
+      "text": "FALSE"
+    },
+    "U2": {
+      "text": "FALSE"
+    },
+    "Y2": {
+      "text": "Prototyped"
+    },
+    "Z2": {
+      "text": "Add a {table}."
+    },
+    "AA2": {
+      "text": "Add {table}."
+    },
+    "AC2": {
+      "text": null
+    },
+    "AD2": {
+      "text": null
+    },
+    "AE2": {
+      "text": null
+    },
+    "AF2": {
+      "text": null
+    },
+    "AG2": {
+      "text": null
+    },
+    "AH2": {
+      "text": null
+    },
+    "AI2": {
+      "text": null
+    },
+    "AJ2": {
+      "text": null
+    },
+    "AK2": {
+      "text": null
+    },
+    "AL2": {
+      "text": null
+    },
+    "AM2": {
+      "text": null
+    },
+    "AN2": {
+      "text": null
+    },
+    "AO2": {
+      "text": null
+    },
+    "AP2": {
+      "text": null
+    },
+    "AQ2": {
+      "text": null
+    },
+    "AR2": {
+      "text": null
+    },
+    "AS2": {
+      "text": null
+    },
+    "AT2": {
+      "text": null
+    },
+    "AU2": {
+      "text": null
+    },
+    "AV2": {
+      "text": null
+    },
+    "AW2": {
+      "text": null
+    },
+    "AX2": {
+      "text": null
+    },
+    "AY2": {
+      "text": null
+    },
+    "AZ2": {
+      "text": null
+    },
+    "BA2": {
+      "text": null
+    },
+    "BB2": {
+      "text": null
+    },
+    "BC2": {
+      "text": null
+    },
+    "BD2": {
+      "text": null
+    },
+    "BE2": {
+      "text": null
+    },
+    "BF2": {
+      "text": null
+    },
+    "BG2": {
+      "text": null
+    },
+    "BH2": {
+      "text": null
+    },
+    "BI2": {
+      "text": null
+    },
+    "BJ2": {
+      "text": null
+    },
+    "BK2": {
+      "text": null
+    },
+    "BL2": {
+      "text": null
+    },
+    "BM2": {
+      "text": null
+    },
+    "BN2": {
+      "text": null
+    },
+    "BO2": {
+      "text": null
+    },
+    "BP2": {
+      "text": null
+    },
+    "BQ2": {
+      "text": null
+    },
+    "BR2": {
+      "text": null
+    },
+    "BS2": {
+      "text": null
+    },
+    "BT2": {
+      "text": null
+    },
+    "BU2": {
+      "text": null
+    },
+    "BV2": {
+      "text": null
+    },
+    "BW2": {
+      "text": null
+    },
+    "BX2": {
+      "text": null
+    },
+    "BY2": {
+      "text": null
+    },
+    "BZ2": {
+      "text": null
+    },
+    "CA2": {
+      "text": null
+    },
+    "CB2": {
+      "text": null
+    },
+    "CC2": {
+      "text": null
+    },
+    "CD2": {
+      "text": null
+    },
+    "CE2": {
+      "text": null
+    },
+    "CF2": {
+      "text": null
+    },
+    "CG2": {
+      "text": null
+    },
+    "CH2": {
+      "text": null
+    },
+    "CI2": {
+      "text": null
+    },
+    "CJ2": {
+      "text": null
+    },
+    "CK2": {
+      "text": null
+    },
+    "CL2": {
+      "text": null
+    },
+    "CM2": {
+      "text": null
+    },
+    "CN2": {
+      "text": null
+    },
+    "CO2": {
+      "text": null
+    },
+    "CP2": {
+      "text": null
+    },
+    "CQ2": {
+      "text": null
+    },
+    "CR2": {
+      "text": null
+    },
+    "CS2": {
+      "text": null
+    },
+    "CT2": {
+      "text": null
+    },
+    "CU2": {
+      "text": null
+    },
+    "CV2": {
+      "text": null
+    },
+    "CW2": {
+      "text": null
+    },
+    "CX2": {
+      "text": null
+    },
+    "CY2": {
+      "text": null
+    },
+    "CZ2": {
+      "text": null
+    },
+    "DA2": {
+      "text": null
+    },
+    "DB2": {
+      "text": null
+    },
+    "DC2": {
+      "text": null
+    },
+    "DD2": {
+      "text": null
+    },
+    "DE2": {
+      "text": null
+    },
+    "DF2": {
+      "text": null
+    },
+    "DG2": {
+      "text": null
+    },
+    "DH2": {
+      "text": null
+    },
+    "DI2": {
+      "text": null
+    },
+    "DJ2": {
+      "text": null
+    },
+    "DK2": {
+      "text": null
+    },
+    "DL2": {
+      "text": null
+    },
+    "DM2": {
+      "text": null
+    },
+    "DN2": {
+      "text": null
+    },
+    "DO2": {
+      "text": null
+    },
+    "DP2": {
+      "text": null
+    },
+    "DQ2": {
+      "text": null
+    },
+    "DR2": {
+      "text": null
+    },
+    "A18": {
+      "text": "REMOVE"
+    },
+    "B18": {
+      "text": "mdi-table-remove"
+    },
+    "C18": {
+      "text": "Meta"
+    },
+    "H18": {
+      "text": "DROP TABLE"
+    },
+    "K18": {
+      "text": "FALSE"
+    },
+    "L18": {
+      "text": "TRUE"
+    },
+    "M18": {
+      "text": "TRUE"
+    },
+    "N18": {
+      "text": "FALSE"
+    },
+    "O18": {
+      "text": "FALSE"
+    },
+    "P18": {
+      "text": "FALSE"
+    },
+    "Q18": {
+      "text": "FALSE"
+    },
+    "R18": {
+      "text": "FALSE"
+    },
+    "U18": {
+      "text": "FALSE"
+    },
+    "Y18": {
+      "text": "Prototyped"
+    },
+    "Z18": {
+      "text": "Remove a {table}."
+    },
+    "AA18": {
+      "text": "Remove {table}."
+    },
+    "A10": {
+      "text": "FORWARD"
+    },
+    "B10": {
+      "text": "mdi-forward"
+    },
+    "C10": {
+      "text": "Data"
+    },
+    "K10": {
+      "text": "FALSE"
+    },
+    "L10": {
+      "text": "FALSE"
+    },
+    "M10": {
+      "text": "FALSE"
+    },
+    "N10": {
+      "text": "FALSE"
+    },
+    "O10": {
+      "text": "FALSE"
+    },
+    "P10": {
+      "text": "FALSE"
+    },
+    "Q10": {
+      "text": "FALSE"
+    },
+    "R10": {
+      "text": "FALSE"
+    },
+    "U10": {
+      "text": "FALSE"
+    },
+    "Y10": {
+      "text": "Prototyped"
+    },
+    "Z10": {
+      "text": "Do nothing."
+    },
+    "AA10": {
+      "text": "Do nothing."
+    },
+    "S1": {
+      "text": "Sharded",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "S2": {
+      "text": "FALSE"
+    },
+    "S3": {
+      "text": "TRUE"
+    },
+    "S4": {
+      "text": "FALSE"
+    },
+    "S5": {
+      "text": "FALSE"
+    },
+    "S6": {
+      "text": "FALSE"
+    },
+    "S7": {
+      "text": "FALSE"
+    },
+    "S8": {
+      "text": "FALSE"
+    },
+    "S9": {
+      "text": "FALSE"
+    },
+    "S10": {
+      "text": "FALSE"
+    },
+    "S11": {
+      "text": "TRUE"
+    },
+    "S12": {
+      "text": "FALSE"
+    },
+    "S13": {
+      "text": "FALSE"
+    },
+    "S14": {
+      "text": "FALSE"
+    },
+    "S15": {
+      "text": "FALSE"
+    },
+    "S16": {
+      "text": "TRUE"
+    },
+    "S17": {
+      "text": "TRUE"
+    },
+    "S18": {
+      "text": "FALSE"
+    },
+    "S19": {
+      "text": "FALSE"
+    },
+    "S20": {
+      "text": "FALSE"
+    },
+    "S22": {
+      "text": "FALSE"
+    },
+    "S23": {
+      "text": "FALSE"
+    },
+    "S24": {
+      "text": "FALSE"
+    },
+    "S25": {
+      "text": null
+    },
+    "S26": {
+      "text": null
+    },
+    "S27": {
+      "text": null
+    },
+    "S28": {
+      "text": null
+    },
+    "S29": {
+      "text": null
+    },
+    "S30": {
+      "text": null
+    },
+    "S31": {
+      "text": null
+    },
+    "S32": {
+      "text": null
+    },
+    "S33": {
+      "text": null
+    },
+    "S34": {
+      "text": null
+    },
+    "S35": {
+      "text": null
+    },
+    "S36": {
+      "text": null
+    },
+    "S37": {
+      "text": null
+    },
+    "S38": {
+      "text": null
+    },
+    "S39": {
+      "text": null
+    },
+    "S40": {
+      "text": null
+    },
+    "S41": {
+      "text": null
+    },
+    "S42": {
+      "text": null
+    },
+    "S43": {
+      "text": null
+    },
+    "S44": {
+      "text": null
+    },
+    "S45": {
+      "text": null
+    },
+    "S46": {
+      "text": null
+    },
+    "S47": {
+      "text": null
+    },
+    "S48": {
+      "text": null
+    },
+    "S49": {
+      "text": null
+    },
+    "S50": {
+      "text": null
+    },
+    "S51": {
+      "text": null
+    },
+    "S52": {
+      "text": null
+    },
+    "S53": {
+      "text": null
+    },
+    "S54": {
+      "text": null
+    },
+    "S55": {
+      "text": null
+    },
+    "S56": {
+      "text": null
+    },
+    "S57": {
+      "text": null
+    },
+    "S58": {
+      "text": null
+    },
+    "S59": {
+      "text": null
+    },
+    "S60": {
+      "text": null
+    },
+    "S61": {
+      "text": null
+    },
+    "S62": {
+      "text": null
+    },
+    "S63": {
+      "text": null
+    },
+    "S64": {
+      "text": null
+    },
+    "S65": {
+      "text": null
+    },
+    "S66": {
+      "text": null
+    },
+    "S67": {
+      "text": null
+    },
+    "S68": {
+      "text": null
+    },
+    "S69": {
+      "text": null
+    },
+    "S70": {
+      "text": null
+    },
+    "S71": {
+      "text": null
+    },
+    "S72": {
+      "text": null
+    },
+    "S73": {
+      "text": null
+    },
+    "S74": {
+      "text": null
+    },
+    "S75": {
+      "text": null
+    },
+    "S76": {
+      "text": null
+    },
+    "S77": {
+      "text": null
+    },
+    "S78": {
+      "text": null
+    },
+    "S79": {
+      "text": null
+    },
+    "S80": {
+      "text": null
+    },
+    "S81": {
+      "text": null
+    },
+    "S82": {
+      "text": null
+    },
+    "S83": {
+      "text": null
+    },
+    "S84": {
+      "text": null
+    },
+    "S85": {
+      "text": null
+    },
+    "S86": {
+      "text": null
+    },
+    "S87": {
+      "text": null
+    },
+    "S88": {
+      "text": null
+    },
+    "S89": {
+      "text": null
+    },
+    "S90": {
+      "text": null
+    },
+    "S91": {
+      "text": null
+    },
+    "S92": {
+      "text": null
+    },
+    "S93": {
+      "text": null
+    },
+    "S94": {
+      "text": null
+    },
+    "S95": {
+      "text": null
+    },
+    "S96": {
+      "text": null
+    },
+    "S97": {
+      "text": null
+    },
+    "S98": {
+      "text": null
+    },
+    "S99": {
+      "text": null
+    },
+    "S100": {
+      "text": null
+    },
+    "S101": {
+      "text": null
+    },
+    "S102": {
+      "text": null
+    },
+    "S103": {
+      "text": null
+    },
+    "S104": {
+      "text": null
+    },
+    "S105": {
+      "text": null
+    },
+    "S106": {
+      "text": null
+    },
+    "S107": {
+      "text": null
+    },
+    "S108": {
+      "text": null
+    },
+    "S109": {
+      "text": null
+    },
+    "S110": {
+      "text": null
+    },
+    "S111": {
+      "text": null
+    },
+    "S112": {
+      "text": null
+    },
+    "S113": {
+      "text": null
+    },
+    "S114": {
+      "text": null
+    },
+    "S115": {
+      "text": null
+    },
+    "S116": {
+      "text": null
+    },
+    "S117": {
+      "text": null
+    },
+    "S118": {
+      "text": null
+    },
+    "S119": {
+      "text": null
+    },
+    "S120": {
+      "text": null
+    },
+    "S121": {
+      "text": null
+    },
+    "S122": {
+      "text": null
+    },
+    "S123": {
+      "text": null
+    },
+    "S124": {
+      "text": null
+    },
+    "S125": {
+      "text": null
+    },
+    "S126": {
+      "text": null
+    },
+    "S127": {
+      "text": null
+    },
+    "S128": {
+      "text": null
+    },
+    "S129": {
+      "text": null
+    },
+    "S130": {
+      "text": null
+    },
+    "S131": {
+      "text": null
+    },
+    "S132": {
+      "text": null
+    },
+    "S133": {
+      "text": null
+    },
+    "S134": {
+      "text": null
+    },
+    "S135": {
+      "text": null
+    },
+    "S136": {
+      "text": null
+    },
+    "S137": {
+      "text": null
+    },
+    "S138": {
+      "text": null
+    },
+    "S139": {
+      "text": null
+    },
+    "S140": {
+      "text": null
+    },
+    "S141": {
+      "text": null
+    },
+    "S142": {
+      "text": null
+    },
+    "S143": {
+      "text": null
+    },
+    "S144": {
+      "text": null
+    },
+    "S145": {
+      "text": null
+    },
+    "S146": {
+      "text": null
+    },
+    "S147": {
+      "text": null
+    },
+    "S148": {
+      "text": null
+    },
+    "S149": {
+      "text": null
+    },
+    "S150": {
+      "text": null
+    },
+    "S151": {
+      "text": null
+    },
+    "S152": {
+      "text": null
+    },
+    "S153": {
+      "text": null
+    },
+    "S154": {
+      "text": null
+    },
+    "S155": {
+      "text": null
+    },
+    "S156": {
+      "text": null
+    },
+    "S157": {
+      "text": null
+    },
+    "S158": {
+      "text": null
+    },
+    "S159": {
+      "text": null
+    },
+    "S160": {
+      "text": null
+    },
+    "S161": {
+      "text": null
+    },
+    "S162": {
+      "text": null
+    },
+    "S163": {
+      "text": null
+    },
+    "S164": {
+      "text": null
+    },
+    "S165": {
+      "text": null
+    },
+    "S166": {
+      "text": null
+    },
+    "S167": {
+      "text": null
+    },
+    "S168": {
+      "text": null
+    },
+    "S169": {
+      "text": null
+    },
+    "S170": {
+      "text": null
+    },
+    "S171": {
+      "text": null
+    },
+    "S172": {
+      "text": null
+    },
+    "S173": {
+      "text": null
+    },
+    "S174": {
+      "text": null
+    },
+    "S175": {
+      "text": null
+    },
+    "S176": {
+      "text": null
+    },
+    "S177": {
+      "text": null
+    },
+    "S178": {
+      "text": null
+    },
+    "S179": {
+      "text": null
+    },
+    "S180": {
+      "text": null
+    },
+    "S181": {
+      "text": null
+    },
+    "S182": {
+      "text": null
+    },
+    "S183": {
+      "text": null
+    },
+    "S184": {
+      "text": null
+    },
+    "S185": {
+      "text": null
+    },
+    "S186": {
+      "text": null
+    },
+    "S187": {
+      "text": null
+    },
+    "S188": {
+      "text": null
+    },
+    "S189": {
+      "text": null
+    },
+    "S190": {
+      "text": null
+    },
+    "S191": {
+      "text": null
+    },
+    "S192": {
+      "text": null
+    },
+    "S193": {
+      "text": null
+    },
+    "S194": {
+      "text": null
+    },
+    "S195": {
+      "text": null
+    },
+    "S196": {
+      "text": null
+    },
+    "S197": {
+      "text": null
+    },
+    "S198": {
+      "text": null
+    },
+    "S199": {
+      "text": null
+    },
+    "S200": {
+      "text": null
+    },
+    "S201": {
+      "text": null
+    },
+    "S202": {
+      "text": null
+    },
+    "S203": {
+      "text": null
+    },
+    "S204": {
+      "text": null
+    },
+    "S205": {
+      "text": null
+    },
+    "S206": {
+      "text": null
+    },
+    "S207": {
+      "text": null
+    },
+    "S208": {
+      "text": null
+    },
+    "S209": {
+      "text": null
+    },
+    "S210": {
+      "text": null
+    },
+    "S211": {
+      "text": null
+    },
+    "S212": {
+      "text": null
+    },
+    "S213": {
+      "text": null
+    },
+    "S214": {
+      "text": null
+    },
+    "S215": {
+      "text": null
+    },
+    "S216": {
+      "text": null
+    },
+    "S217": {
+      "text": null
+    },
+    "S218": {
+      "text": null
+    },
+    "S219": {
+      "text": null
+    },
+    "S220": {
+      "text": null
+    },
+    "S221": {
+      "text": null
+    },
+    "S222": {
+      "text": null
+    },
+    "S223": {
+      "text": null
+    },
+    "S224": {
+      "text": null
+    },
+    "S225": {
+      "text": null
+    },
+    "S226": {
+      "text": null
+    },
+    "S227": {
+      "text": null
+    },
+    "S228": {
+      "text": null
+    },
+    "S229": {
+      "text": null
+    },
+    "S230": {
+      "text": null
+    },
+    "S231": {
+      "text": null
+    },
+    "S232": {
+      "text": null
+    },
+    "S233": {
+      "text": null
+    },
+    "S234": {
+      "text": null
+    },
+    "S235": {
+      "text": null
+    },
+    "S236": {
+      "text": null
+    },
+    "S237": {
+      "text": null
+    },
+    "S238": {
+      "text": null
+    },
+    "S239": {
+      "text": null
+    },
+    "S240": {
+      "text": null
+    },
+    "S241": {
+      "text": null
+    },
+    "S242": {
+      "text": null
+    },
+    "S243": {
+      "text": null
+    },
+    "S244": {
+      "text": null
+    },
+    "S245": {
+      "text": null
+    },
+    "S246": {
+      "text": null
+    },
+    "S247": {
+      "text": null
+    },
+    "S248": {
+      "text": null
+    },
+    "S249": {
+      "text": null
+    },
+    "S250": {
+      "text": null
+    },
+    "S251": {
+      "text": null
+    },
+    "S252": {
+      "text": null
+    },
+    "S253": {
+      "text": null
+    },
+    "S254": {
+      "text": null
+    },
+    "S255": {
+      "text": null
+    },
+    "S256": {
+      "text": null
+    },
+    "S257": {
+      "text": null
+    },
+    "S258": {
+      "text": null
+    },
+    "S259": {
+      "text": null
+    },
+    "S260": {
+      "text": null
+    },
+    "S261": {
+      "text": null
+    },
+    "S262": {
+      "text": null
+    },
+    "S263": {
+      "text": null
+    },
+    "S264": {
+      "text": null
+    },
+    "S265": {
+      "text": null
+    },
+    "S266": {
+      "text": null
+    },
+    "S267": {
+      "text": null
+    },
+    "S268": {
+      "text": null
+    },
+    "S269": {
+      "text": null
+    },
+    "S270": {
+      "text": null
+    },
+    "S271": {
+      "text": null
+    },
+    "S272": {
+      "text": null
+    },
+    "S273": {
+      "text": null
+    },
+    "S274": {
+      "text": null
+    },
+    "S275": {
+      "text": null
+    },
+    "S276": {
+      "text": null
+    },
+    "S277": {
+      "text": null
+    },
+    "S278": {
+      "text": null
+    },
+    "S279": {
+      "text": null
+    },
+    "S280": {
+      "text": null
+    },
+    "S281": {
+      "text": null
+    },
+    "S282": {
+      "text": null
+    },
+    "S283": {
+      "text": null
+    },
+    "S284": {
+      "text": null
+    },
+    "S285": {
+      "text": null
+    },
+    "S286": {
+      "text": null
+    },
+    "S287": {
+      "text": null
+    },
+    "S288": {
+      "text": null
+    },
+    "S289": {
+      "text": null
+    },
+    "S290": {
+      "text": null
+    },
+    "S291": {
+      "text": null
+    },
+    "S292": {
+      "text": null
+    },
+    "S293": {
+      "text": null
+    },
+    "S294": {
+      "text": null
+    },
+    "S295": {
+      "text": null
+    },
+    "S296": {
+      "text": null
+    },
+    "S297": {
+      "text": null
+    },
+    "S298": {
+      "text": null
+    },
+    "S299": {
+      "text": null
+    },
+    "S300": {
+      "text": null
+    },
+    "S301": {
+      "text": null
+    },
+    "S302": {
+      "text": null
+    },
+    "S303": {
+      "text": null
+    },
+    "S304": {
+      "text": null
+    },
+    "S305": {
+      "text": null
+    },
+    "S306": {
+      "text": null
+    },
+    "S307": {
+      "text": null
+    },
+    "S308": {
+      "text": null
+    },
+    "S309": {
+      "text": null
+    },
+    "S310": {
+      "text": null
+    },
+    "S311": {
+      "text": null
+    },
+    "S312": {
+      "text": null
+    },
+    "S313": {
+      "text": null
+    },
+    "S314": {
+      "text": null
+    },
+    "S315": {
+      "text": null
+    },
+    "S316": {
+      "text": null
+    },
+    "S317": {
+      "text": null
+    },
+    "S318": {
+      "text": null
+    },
+    "S319": {
+      "text": null
+    },
+    "S320": {
+      "text": null
+    },
+    "S321": {
+      "text": null
+    },
+    "S322": {
+      "text": null
+    },
+    "S323": {
+      "text": null
+    },
+    "S324": {
+      "text": null
+    },
+    "S325": {
+      "text": null
+    },
+    "S326": {
+      "text": null
+    },
+    "S327": {
+      "text": null
+    },
+    "S328": {
+      "text": null
+    },
+    "S329": {
+      "text": null
+    },
+    "S330": {
+      "text": null
+    },
+    "S331": {
+      "text": null
+    },
+    "S332": {
+      "text": null
+    },
+    "S333": {
+      "text": null
+    },
+    "S334": {
+      "text": null
+    },
+    "S335": {
+      "text": null
+    },
+    "S336": {
+      "text": null
+    },
+    "S337": {
+      "text": null
+    },
+    "S338": {
+      "text": null
+    },
+    "S339": {
+      "text": null
+    },
+    "S340": {
+      "text": null
+    },
+    "S341": {
+      "text": null
+    },
+    "S342": {
+      "text": null
+    },
+    "S343": {
+      "text": null
+    },
+    "S344": {
+      "text": null
+    },
+    "S345": {
+      "text": null
+    },
+    "S346": {
+      "text": null
+    },
+    "S347": {
+      "text": null
+    },
+    "S348": {
+      "text": null
+    },
+    "S349": {
+      "text": null
+    },
+    "S350": {
+      "text": null
+    },
+    "S351": {
+      "text": null
+    },
+    "S352": {
+      "text": null
+    },
+    "S353": {
+      "text": null
+    },
+    "S354": {
+      "text": null
+    },
+    "S355": {
+      "text": null
+    },
+    "S356": {
+      "text": null
+    },
+    "S357": {
+      "text": null
+    },
+    "S358": {
+      "text": null
+    },
+    "S359": {
+      "text": null
+    },
+    "S360": {
+      "text": null
+    },
+    "S361": {
+      "text": null
+    },
+    "S362": {
+      "text": null
+    },
+    "S363": {
+      "text": null
+    },
+    "S364": {
+      "text": null
+    },
+    "S365": {
+      "text": null
+    },
+    "S366": {
+      "text": null
+    },
+    "S367": {
+      "text": null
+    },
+    "S368": {
+      "text": null
+    },
+    "S369": {
+      "text": null
+    },
+    "S370": {
+      "text": null
+    },
+    "S371": {
+      "text": null
+    },
+    "S372": {
+      "text": null
+    },
+    "S373": {
+      "text": null
+    },
+    "S374": {
+      "text": null
+    },
+    "S375": {
+      "text": null
+    },
+    "S376": {
+      "text": null
+    },
+    "S377": {
+      "text": null
+    },
+    "S378": {
+      "text": null
+    },
+    "S379": {
+      "text": null
+    },
+    "S380": {
+      "text": null
+    },
+    "S381": {
+      "text": null
+    },
+    "S382": {
+      "text": null
+    },
+    "S383": {
+      "text": null
+    },
+    "S384": {
+      "text": null
+    },
+    "S385": {
+      "text": null
+    },
+    "S386": {
+      "text": null
+    },
+    "S387": {
+      "text": null
+    },
+    "S388": {
+      "text": null
+    },
+    "S389": {
+      "text": null
+    },
+    "S390": {
+      "text": null
+    },
+    "S391": {
+      "text": null
+    },
+    "S392": {
+      "text": null
+    },
+    "S393": {
+      "text": null
+    },
+    "S394": {
+      "text": null
+    },
+    "S395": {
+      "text": null
+    },
+    "S396": {
+      "text": null
+    },
+    "S397": {
+      "text": null
+    },
+    "S398": {
+      "text": null
+    },
+    "S399": {
+      "text": null
+    },
+    "S400": {
+      "text": null
+    },
+    "S401": {
+      "text": null
+    },
+    "S402": {
+      "text": null
+    },
+    "S403": {
+      "text": null
+    },
+    "S404": {
+      "text": null
+    },
+    "S405": {
+      "text": null
+    },
+    "S406": {
+      "text": null
+    },
+    "S407": {
+      "text": null
+    },
+    "S408": {
+      "text": null
+    },
+    "S409": {
+      "text": null
+    },
+    "S410": {
+      "text": null
+    },
+    "S411": {
+      "text": null
+    },
+    "S412": {
+      "text": null
+    },
+    "S413": {
+      "text": null
+    },
+    "S414": {
+      "text": null
+    },
+    "S415": {
+      "text": null
+    },
+    "S416": {
+      "text": null
+    },
+    "S417": {
+      "text": null
+    },
+    "S418": {
+      "text": null
+    },
+    "S419": {
+      "text": null
+    },
+    "S420": {
+      "text": null
+    },
+    "S421": {
+      "text": null
+    },
+    "S422": {
+      "text": null
+    },
+    "S423": {
+      "text": null
+    },
+    "S424": {
+      "text": null
+    },
+    "S425": {
+      "text": null
+    },
+    "S426": {
+      "text": null
+    },
+    "S427": {
+      "text": null
+    },
+    "S428": {
+      "text": null
+    },
+    "S429": {
+      "text": null
+    },
+    "S430": {
+      "text": null
+    },
+    "S431": {
+      "text": null
+    },
+    "S432": {
+      "text": null
+    },
+    "S433": {
+      "text": null
+    },
+    "S434": {
+      "text": null
+    },
+    "S435": {
+      "text": null
+    },
+    "S436": {
+      "text": null
+    },
+    "S437": {
+      "text": null
+    },
+    "S438": {
+      "text": null
+    },
+    "S439": {
+      "text": null
+    },
+    "S440": {
+      "text": null
+    },
+    "S441": {
+      "text": null
+    },
+    "S442": {
+      "text": null
+    },
+    "S443": {
+      "text": null
+    },
+    "S444": {
+      "text": null
+    },
+    "S445": {
+      "text": null
+    },
+    "S446": {
+      "text": null
+    },
+    "S447": {
+      "text": null
+    },
+    "S448": {
+      "text": null
+    },
+    "S449": {
+      "text": null
+    },
+    "S450": {
+      "text": null
+    },
+    "S451": {
+      "text": null
+    },
+    "S452": {
+      "text": null
+    },
+    "S453": {
+      "text": null
+    },
+    "S454": {
+      "text": null
+    },
+    "S455": {
+      "text": null
+    },
+    "S456": {
+      "text": null
+    },
+    "S457": {
+      "text": null
+    },
+    "S458": {
+      "text": null
+    },
+    "S459": {
+      "text": null
+    },
+    "S460": {
+      "text": null
+    },
+    "S461": {
+      "text": null
+    },
+    "S462": {
+      "text": null
+    },
+    "S463": {
+      "text": null
+    },
+    "S464": {
+      "text": null
+    },
+    "S465": {
+      "text": null
+    },
+    "S466": {
+      "text": null
+    },
+    "S467": {
+      "text": null
+    },
+    "S468": {
+      "text": null
+    },
+    "S469": {
+      "text": null
+    },
+    "S470": {
+      "text": null
+    },
+    "S471": {
+      "text": null
+    },
+    "S472": {
+      "text": null
+    },
+    "S473": {
+      "text": null
+    },
+    "S474": {
+      "text": null
+    },
+    "S475": {
+      "text": null
+    },
+    "S476": {
+      "text": null
+    },
+    "S477": {
+      "text": null
+    },
+    "S478": {
+      "text": null
+    },
+    "S479": {
+      "text": null
+    },
+    "S480": {
+      "text": null
+    },
+    "S481": {
+      "text": null
+    },
+    "S482": {
+      "text": null
+    },
+    "S483": {
+      "text": null
+    },
+    "S484": {
+      "text": null
+    },
+    "S485": {
+      "text": null
+    },
+    "S486": {
+      "text": null
+    },
+    "S487": {
+      "text": null
+    },
+    "S488": {
+      "text": null
+    },
+    "S489": {
+      "text": null
+    },
+    "S490": {
+      "text": null
+    },
+    "S491": {
+      "text": null
+    },
+    "S492": {
+      "text": null
+    },
+    "S493": {
+      "text": null
+    },
+    "S494": {
+      "text": null
+    },
+    "S495": {
+      "text": null
+    },
+    "S496": {
+      "text": null
+    },
+    "S497": {
+      "text": null
+    },
+    "S498": {
+      "text": null
+    },
+    "S499": {
+      "text": null
+    },
+    "S500": {
+      "text": null
+    },
+    "S501": {
+      "text": null
+    },
+    "S502": {
+      "text": null
+    },
+    "S503": {
+      "text": null
+    },
+    "S504": {
+      "text": null
+    },
+    "S505": {
+      "text": null
+    },
+    "S506": {
+      "text": null
+    },
+    "S507": {
+      "text": null
+    },
+    "S508": {
+      "text": null
+    },
+    "S509": {
+      "text": null
+    },
+    "S510": {
+      "text": null
+    },
+    "S511": {
+      "text": null
+    },
+    "S512": {
+      "text": null
+    },
+    "S513": {
+      "text": null
+    },
+    "S514": {
+      "text": null
+    },
+    "S515": {
+      "text": null
+    },
+    "S516": {
+      "text": null
+    },
+    "S517": {
+      "text": null
+    },
+    "S518": {
+      "text": null
+    },
+    "S519": {
+      "text": null
+    },
+    "S520": {
+      "text": null
+    },
+    "S521": {
+      "text": null
+    },
+    "S522": {
+      "text": null
+    },
+    "S523": {
+      "text": null
+    },
+    "S524": {
+      "text": null
+    },
+    "S525": {
+      "text": null
+    },
+    "S526": {
+      "text": null
+    },
+    "S527": {
+      "text": null
+    },
+    "S528": {
+      "text": null
+    },
+    "S529": {
+      "text": null
+    },
+    "S530": {
+      "text": null
+    },
+    "S531": {
+      "text": null
+    },
+    "S532": {
+      "text": null
+    },
+    "S533": {
+      "text": null
+    },
+    "S534": {
+      "text": null
+    },
+    "S535": {
+      "text": null
+    },
+    "S536": {
+      "text": null
+    },
+    "S537": {
+      "text": null
+    },
+    "S538": {
+      "text": null
+    },
+    "S539": {
+      "text": null
+    },
+    "S540": {
+      "text": null
+    },
+    "S541": {
+      "text": null
+    },
+    "S542": {
+      "text": null
+    },
+    "S543": {
+      "text": null
+    },
+    "S544": {
+      "text": null
+    },
+    "S545": {
+      "text": null
+    },
+    "S546": {
+      "text": null
+    },
+    "S547": {
+      "text": null
+    },
+    "S548": {
+      "text": null
+    },
+    "S549": {
+      "text": null
+    },
+    "S550": {
+      "text": null
+    },
+    "S551": {
+      "text": null
+    },
+    "S552": {
+      "text": null
+    },
+    "S553": {
+      "text": null
+    },
+    "S554": {
+      "text": null
+    },
+    "S555": {
+      "text": null
+    },
+    "S556": {
+      "text": null
+    },
+    "S557": {
+      "text": null
+    },
+    "S558": {
+      "text": null
+    },
+    "S559": {
+      "text": null
+    },
+    "S560": {
+      "text": null
+    },
+    "S561": {
+      "text": null
+    },
+    "S562": {
+      "text": null
+    },
+    "S563": {
+      "text": null
+    },
+    "S564": {
+      "text": null
+    },
+    "S565": {
+      "text": null
+    },
+    "S566": {
+      "text": null
+    },
+    "S567": {
+      "text": null
+    },
+    "S568": {
+      "text": null
+    },
+    "S569": {
+      "text": null
+    },
+    "S570": {
+      "text": null
+    },
+    "S571": {
+      "text": null
+    },
+    "S572": {
+      "text": null
+    },
+    "S573": {
+      "text": null
+    },
+    "S574": {
+      "text": null
+    },
+    "S575": {
+      "text": null
+    },
+    "S576": {
+      "text": null
+    },
+    "S577": {
+      "text": null
+    },
+    "S578": {
+      "text": null
+    },
+    "S579": {
+      "text": null
+    },
+    "S580": {
+      "text": null
+    },
+    "S581": {
+      "text": null
+    },
+    "S582": {
+      "text": null
+    },
+    "S583": {
+      "text": null
+    },
+    "S584": {
+      "text": null
+    },
+    "S585": {
+      "text": null
+    },
+    "S586": {
+      "text": null
+    },
+    "S587": {
+      "text": null
+    },
+    "S588": {
+      "text": null
+    },
+    "S589": {
+      "text": null
+    },
+    "S590": {
+      "text": null
+    },
+    "S591": {
+      "text": null
+    },
+    "S592": {
+      "text": null
+    },
+    "S593": {
+      "text": null
+    },
+    "S594": {
+      "text": null
+    },
+    "S595": {
+      "text": null
+    },
+    "S596": {
+      "text": null
+    },
+    "S597": {
+      "text": null
+    },
+    "S598": {
+      "text": null
+    },
+    "S599": {
+      "text": null
+    },
+    "S600": {
+      "text": null
+    },
+    "S601": {
+      "text": null
+    },
+    "S602": {
+      "text": null
+    },
+    "S603": {
+      "text": null
+    },
+    "S604": {
+      "text": null
+    },
+    "S605": {
+      "text": null
+    },
+    "S606": {
+      "text": null
+    },
+    "S607": {
+      "text": null
+    },
+    "S608": {
+      "text": null
+    },
+    "S609": {
+      "text": null
+    },
+    "S610": {
+      "text": null
+    },
+    "S611": {
+      "text": null
+    },
+    "S612": {
+      "text": null
+    },
+    "S613": {
+      "text": null
+    },
+    "S614": {
+      "text": null
+    },
+    "S615": {
+      "text": null
+    },
+    "S616": {
+      "text": null
+    },
+    "S617": {
+      "text": null
+    },
+    "S618": {
+      "text": null
+    },
+    "S619": {
+      "text": null
+    },
+    "S620": {
+      "text": null
+    },
+    "S621": {
+      "text": null
+    },
+    "S622": {
+      "text": null
+    },
+    "S623": {
+      "text": null
+    },
+    "S624": {
+      "text": null
+    },
+    "S625": {
+      "text": null
+    },
+    "S626": {
+      "text": null
+    },
+    "S627": {
+      "text": null
+    },
+    "S628": {
+      "text": null
+    },
+    "S629": {
+      "text": null
+    },
+    "S630": {
+      "text": null
+    },
+    "S631": {
+      "text": null
+    },
+    "S632": {
+      "text": null
+    },
+    "S633": {
+      "text": null
+    },
+    "S634": {
+      "text": null
+    },
+    "S635": {
+      "text": null
+    },
+    "S636": {
+      "text": null
+    },
+    "S637": {
+      "text": null
+    },
+    "S638": {
+      "text": null
+    },
+    "S639": {
+      "text": null
+    },
+    "S640": {
+      "text": null
+    },
+    "S641": {
+      "text": null
+    },
+    "S642": {
+      "text": null
+    },
+    "S643": {
+      "text": null
+    },
+    "S644": {
+      "text": null
+    },
+    "S645": {
+      "text": null
+    },
+    "S646": {
+      "text": null
+    },
+    "S647": {
+      "text": null
+    },
+    "S648": {
+      "text": null
+    },
+    "S649": {
+      "text": null
+    },
+    "S650": {
+      "text": null
+    },
+    "S651": {
+      "text": null
+    },
+    "S652": {
+      "text": null
+    },
+    "S653": {
+      "text": null
+    },
+    "S654": {
+      "text": null
+    },
+    "S655": {
+      "text": null
+    },
+    "S656": {
+      "text": null
+    },
+    "S657": {
+      "text": null
+    },
+    "S658": {
+      "text": null
+    },
+    "S659": {
+      "text": null
+    },
+    "S660": {
+      "text": null
+    },
+    "S661": {
+      "text": null
+    },
+    "S662": {
+      "text": null
+    },
+    "S663": {
+      "text": null
+    },
+    "S664": {
+      "text": null
+    },
+    "S665": {
+      "text": null
+    },
+    "S666": {
+      "text": null
+    },
+    "S667": {
+      "text": null
+    },
+    "S668": {
+      "text": null
+    },
+    "S669": {
+      "text": null
+    },
+    "S670": {
+      "text": null
+    },
+    "S671": {
+      "text": null
+    },
+    "S672": {
+      "text": null
+    },
+    "S673": {
+      "text": null
+    },
+    "S674": {
+      "text": null
+    },
+    "S675": {
+      "text": null
+    },
+    "S676": {
+      "text": null
+    },
+    "S677": {
+      "text": null
+    },
+    "S678": {
+      "text": null
+    },
+    "S679": {
+      "text": null
+    },
+    "S680": {
+      "text": null
+    },
+    "S681": {
+      "text": null
+    },
+    "S682": {
+      "text": null
+    },
+    "S683": {
+      "text": null
+    },
+    "S684": {
+      "text": null
+    },
+    "S685": {
+      "text": null
+    },
+    "S686": {
+      "text": null
+    },
+    "S687": {
+      "text": null
+    },
+    "S688": {
+      "text": null
+    },
+    "S689": {
+      "text": null
+    },
+    "S690": {
+      "text": null
+    },
+    "S691": {
+      "text": null
+    },
+    "S692": {
+      "text": null
+    },
+    "S693": {
+      "text": null
+    },
+    "S694": {
+      "text": null
+    },
+    "S695": {
+      "text": null
+    },
+    "S696": {
+      "text": null
+    },
+    "S697": {
+      "text": null
+    },
+    "S698": {
+      "text": null
+    },
+    "S699": {
+      "text": null
+    },
+    "S700": {
+      "text": null
+    },
+    "S701": {
+      "text": null
+    },
+    "S702": {
+      "text": null
+    },
+    "S703": {
+      "text": null
+    },
+    "S704": {
+      "text": null
+    },
+    "S705": {
+      "text": null
+    },
+    "S706": {
+      "text": null
+    },
+    "S707": {
+      "text": null
+    },
+    "S708": {
+      "text": null
+    },
+    "S709": {
+      "text": null
+    },
+    "S710": {
+      "text": null
+    },
+    "S711": {
+      "text": null
+    },
+    "S712": {
+      "text": null
+    },
+    "S713": {
+      "text": null
+    },
+    "S714": {
+      "text": null
+    },
+    "S715": {
+      "text": null
+    },
+    "S716": {
+      "text": null
+    },
+    "S717": {
+      "text": null
+    },
+    "S718": {
+      "text": null
+    },
+    "S719": {
+      "text": null
+    },
+    "S720": {
+      "text": null
+    },
+    "S721": {
+      "text": null
+    },
+    "S722": {
+      "text": null
+    },
+    "S723": {
+      "text": null
+    },
+    "S724": {
+      "text": null
+    },
+    "S725": {
+      "text": null
+    },
+    "S726": {
+      "text": null
+    },
+    "S727": {
+      "text": null
+    },
+    "S728": {
+      "text": null
+    },
+    "S729": {
+      "text": null
+    },
+    "S730": {
+      "text": null
+    },
+    "S731": {
+      "text": null
+    },
+    "S732": {
+      "text": null
+    },
+    "S733": {
+      "text": null
+    },
+    "S734": {
+      "text": null
+    },
+    "S735": {
+      "text": null
+    },
+    "S736": {
+      "text": null
+    },
+    "S737": {
+      "text": null
+    },
+    "S738": {
+      "text": null
+    },
+    "S739": {
+      "text": null
+    },
+    "S740": {
+      "text": null
+    },
+    "S741": {
+      "text": null
+    },
+    "S742": {
+      "text": null
+    },
+    "S743": {
+      "text": null
+    },
+    "S744": {
+      "text": null
+    },
+    "S745": {
+      "text": null
+    },
+    "S746": {
+      "text": null
+    },
+    "S747": {
+      "text": null
+    },
+    "S748": {
+      "text": null
+    },
+    "S749": {
+      "text": null
+    },
+    "S750": {
+      "text": null
+    },
+    "S751": {
+      "text": null
+    },
+    "S752": {
+      "text": null
+    },
+    "S753": {
+      "text": null
+    },
+    "S754": {
+      "text": null
+    },
+    "S755": {
+      "text": null
+    },
+    "S756": {
+      "text": null
+    },
+    "S757": {
+      "text": null
+    },
+    "S758": {
+      "text": null
+    },
+    "S759": {
+      "text": null
+    },
+    "S760": {
+      "text": null
+    },
+    "S761": {
+      "text": null
+    },
+    "S762": {
+      "text": null
+    },
+    "S763": {
+      "text": null
+    },
+    "S764": {
+      "text": null
+    },
+    "S765": {
+      "text": null
+    },
+    "S766": {
+      "text": null
+    },
+    "S767": {
+      "text": null
+    },
+    "S768": {
+      "text": null
+    },
+    "S769": {
+      "text": null
+    },
+    "S770": {
+      "text": null
+    },
+    "S771": {
+      "text": null
+    },
+    "S772": {
+      "text": null
+    },
+    "S773": {
+      "text": null
+    },
+    "S774": {
+      "text": null
+    },
+    "S775": {
+      "text": null
+    },
+    "S776": {
+      "text": null
+    },
+    "S777": {
+      "text": null
+    },
+    "S778": {
+      "text": null
+    },
+    "S779": {
+      "text": null
+    },
+    "S780": {
+      "text": null
+    },
+    "S781": {
+      "text": null
+    },
+    "S782": {
+      "text": null
+    },
+    "S783": {
+      "text": null
+    },
+    "S784": {
+      "text": null
+    },
+    "S785": {
+      "text": null
+    },
+    "S786": {
+      "text": null
+    },
+    "S787": {
+      "text": null
+    },
+    "S788": {
+      "text": null
+    },
+    "S789": {
+      "text": null
+    },
+    "S790": {
+      "text": null
+    },
+    "S791": {
+      "text": null
+    },
+    "S792": {
+      "text": null
+    },
+    "S793": {
+      "text": null
+    },
+    "S794": {
+      "text": null
+    },
+    "S795": {
+      "text": null
+    },
+    "S796": {
+      "text": null
+    },
+    "S797": {
+      "text": null
+    },
+    "S798": {
+      "text": null
+    },
+    "S799": {
+      "text": null
+    },
+    "S800": {
+      "text": null
+    },
+    "S801": {
+      "text": null
+    },
+    "S802": {
+      "text": null
+    },
+    "S803": {
+      "text": null
+    },
+    "S804": {
+      "text": null
+    },
+    "S805": {
+      "text": null
+    },
+    "S806": {
+      "text": null
+    },
+    "S807": {
+      "text": null
+    },
+    "S808": {
+      "text": null
+    },
+    "S809": {
+      "text": null
+    },
+    "S810": {
+      "text": null
+    },
+    "S811": {
+      "text": null
+    },
+    "S812": {
+      "text": null
+    },
+    "S813": {
+      "text": null
+    },
+    "S814": {
+      "text": null
+    },
+    "S815": {
+      "text": null
+    },
+    "S816": {
+      "text": null
+    },
+    "S817": {
+      "text": null
+    },
+    "S818": {
+      "text": null
+    },
+    "S819": {
+      "text": null
+    },
+    "S820": {
+      "text": null
+    },
+    "S821": {
+      "text": null
+    },
+    "S822": {
+      "text": null
+    },
+    "S823": {
+      "text": null
+    },
+    "S824": {
+      "text": null
+    },
+    "S825": {
+      "text": null
+    },
+    "S826": {
+      "text": null
+    },
+    "S827": {
+      "text": null
+    },
+    "S828": {
+      "text": null
+    },
+    "S829": {
+      "text": null
+    },
+    "S830": {
+      "text": null
+    },
+    "S831": {
+      "text": null
+    },
+    "S832": {
+      "text": null
+    },
+    "S833": {
+      "text": null
+    },
+    "S834": {
+      "text": null
+    },
+    "S835": {
+      "text": null
+    },
+    "S836": {
+      "text": null
+    },
+    "S837": {
+      "text": null
+    },
+    "S838": {
+      "text": null
+    },
+    "S839": {
+      "text": null
+    },
+    "S840": {
+      "text": null
+    },
+    "S841": {
+      "text": null
+    },
+    "S842": {
+      "text": null
+    },
+    "S843": {
+      "text": null
+    },
+    "S844": {
+      "text": null
+    },
+    "S845": {
+      "text": null
+    },
+    "S846": {
+      "text": null
+    },
+    "S847": {
+      "text": null
+    },
+    "S848": {
+      "text": null
+    },
+    "S849": {
+      "text": null
+    },
+    "S850": {
+      "text": null
+    },
+    "S851": {
+      "text": null
+    },
+    "S852": {
+      "text": null
+    },
+    "S853": {
+      "text": null
+    },
+    "S854": {
+      "text": null
+    },
+    "S855": {
+      "text": null
+    },
+    "S856": {
+      "text": null
+    },
+    "S857": {
+      "text": null
+    },
+    "S858": {
+      "text": null
+    },
+    "S859": {
+      "text": null
+    },
+    "S860": {
+      "text": null
+    },
+    "S861": {
+      "text": null
+    },
+    "S862": {
+      "text": null
+    },
+    "S863": {
+      "text": null
+    },
+    "S864": {
+      "text": null
+    },
+    "S865": {
+      "text": null
+    },
+    "S866": {
+      "text": null
+    },
+    "S867": {
+      "text": null
+    },
+    "S868": {
+      "text": null
+    },
+    "S869": {
+      "text": null
+    },
+    "S870": {
+      "text": null
+    },
+    "S871": {
+      "text": null
+    },
+    "S872": {
+      "text": null
+    },
+    "S873": {
+      "text": null
+    },
+    "S874": {
+      "text": null
+    },
+    "S875": {
+      "text": null
+    },
+    "S876": {
+      "text": null
+    },
+    "S877": {
+      "text": null
+    },
+    "S878": {
+      "text": null
+    },
+    "S879": {
+      "text": null
+    },
+    "S880": {
+      "text": null
+    },
+    "S881": {
+      "text": null
+    },
+    "S882": {
+      "text": null
+    },
+    "S883": {
+      "text": null
+    },
+    "S884": {
+      "text": null
+    },
+    "S885": {
+      "text": null
+    },
+    "S886": {
+      "text": null
+    },
+    "S887": {
+      "text": null
+    },
+    "S888": {
+      "text": null
+    },
+    "S889": {
+      "text": null
+    },
+    "S890": {
+      "text": null
+    },
+    "S891": {
+      "text": null
+    },
+    "S892": {
+      "text": null
+    },
+    "S893": {
+      "text": null
+    },
+    "S894": {
+      "text": null
+    },
+    "S895": {
+      "text": null
+    },
+    "S896": {
+      "text": null
+    },
+    "S897": {
+      "text": null
+    },
+    "S898": {
+      "text": null
+    },
+    "S899": {
+      "text": null
+    },
+    "S900": {
+      "text": null
+    },
+    "S901": {
+      "text": null
+    },
+    "S902": {
+      "text": null
+    },
+    "S903": {
+      "text": null
+    },
+    "S904": {
+      "text": null
+    },
+    "S905": {
+      "text": null
+    },
+    "S906": {
+      "text": null
+    },
+    "S907": {
+      "text": null
+    },
+    "S908": {
+      "text": null
+    },
+    "S909": {
+      "text": null
+    },
+    "S910": {
+      "text": null
+    },
+    "S911": {
+      "text": null
+    },
+    "S912": {
+      "text": null
+    },
+    "S913": {
+      "text": null
+    },
+    "S914": {
+      "text": null
+    },
+    "S915": {
+      "text": null
+    },
+    "S916": {
+      "text": null
+    },
+    "S917": {
+      "text": null
+    },
+    "S918": {
+      "text": null
+    },
+    "S919": {
+      "text": null
+    },
+    "S920": {
+      "text": null
+    },
+    "S921": {
+      "text": null
+    },
+    "S922": {
+      "text": null
+    },
+    "S923": {
+      "text": null
+    },
+    "S924": {
+      "text": null
+    },
+    "S925": {
+      "text": null
+    },
+    "S926": {
+      "text": null
+    },
+    "S927": {
+      "text": null
+    },
+    "S928": {
+      "text": null
+    },
+    "S929": {
+      "text": null
+    },
+    "S930": {
+      "text": null
+    },
+    "S931": {
+      "text": null
+    },
+    "S932": {
+      "text": null
+    },
+    "S933": {
+      "text": null
+    },
+    "S934": {
+      "text": null
+    },
+    "S935": {
+      "text": null
+    },
+    "S936": {
+      "text": null
+    },
+    "S937": {
+      "text": null
+    },
+    "S938": {
+      "text": null
+    },
+    "S939": {
+      "text": null
+    },
+    "S940": {
+      "text": null
+    },
+    "S941": {
+      "text": null
+    },
+    "S942": {
+      "text": null
+    },
+    "S943": {
+      "text": null
+    },
+    "S944": {
+      "text": null
+    },
+    "S945": {
+      "text": null
+    },
+    "S946": {
+      "text": null
+    },
+    "S947": {
+      "text": null
+    },
+    "S948": {
+      "text": null
+    },
+    "S949": {
+      "text": null
+    },
+    "S950": {
+      "text": null
+    },
+    "S951": {
+      "text": null
+    },
+    "S952": {
+      "text": null
+    },
+    "S953": {
+      "text": null
+    },
+    "S954": {
+      "text": null
+    },
+    "S955": {
+      "text": null
+    },
+    "S956": {
+      "text": null
+    },
+    "S957": {
+      "text": null
+    },
+    "S958": {
+      "text": null
+    },
+    "S959": {
+      "text": null
+    },
+    "S960": {
+      "text": null
+    },
+    "S961": {
+      "text": null
+    },
+    "S962": {
+      "text": null
+    },
+    "S963": {
+      "text": null
+    },
+    "S964": {
+      "text": null
+    },
+    "S965": {
+      "text": null
+    },
+    "S966": {
+      "text": null
+    },
+    "S967": {
+      "text": null
+    },
+    "S968": {
+      "text": null
+    },
+    "S969": {
+      "text": null
+    },
+    "S970": {
+      "text": null
+    },
+    "S971": {
+      "text": null
+    },
+    "S972": {
+      "text": null
+    },
+    "S973": {
+      "text": null
+    },
+    "S974": {
+      "text": null
+    },
+    "S975": {
+      "text": null
+    },
+    "S976": {
+      "text": null
+    },
+    "S977": {
+      "text": null
+    },
+    "S978": {
+      "text": null
+    },
+    "S979": {
+      "text": null
+    },
+    "S980": {
+      "text": null
+    },
+    "S981": {
+      "text": null
+    },
+    "S982": {
+      "text": null
+    },
+    "I1": {
+      "text": "Columns",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "J1": {
+      "text": "Rows",
+      "format": {
+        "fontBold": true
+      }
+    },
+    "I2": {
+      "format": {
+        "fontBold": false
+      },
+      "text": "Create"
+    },
+    "J2": {
+      "format": {
+        "fontBold": false
+      },
+      "text": "Insert"
+    },
+    "I3": {
+      "text": "Drop"
+    },
+    "J3": {
+      "text": "Scale"
+    },
+    "I4": {
+      "text": "Create"
+    },
+    "J4": {
+      "text": "None"
+    },
+    "I5": {
+      "text": "Replace"
+    },
+    "J5": {
+      "text": "None"
+    },
+    "I6": {
+      "text": "None"
+    },
+    "J6": {
+      "text": "Delete"
+    },
+    "I7": {
+      "text": "None"
+    },
+    "J7": {
+      "text": "Insert"
+    },
+    "I8": {
+      "text": "None"
+    },
+    "J8": {
+      "text": "Scale"
+    },
+    "I9": {
+      "text": "None"
+    },
+    "J9": {
+      "text": "Delete"
+    },
+    "I10": {
+      "text": "None"
+    },
+    "J10": {
+      "text": "None"
+    },
+    "I11": {
+      "text": "Create"
+    },
+    "J11": {
+      "text": "Insert"
+    },
+    "I12": {
+      "text": "None"
+    },
+    "J12": {
+      "text": "Insert"
+    },
+    "I13": {
+      "text": "Create"
+    },
+    "J13": {
+      "text": "None"
+    },
+    "I14": {
+      "text": "Create"
+    },
+    "J14": {
+      "text": "None"
+    },
+    "I15": {
+      "text": "Drop"
+    },
+    "J15": {
+      "text": "None"
+    },
+    "I16": {
+      "text": "Create"
+    },
+    "J16": {
+      "text": "Insert"
+    },
+    "I17": {
+      "text": "Create"
+    },
+    "J17": {
+      "text": "Insert"
+    },
+    "I18": {
+      "text": "Create"
+    },
+    "J18": {
+      "text": "Insert"
+    },
+    "I19": {
+      "text": "Replace"
+    },
+    "J19": {
+      "text": "None"
+    },
+    "I20": {
+      "text": "Create"
+    },
+    "J20": {
+      "text": "None"
+    },
+    "I22": {
+      "text": "Create"
+    },
+    "J22": {
+      "text": "Insert"
+    },
+    "I23": {
+      "text": "Create"
+    },
+    "J23": {
+      "text": "Insert"
+    },
+    "I24": {
+      "text": "None"
+    },
+    "J24": {
+      "text": "Update"
+    },
+    "X6": {
+      "text": "Row hash"
+    },
+    "V1": {
+      "text": "Adjusted",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "V2": {
+      "text": "FALSE"
+    },
+    "V3": {
+      "text": "FALSE"
+    },
+    "V4": {
+      "text": "FALSE"
+    },
+    "V5": {
+      "text": "FALSE"
+    },
+    "V6": {
+      "text": "TRUE"
+    },
+    "V7": {
+      "text": "FALSE"
+    },
+    "V8": {
+      "text": "FALSE"
+    },
+    "V9": {
+      "text": "FALSE"
+    },
+    "V10": {
+      "text": "FALSE"
+    },
+    "V11": {
+      "text": "FALSE"
+    },
+    "V12": {
+      "text": "FALSE"
+    },
+    "V13": {
+      "text": "FALSE"
+    },
+    "V14": {
+      "text": "FALSE"
+    },
+    "V15": {
+      "text": "FALSE"
+    },
+    "V16": {
+      "text": "FALSE"
+    },
+    "V17": {
+      "text": "TRUE"
+    },
+    "V18": {
+      "text": "FALSE"
+    },
+    "V19": {
+      "text": "FALSE"
+    },
+    "V20": {
+      "text": "TRUE"
+    },
+    "V22": {
+      "text": "FALSE"
+    },
+    "V23": {
+      "text": "FALSE"
+    },
+    "V24": {
+      "text": "FALSE"
+    },
+    "W1": {
+      "text": "Scaled",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "W2": {
+      "text": "FALSE"
+    },
+    "W3": {
+      "text": "TRUE"
+    },
+    "W4": {
+      "text": "FALSE"
+    },
+    "W5": {
+      "text": "FALSE"
+    },
+    "W6": {
+      "text": "TRUE"
+    },
+    "W7": {
+      "text": "TRUE"
+    },
+    "W8": {
+      "text": "TRUE"
+    },
+    "W9": {
+      "text": "TRUE"
+    },
+    "W10": {
+      "text": "FALSE"
+    },
+    "W11": {
+      "text": "FALSE"
+    },
+    "W12": {
+      "text": "TRUE"
+    },
+    "W13": {
+      "text": "FALSE"
+    },
+    "W14": {
+      "text": "FALSE"
+    },
+    "W15": {
+      "text": "FALSE"
+    },
+    "W16": {
+      "text": "FALSE"
+    },
+    "W17": {
+      "text": "TRUE"
+    },
+    "W18": {
+      "text": "FALSE"
+    },
+    "W19": {
+      "text": "FALSE"
+    },
+    "W20": {
+      "text": "FALSE"
+    },
+    "W22": {
+      "text": "TRUE"
+    },
+    "W23": {
+      "text": "FALSE"
+    },
+    "W24": {
+      "text": "FALSE"
+    },
+    "T1": {
+      "text": "Prepared",
+      "format": {
+        "fontBold": true,
+        "alignHorizontal": "center"
+      }
+    },
+    "T2": {
+      "text": "FALSE"
+    },
+    "T3": {
+      "text": "FALSE"
+    },
+    "T4": {
+      "text": "FALSE"
+    },
+    "T5": {
+      "text": "FALSE"
+    },
+    "T6": {
+      "text": "TRUE"
+    },
+    "T7": {
+      "text": "FALSE"
+    },
+    "T8": {
+      "text": "FALSE"
+    },
+    "T9": {
+      "text": "FALSE"
+    },
+    "T10": {
+      "text": "FALSE"
+    },
+    "T11": {
+      "text": "FALSE"
+    },
+    "T12": {
+      "text": "FALSE"
+    },
+    "T13": {
+      "text": "FALSE"
+    },
+    "T14": {
+      "text": "FALSE"
+    },
+    "T15": {
+      "text": "FALSE"
+    },
+    "T16": {
+      "text": "TRUE"
+    },
+    "T17": {
+      "text": "TRUE"
+    },
+    "T18": {
+      "text": "FALSE"
+    },
+    "T19": {
+      "text": "FALSE"
+    },
+    "T20": {
+      "text": "FALSE"
+    },
+    "T22": {
+      "text": "FALSE"
+    },
+    "T23": {
+      "text": "FALSE"
+    },
+    "T24": {
+      "text": "FALSE"
+    },
+    "D5": {
+      "text": null
+    },
+    "D9": {
+      "text": null
+    },
+    "D10": {
+      "text": null
+    },
+    "D15": {
+      "text": null
+    },
+    "D17": {
+      "text": null
+    },
+    "D18": {
+      "text": null
+    },
+    "E5": {
+      "text": null
+    },
+    "E9": {
+      "text": null
+    },
+    "E10": {
+      "text": null
+    },
+    "E12": {
+      "text": null
+    },
+    "E15": {
+      "text": null
+    },
+    "E17": {
+      "text": null
+    },
+    "E18": {
+      "text": null
+    },
+    "F5": {
+      "text": null
+    },
+    "F9": {
+      "text": null
+    },
+    "F10": {
+      "text": null
+    },
+    "F12": {
+      "text": null
+    },
+    "F15": {
+      "text": null
+    },
+    "F17": {
+      "text": null
+    },
+    "F18": {
+      "text": null
+    },
+    "G5": {
+      "text": null
+    },
+    "G9": {
+      "text": null
+    },
+    "G10": {
+      "text": null
+    },
+    "G12": {
+      "text": null
+    },
+    "G15": {
+      "text": null
+    },
+    "G17": {
+      "text": null
+    },
+    "G18": {
+      "text": null
+    },
+    "H3": {
+      "text": null
+    },
+    "H6": {
+      "text": null
+    },
+    "H7": {
+      "text": null
+    },
+    "H8": {
+      "text": null
+    },
+    "H9": {
+      "text": null
+    },
+    "H10": {
+      "text": null
+    },
+    "H14": {
+      "text": null
+    },
+    "H15": {
+      "text": null
+    },
+    "H17": {
+      "text": null
+    },
+    "H19": {
+      "text": null
+    },
+    "H20": {
+      "text": null
+    },
+    "X3": {
+      "text": null
+    },
+    "X4": {
+      "text": null
+    },
+    "X5": {
+      "text": null
+    },
+    "X7": {
+      "text": null
+    },
+    "X9": {
+      "text": null
+    },
+    "X10": {
+      "text": null
+    },
+    "X12": {
+      "text": null
+    },
+    "X13": {
+      "text": null
+    },
+    "X14": {
+      "text": null
+    },
+    "X15": {
+      "text": null
+    },
+    "X18": {
+      "text": null
+    },
+    "X19": {
+      "text": null
+    },
+    "X20": {
+      "text": null
+    },
+    "X22": {
+      "text": null
+    },
+    "X24": {
+      "text": null
+    },
+    "AB5": {
+      "text": null
+    },
+    "AB9": {
+      "text": null
+    },
+    "AB10": {
+      "text": null
+    },
+    "AB12": {
+      "text": null
+    },
+    "AB15": {
+      "text": null
+    },
+    "AB17": {
+      "text": null
+    },
+    "AB18": {
+      "text": null
+    },
+    "A21": {
+      "text": "TABULATE"
+    },
+    "B21": {
+      "text": "mdi-table"
+    },
+    "C21": {
+      "text": "Meta"
+    },
+    "G2": {
+      "text": "TABULATE"
+    },
+    "G21": {
+      "text": "ADD"
+    },
+    "H21": {
+      "text": "CREATE TABLE"
+    },
+    "I21": {
+      "text": "Create"
+    },
+    "J21": {
+      "text": "Insert"
+    },
+    "K21": {
+      "text": "FALSE"
+    },
+    "L21": {
+      "text": "TRUE"
+    },
+    "M21": {
+      "text": "TRUE"
+    },
+    "N21": {
+      "text": "FALSE"
+    },
+    "O21": {
+      "text": "FALSE"
+    },
+    "P21": {
+      "text": "FALSE"
+    },
+    "Q21": {
+      "text": "FALSE"
+    },
+    "R21": {
+      "text": "FALSE"
+    },
+    "S21": {
+      "text": "FALSE"
+    },
+    "T21": {
+      "text": "FALSE"
+    },
+    "U21": {
+      "text": "FALSE"
+    },
+    "V21": {
+      "text": "FALSE"
+    },
+    "W21": {
+      "text": "FALSE"
+    },
+    "X21": {
+      "text": null
+    },
+    "Y21": {
+      "text": "Prototyped"
+    },
+    "Z21": {
+      "text": "Tabulate a {range}."
+    },
+    "AA21": {
+      "text": "Tabulate {range}."
+    }
+  },
+  "ranges": {
+    "ZGHek6uIZ9McQaog19jo5J": {
+      "coordinates": "A1:AB24",
+      "name": "Transforms Metadata"
+    }
+  },
+  "colSizes": {
+    "1": 100,
+    "2": 200,
+    "3": 80,
+    "4": 80,
+    "5": 80,
+    "6": 80,
+    "7": 80,
+    "8": 80,
+    "9": 80,
+    "10": 80,
+    "11": 80,
+    "12": 80,
+    "13": 80,
+    "14": 80,
+    "15": 80,
+    "16": 80,
+    "17": 80,
+    "18": 80,
+    "19": 80,
+    "20": 80,
+    "21": 80,
+    "22": 80,
+    "23": 80,
+    "24": 80,
+    "25": 80,
+    "26": 560,
+    "27": 560
+  },
+  "stickyRows": 1,
+  "stickyCols": 1
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "name": "Dataset1",
+  "flow": {
+    "source": {
+      "type": "table",
+      "reference": {
+        "stackName": "Populations",
+        "layerName": "Dataset1"
+      },
+      "sampling": {
+        "active": false,
+        "mode": "first",
+        "count": 500
+      }
+    },
+    "recipe": [
+      {
+        "id": "Ipbz23ICKfVNIC9lLb8J5U",
+        "transform": "fold",
+        "params": {
+          "first": "1950",
+          "key": "Year",
+          "val": "Population"
+        }
+      }
+    ],
+    "target": {}
+  },
+  "groupby": null,
+  "extra": {},
+  "visual": {
+    "visualId": null,
+    "hidden": false
+  }
+}

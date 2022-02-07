@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 8,
+  "workfolders": [
+    {
+      "id": "rr0yPxerXfGfowIxyzPEvh",
+      "name": "Transforms"
+    },
+    {
+      "id": "yRPVdhOT5cm1t7eL7wEPjr",
+      "name": "Aggregations"
+    },
+    {
+      "id": "qj70p93nmM6KTex74FIwcm",
+      "name": "Components"
+    },
+    {
+      "id": "nnykRgP4MYC1GUj1yxsVGA",
+      "name": "Controls"
+    },
+    {
+      "id": "Mt98tMBqavdRaKIUmWOqYI",
+      "name": "Datatypes"
+    },
+    {
+      "id": "mEmrPft6uBxaNGceDzt3qn",
+      "name": "Sparkcells"
+    },
+    {
+      "id": "gEAW52Of3350suhm2NXrkB",
+      "name": "Sparkcharts"
+    },
+    {
+      "id": "bHd6WZLJ5vUlUQKF99JYgv",
+      "name": "Datasets"
+    }
+  ],
+  "sourceControl": {
+    "owner": "oliviergaucher",
+    "repo": "Tabula",
+    "branch": "main",
+    "type": "github"
+  }
+}

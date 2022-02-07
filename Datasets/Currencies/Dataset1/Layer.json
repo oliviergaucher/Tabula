@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 8,
+  "name": "Dataset1",
+  "flow": {
+    "source": {
+      "characteristics": {
+        "primary": [
+          "ISO Code"
+        ]
+      },
+      "configuration": {
+        "ISO Number": {
+          "type": {
+            "datatype": "reference"
+          }
+        },
+        "Sign": {
+          "type": {
+            "datatype": "identifier"
+          }
+        },
+        "Alternative Sign": {
+          "type": {
+            "datatype": "identifier"
+          }
+        },
+        "Fractional Unit": {
+          "type": {
+            "datatype": "name"
+          }
+        },
+        "Banknotes": {
+          "format": {
+            "options": {
+              "sparkplot": "bar"
+            }
+          }
+        }
+      },
+      "datasets": [
+        {
+          "datasourceId": "workbook",
+          "filePath": [
+            "Data",
+            "Currencies.csv"
+          ]
+        }
+      ],
+      "sampling": {
+        "active": false,
+        "mode": "first",
+        "count": 500
+      },
+      "type": "external"
+    },
+    "recipe": [],
+    "target": {}
+  },
+  "groupby": null,
+  "extra": {
+    "discoveredHeadersAvailability": true,
+    "discoveredSchema": [
+      {
+        "id": "name",
+        "name": "Name",
+        "datatype": "name"
+      },
+      {
+        "id": "iso_code",
+        "name": "ISO Code",
+        "datatype": "identifier"
+      },
+      {
+        "id": "iso_number",
+        "name": "ISO Number",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "sign",
+        "name": "Sign",
+        "datatype": "string"
+      },
+      {
+        "id": "alternative_sign",
+        "name": "Alternative Sign",
+        "datatype": "string"
+      },
+      {
+        "id": "fractional_unit",
+        "name": "Fractional Unit",
+        "datatype": "string"
+      },
+      {
+        "id": "number_to_basic",
+        "name": "Number to Basic",
+        "datatype": "integer",
+        "options": {
+          "displayFormat": "0,0"
+        }
+      },
+      {
+        "id": "banknotes",
+        "name": "Banknotes",
+        "datatype": "array"
+      }
+    ]
+  },
+  "visual": {
+    "visualId": null,
+    "hidden": false
+  }
+}
